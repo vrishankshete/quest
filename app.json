@@ -1,0 +1,13 @@
+{
+  "expo": {
+  "name":"Quest",
+  "icon":"./quest.png",
+  "description":"Trivia general knowledge dual compete quiz",
+  "sdkVersion": "27.0.0",
+  "android":{
+      "package":"com.vrishank.quest",
+      "versionCode":1 , 
+      "icon":"./quest.png"
+    }
+  }
+}
