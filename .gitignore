@@ -3,6 +3,9 @@
 # expo
 .expo/
 
+#logs
+logs/
+
 # dependencies
 /node_modules
 

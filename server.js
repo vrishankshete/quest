@@ -62,16 +62,29 @@ function getFormattedQuestions(results){
 }
 
 function getReq(){
-	request('https://opentdb.com/api.php?amount=50&encode=url3986', function (error, response, body) {
+	request('https://opentdb.com/api.php?amount=3&category=18&encode=url3986', function (error, response, body) {
 	if (!error && response.statusCode == 200) {
 		let result = JSON.parse(body);
 		logger.debug(result.results);
 		let questions = getFormattedQuestions(result.results);
 		logger.debug(questions);
-		io.emit("questions", {questions});
+		io.emit("questions", questions);
+		//return questions;
 	}
   })
 }
+
+app.get('/questions', function(req,res){
+	request('https://opentdb.com/api.php?amount=50&category=18&encode=url3986', function (error, response, body) {
+		if (!error && response.statusCode == 200) {
+			let result = JSON.parse(body);
+			logger.debug(result.results);
+			let questions = getFormattedQuestions(result.results);
+			logger.debug(questions);
+			res.json(questions);
+		}
+	});
+});
 
 io.on('connection', function(socket){
 	logger.debug("Client Connected. " + socket.id);
@@ -79,9 +92,9 @@ io.on('connection', function(socket){
 	users[id] = {};
 	sidUnameMap[id] = null;
 
-	getReq();
-
-	socket.on('room id', function(msg){
+	socket.on('getQ', function(){
+		//let questions = getReq();
+		getReq();
 	});
 
 	socket.on('submit name', function(name){
