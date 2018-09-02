@@ -1,13 +1,14 @@
 import React from 'react';
-import { StyleSheet, Text, View, CheckBox, Button } from 'react-native';
+import { StyleSheet, Text, View, CheckBox, Button, TouchableOpacity } from 'react-native';
 import {connect} from 'react-redux';
 import * as actionCreator from './actions';
+import {actionTypes as resultActions, correctAnswerAction, incorrectAnswerAction} from '../Results/actions';
 
 class Question extends React.Component {
   constructor(props){
     super(props);
     this.state= {
-      backgroundColor:'yellow'
+      backgroundColor:'white'
     }
   }
 
@@ -16,15 +17,17 @@ class Question extends React.Component {
   }
 
   nextQuestion(){
-    this.setState({backgroundColor:'yellow'});
+    this.setState({backgroundColor:'white'});
     this.props.nextQuestion();
   }
 
   submitAnswer(){
     if((this.props.selectedOption) == this.props.answer){
+      this.props.correctAnswer();
       this.setState({backgroundColor:'green'});
     }
     else{
+      this.props.incorrectAnswer();
       this.setState({backgroundColor:'orange'});
     }
   }
@@ -38,31 +41,28 @@ class Question extends React.Component {
         alignItems: 'flex-start',
         justifyContent: 'center',
       }}>
-        <Text selectable={true}>{'Q. '}{this.props.question}</Text>
+        <Text style={{ marginLeft:20 }} selectable={true}>{'Q. '}{this.props.question}</Text>
 
-          {this.props.options.map((option, index)=>{return(
-            <View key={index} style={{ flexDirection: 'row' }}>
+        {this.props.options.map((option, index)=>{return(
+          <View key={index} style={{ flexDirection: 'row', marginLeft:20 }}>
             <CheckBox
               value={this.props.selectedOption === index}
               onValueChange={() => this.toggleOptions(index)}
             />
             <Text style={{marginTop: 5}} onPress={()=>this.toggleOptions(index)}>{option}</Text>
-           </View>)
-          })}
+          </View>)
+        })}
 
-          <Button
-            onPress={()=>this.submitAnswer()}
-            title="Submit Answer"
-            color="#841584"
-          />
+        <View style={{ flexDirection: 'column', marginLeft:20 }}>
+          <TouchableOpacity style={{margin:10, width:110, height:30, justifyContent:'center', backgroundColor: '#DDDDDD',}} onPress={()=>this.submitAnswer()}>
+            <Text style={{textAlign:'center'}}>Submit Answer</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={{margin:10, width:110, height:30, justifyContent:'center', backgroundColor: '#DDDDDD',}} onPress={()=>this.nextQuestion()}>
+            <Text style={{textAlign:'center'}}>Next Question</Text>
+          </TouchableOpacity>
+        </View>
 
-          <Button
-            onPress={()=>this.nextQuestion()}
-            title="Next Question"
-            color="#841584"
-          />
-
-          <Text style={{marginTop: 5}}>ANSWER: {this.props.answer}</Text>
+        <Text style={{marginTop: 10,  marginLeft:20 }}>ANSWER: {this.props.answer}</Text>
       </View>
     );
   }
@@ -92,7 +92,9 @@ const mapStateToProps = (rootState) => {
 
 const mapDispatchToProps = (dispatch) => {
   return{
-    changeOption: (selectedOption) => dispatch(actionCreator.optionChanged(selectedOption))
+    changeOption: (selectedOption) => dispatch(actionCreator.optionChanged(selectedOption)),
+    correctAnswer: () => dispatch(correctAnswerAction()),
+    incorrectAnswer: () => dispatch(incorrectAnswerAction()),
   }
 }
 

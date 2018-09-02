@@ -6,13 +6,13 @@ import Loading from '../Loading/Loading';
 import Question from '../Question/Question';
 import * as actionCreator from './actions';
 import * as loadingActionCreator from '../Loading/actions';
-
+import {resetScoreAction} from '../Results/actions';
 //let socket = io("http://192.168.43.170:3000");
 
 class Questions extends React.Component {
   constructor(props){
     super(props);
-    this.currentQuestion = 0;
+    this.currentQuestion = 1;
   }
 
   nextQuestion(){
@@ -24,11 +24,14 @@ class Questions extends React.Component {
         answer: q.answer
       });
     }
+    else{
+      this.props.navigation.navigate('Results');
+    }
   }
 
   componentDidMount(){
     this.props.getQuestions();
-    this.nextQuestion();
+    this.props.resetScore();
     // socket.on("questions", (questions)=>{
     //   this.props.setQuestions(questions);
     //   this.nextQuestion();
@@ -70,7 +73,8 @@ const mapDispatchToProps = (dispatch) => {
     setQuestions: (questions) => dispatch(actionCreator.setQuestions(questions)),
     setQuestion: (questionObj) => dispatch(actionCreator.setQuestion(questionObj)),
     getQuestions: ()=> dispatch(actionCreator.getQuestions()),
-    stopLoading: ()=> dispatch(loadingActionCreator.hideLoadingAction())
+    stopLoading: ()=> dispatch(loadingActionCreator.hideLoadingAction()),
+    resetScore: ()=> dispatch(resetScoreAction())
   }
 }
 

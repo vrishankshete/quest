@@ -4,7 +4,7 @@ import {Map} from "immutable";
 
 const initialState = Map({
     selectedOption:-1,
-    question:null,
+    question:"Question will appear here",
     options:[],
     answer:-1
 });

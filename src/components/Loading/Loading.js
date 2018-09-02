@@ -1,24 +1,23 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import {Modal, View, ActivityIndicator} from 'react-native';
+import {Modal, View, ActivityIndicator, Text} from 'react-native';
 import * as actionCreator from './actions'
 
 class Loading extends React.Component {
     render() {
         return (
-            <View style={{marginTop: 22}}>
-                
-                <Modal  animationType="fade"
-                        transparent={false}
-                        visible={this.props.isLoading}
-                        onRequestClose={() => {
-                            alert('Modal has been closed');
-                        }}>
-                    <View style={{marginTop: 270}}>
-                        <ActivityIndicator size="large" color="#0000ff" />
-                    </View>
-                </Modal>
-            </View>
+            <Modal  animationType="fade"
+                    transparent={false}
+                    visible={this.props.isLoading}
+                    onRequestClose={() => {
+                        alert('Modal has been closed');
+                        this.props.stopLoading();
+                    }}>
+                <View style={{marginTop: 270, justifyContent: 'center'}}>
+                    <ActivityIndicator size="large" color="#0000ff" />
+                    <Text style={{textAlign: 'center'}}>Fetching Questions from Server</Text>
+                </View>
+            </Modal>
         );
     }
 }

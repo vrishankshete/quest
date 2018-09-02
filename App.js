@@ -1,6 +1,7 @@
 import React from 'react';
 import Questions from './src/components/Questions/Questions';
 import Home from './src/components/Home/Home';
+import Results from './src/components/Results/Results';
 import {createStore, compose, applyMiddleware} from 'redux';
 import {Provider} from 'react-redux';
 import rootReducer from './src/store/rootReducer';
@@ -11,7 +12,9 @@ import { rootSaga } from './src/store/rootSaga';
 
 const RootStack = createStackNavigator({
   Home: Home,
-  Questions: Questions
+  Questions: Questions,
+  Results: Results
+
 },
 {
   initialRouteName: 'Home',

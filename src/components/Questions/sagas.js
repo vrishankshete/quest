@@ -1,19 +1,23 @@
-import {fetchQuestionsServer} from './client';
+import {fetchQuestionsServer, fetchQuestionsOpentdb} from './client';
 import actionTypes from '../Questions/actions';
 import {hideLoadingAction, showLoadingAction} from "../Loading/actions";
 import {setQuestions, setQuestion} from "../Questions/actions";
 import {call, put, takeLatest} from 'redux-saga/effects';
+import {getFormattedQuestions} from '../Helper/requestHelper';
+
 function* fetchQuestions(){
     yield put(showLoadingAction());
     try{
-        const questions = yield call(fetchQuestionsServer);
-        yield put(setQuestions(questions.data));
-        yield put(setQuestion({question:questions.data[0].question,
-            options: questions.data[0].options,
-            answer: questions.data[0].answer}))
+        //const questions = yield call(fetchQuestionsServer);
+        const questions = yield call(fetchQuestionsOpentdb);
+        let formattedQs = getFormattedQuestions(questions.data.results);
+        yield put(setQuestions(formattedQs));
+        yield put(setQuestion({question:formattedQs[0].question,
+            options: formattedQs[0].options,
+            answer: formattedQs[0].answer}))
     }
     catch(e){
-        yield alert(e);
+        alert(e);
     }
     yield put(hideLoadingAction());
 }

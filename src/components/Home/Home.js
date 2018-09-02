@@ -11,12 +11,12 @@ export default class Home extends React.Component {
             flex:1,
             flexDirection: 'column',
             backgroundColor: 'white',
-            alignItems: 'flex-start',
+            alignItems: 'center',
             justifyContent: 'center',
           }}>
           <Button
             onPress={()=>this.props.navigation.navigate('Questions')}
-            title="Next Question"
+            title="Start Quiz"
             color="#841584"
           />
         </View>
