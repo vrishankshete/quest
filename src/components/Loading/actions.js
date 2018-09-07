@@ -3,8 +3,9 @@ export const actionTypes = {
     HIDE_LOADING: "HIDE_LOADING"
 };
 
-export const showLoadingAction = () => ({
-    type: actionTypes.SHOW_LOADING
+export const showLoadingAction = (message) => ({
+    type: actionTypes.SHOW_LOADING,
+    message
 });
 
 export const hideLoadingAction = () => ({

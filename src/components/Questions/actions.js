@@ -1,4 +1,4 @@
-const actionTypes = {
+export const actionTypes = {
     SET_QUESTIONS:"SET_QUESTIONS",
     SET_QUESTION_OPTIONS:"SET_QUESTION_OPTIONS",
     GET_QUESTIONS:"GET_QUESTIONS",

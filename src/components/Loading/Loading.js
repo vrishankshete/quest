@@ -1,6 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import {Modal, View, ActivityIndicator, Text} from 'react-native';
+import {styles} from '../../styles/styles';
 import * as actionCreator from './actions'
 
 class Loading extends React.Component {
@@ -10,12 +11,14 @@ class Loading extends React.Component {
                     transparent={false}
                     visible={this.props.isLoading}
                     onRequestClose={() => {
-                        alert('Modal has been closed');
                         this.props.stopLoading();
+                        
                     }}>
-                <View style={{marginTop: 270, justifyContent: 'center'}}>
+                <View style={styles.loadingContainer}>
                     <ActivityIndicator size="large" color="#0000ff" />
-                    <Text style={{textAlign: 'center'}}>Fetching Questions from Server</Text>
+                    <Text style={{textAlign: 'center'}}>Please Wait...</Text>
+                    <Text style={{textAlign: 'center'}}>{this.props.loadingMessage}</Text>
+                    {this.props.roomId && <Text style={{textAlign: 'center'}}>{this.props.roomId}</Text>}
                 </View>
             </Modal>
         );
@@ -24,7 +27,9 @@ class Loading extends React.Component {
 
 export const mapStateToProps = (rootState) => {
     return {
-        isLoading: rootState.loading.get("isLoading")
+        isLoading: rootState.loading.get("isLoading"),
+        roomId: rootState.stage.get("roomId"),
+        loadingMessage: rootState.loading.get("loadingMessage")
     }
 };
 

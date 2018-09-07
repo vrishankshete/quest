@@ -6,9 +6,8 @@ import {call, put, takeLatest} from 'redux-saga/effects';
 import {getFormattedQuestions} from '../Helper/requestHelper';
 
 function* fetchQuestions(){
-    yield put(showLoadingAction());
+    yield put(showLoadingAction("Fetching Questions from Server..."));
     try{
-        //const questions = yield call(fetchQuestionsServer);
         const questions = yield call(fetchQuestionsOpentdb);
         let formattedQs = getFormattedQuestions(questions.data.results);
         yield put(setQuestions(formattedQs));

@@ -1,18 +1,32 @@
 import React from 'react';
-import {connect} from 'react-redux';
-import {View, Text} from 'react-native';
+import { connect } from 'react-redux';
+import { View, Text, BackHandler } from 'react-native';
+import { styles } from '../../styles/styles';
 
 class Results extends React.Component {
+
+    static navigationOptions = {
+        title: 'Results !!!',
+    };
+
+    componentDidMount() {
+        this.backHandler = BackHandler.addEventListener('hardwareBackPress', ()=>{this.props.navigation.navigate('Home');return true;});
+    }
+
+    componentWillUnmount() {
+        this.backHandler.remove();
+    }
+
     render() {
         return (
-            <View style={{marginTop: 22, justifyContent: 'center'}}>
-                <Text style={{ marginLeft:20 }} selectable={true}>
+            <View style={styles.resultsContainer}>
+                <Text selectable={true}>
                     {'Total Attempted: '}{this.props.totalAttempted}
                 </Text>
-                <Text style={{ marginLeft:20 }} selectable={true}>
+                <Text selectable={true}>
                     {'Correct Answers: '}{this.props.correctAnswers}
                 </Text>
-                <Text style={{ marginLeft:20 }} selectable={true}>
+                <Text selectable={true}>
                     {'Incorrect Answers: '}{this.props.totalAttempted - this.props.correctAnswers}
                 </Text>
             </View>

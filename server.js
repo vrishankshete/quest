@@ -33,6 +33,11 @@ log4js.configure({
   ]
 });
 
+let errorCodes = {
+	NO_QUESTIONS: 1,
+	INVALID_ROOM_ID: 2
+};
+
 var logger = log4js.getLogger('quest');
 logger.setLevel('debug');
 
@@ -41,7 +46,6 @@ const PORT = 3000;
 
 var rooms = {};
 var users = {};
-var groups = {};
 var sidUnameMap = {};
 
 app.use(express.static(path.join(__dirname, 'build')));
@@ -64,23 +68,19 @@ function getFormattedQuestions(results){
 let questions = [];
 
 function getQs(){
-	request('https://opentdb.com/api.php?amount=3&encode=url3986', function (error, response, body) {
+	request('https://opentdb.com/api.php?amount=10&encode=url3986', function (error, response, body) {
 		if (!error && response.statusCode == 200) {
 			let result = JSON.parse(body);
-			logger.debug(result.results);
 			let formattedQuestions = getFormattedQuestions(result.results);
-			logger.debug(formattedQuestions);
-			questions.push(formattedQuestions);
+			questions = questions.concat(formattedQuestions);
 		}
 	})
 
-	request('https://opentdb.com/api.php?amount=3&encode=url3986', function (error, response, body) {
+	request('https://opentdb.com/api.php?amount=10&encode=url3986', function (error, response, body) {
 		if (!error && response.statusCode == 200) {
 			let result = JSON.parse(body);
-			logger.debug(result.results);
 			let formattedQuestions = getFormattedQuestions(result.results);
-			logger.debug(formattedQuestions);
-			questions.push(formattedQuestions);
+			questions = questions.concat(formattedQuestions);
 		}
 	})
 }
@@ -91,11 +91,69 @@ app.get('/questions', function(req,res){
 	res.json(questions);
 });
 
+function getRandom(){
+	let max=9999, min=1000;
+	return Math.floor(Math.random()*(max-min+1)+min);
+}
+
 io.on('connection', function(socket){
 	logger.debug("Client Connected. " + socket.id);
-	var id = socket.id;
+	let id = socket.id;
 	users[id] = {};
 	sidUnameMap[id] = null;
+
+	socket.on('create room', function(){
+		let quizRef = getRandom().toString();
+		logger.info("Random : "+quizRef);
+		rooms[quizRef] = {};
+		rooms[quizRef].users = [];
+		rooms[quizRef].questions = questions;
+
+		socket.emit('room created', quizRef);
+
+		users[id].quizRef = quizRef;
+		if(rooms[quizRef]){
+			rooms[quizRef].users.push(id);
+			logger.debug("\n***USERS: ", util.inspect(users, {showHidden: false, depth: null}));
+			logger.debug("\n***ROOMS: ", util.inspect(rooms, {showHidden: false, depth: null}));
+			socket.join(users[id].quizRef);
+		}
+		//TODO: Temp code. To be removed
+		//setTimeout(()=>startQuiz(quizRef), 3000);
+	});
+
+	function startQuiz(quizRef){
+		if(rooms[quizRef].questions.length < 10){
+			io.to(users[id].quizRef).emit('error', {code:errorCodes.NO_QUESTIONS});
+			return;
+		}
+		io.to(users[id].quizRef).emit('quiz started');
+		let questionNumber=0;
+		io.to(users[id].quizRef).emit('question',{questionNumber, question:rooms[quizRef].questions[questionNumber++]});
+		logger.info('Sent first question');
+		let questionTimer = setInterval(()=>{
+			io.to(users[id].quizRef).emit('question',{questionNumber, question:rooms[quizRef].questions[questionNumber++]});
+			logger.info('Sent question: ', questionNumber);
+			if(questionNumber>=9){
+				clearInterval(questionTimer);
+				io.to(users[id].quizRef).emit('end quiz');
+			}
+		},10000);
+	}
+
+	socket.on('join room', function(quizRef){
+		if(rooms[quizRef]){
+			users[id].quizRef = quizRef;
+			rooms[quizRef].users.push(id);
+			if(rooms[quizRef].users.length == 2){
+				socket.join(users[id].quizRef);
+				startQuiz(quizRef);
+			}
+		}
+		else{
+			socket.emit('error', {code:errorCodes.INVALID_ROOM_ID});
+		}
+	});
 
 	socket.on('getQ', function(){
 		io.emit("questions", questions);

@@ -4,6 +4,7 @@ import {Map} from "immutable";
 
 const initialState = Map({
     selectedOption:-1,
+    questionNumber:-1,
     question:"Question will appear here",
     options:[],
     answer:-1
@@ -18,6 +19,7 @@ export default function (state=initialState, action) {
         case questionsActionTypes.SET_QUESTION_OPTIONS:
             return state.merge({
                 selectedOption:-1,
+                questionNumber:action.payload.questionNumber,
                 question:action.payload.question, 
                 options:action.payload.options, 
                 answer:action.payload.answer
