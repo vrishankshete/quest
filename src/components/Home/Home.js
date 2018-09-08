@@ -8,6 +8,7 @@ export class Home extends React.Component {
 
   static navigationOptions = {
     title: 'Choose your Game !!!',
+    headerLeft: null
   };
 
   constructor(props){
@@ -44,6 +45,7 @@ export class Home extends React.Component {
         </View>
         <View style={{padding: 10}}>
           <TextInput
+            keyboardType = 'numeric'
             style={{height: 40, width:70}}
             placeholder="Room Id"
             placeholderTextColor="grey"

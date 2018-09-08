@@ -6,7 +6,7 @@ export const getFormattedQuestions = (results) => {
 		options.splice(ansIndex, 0, element.correct_answer);
 		options = options.map((entry)=>decodeURIComponent(entry));
 		return {
-			no: index + 1,
+			questionNumber: index,
 			question: decodeURIComponent(element.question),
 			options,
 			answer: ansIndex
