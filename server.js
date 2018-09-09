@@ -47,6 +47,7 @@ const PORT = 3000;
 var rooms = {};
 var users = {};
 var sidUnameMap = {};
+let questionTimeout = 5;
 
 app.use(express.static(path.join(__dirname, 'build')));
 
@@ -101,26 +102,35 @@ io.on('connection', function(socket){
 	let id = socket.id;
 	users[id] = {};
 	sidUnameMap[id] = null;
+	let quizRef;
 
-	socket.on('create room', function(){
-		let quizRef = getRandom().toString();
-		logger.info("Random : "+quizRef);
-		rooms[quizRef] = {};
-		rooms[quizRef].users = [];
-		rooms[quizRef].questions = questions;
+	function calculateScore(){
+		let users = rooms[quizRef].users;
+		let questions = rooms[quizRef].questions;
+		let returnScoreObj = {};
 
-		socket.emit('room created', quizRef);
-
-		users[id].quizRef = quizRef;
-		if(rooms[quizRef]){
-			rooms[quizRef].users.push(id);
-			logger.debug("\n***USERS: ", util.inspect(users, {showHidden: false, depth: null}));
-			logger.debug("\n***ROOMS: ", util.inspect(rooms, {showHidden: false, depth: null}));
-			socket.join(users[id].quizRef);
+		for(var user in users){
+			let score = {
+				attempted:0,
+				correct:0,
+				incorrect:0
+			}
+			for(var qNo in users[user].userAnsMap){
+				if (users[user].userAnsMap.hasOwnProperty(qNo)) {
+					if(questions[qNo].answer == users[user].userAnsMap[qNo]){
+						score.correct = score.correct + 1;
+					}
+					else{
+						score.incorrect = score.incorrect + 1;
+					}
+				}
+				score.attempted = score.attempted + 1;
+			}
+			returnScoreObj[user] = score;
 		}
-		//TODO: Temp code. To be removed
-		//setTimeout(()=>startQuiz(quizRef), 3000);
-	});
+		logger.debug("\n***users  :::: ", util.inspect(rooms[quizRef].users, {showHidden: false, depth: null}));
+		return returnScoreObj;
+	}
 
 	function startQuiz(quizRef){
 		if(rooms[quizRef].questions.length < 10){
@@ -134,18 +144,41 @@ io.on('connection', function(socket){
 		let questionTimer = setInterval(()=>{
 			io.to(users[id].quizRef).emit('question',{questionNumber, question:rooms[quizRef].questions[questionNumber++]});
 			logger.info('Sent question: ', questionNumber);
-			if(questionNumber>=9){
+			if(questionNumber>=5){
 				clearInterval(questionTimer);
-				io.to(users[id].quizRef).emit('end quiz');
+				let scoreObj = calculateScore();
+				io.to(users[id].quizRef).emit('end quiz', scoreObj);
 			}
-		},10000);
+		}, questionTimeout*1000);
 	}
 
-	socket.on('join room', function(quizRef){
+	socket.on('create room', function(){
+		quizRef = getRandom().toString();
+		logger.info("Random : "+quizRef);
+		rooms[quizRef] = {};
+		rooms[quizRef].users = {};
+		rooms[quizRef].questions = questions;
+
+		socket.emit('room created', quizRef);
+
+		users[id].quizRef = quizRef;
+		if(rooms[quizRef]){
+			rooms[quizRef].users[id] = {userAnsMap:{}};
+			logger.debug("\n***USERS: ", util.inspect(users, {showHidden: false, depth: null}));
+			logger.debug("\n***ROOMS: ", util.inspect(rooms, {showHidden: false, depth: null}));
+			socket.join(users[id].quizRef);
+		}
+		//TODO: Temp code. To be removed
+		//setTimeout(()=>startQuiz(quizRef), 3000);
+	});
+
+	socket.on('join room', function(quizRefNo){
+		quizRef = quizRefNo;
 		if(rooms[quizRef]){
 			users[id].quizRef = quizRef;
-			rooms[quizRef].users.push(id);
-			if(rooms[quizRef].users.length == 2){
+			rooms[quizRef].users[id] = {userAnsMap:{}};
+			
+			if(Object.keys(rooms[quizRef].users).length == 2){
 				socket.join(users[id].quizRef);
 				startQuiz(quizRef);
 			}
@@ -157,6 +190,10 @@ io.on('connection', function(socket){
 
 	socket.on('getQ', function(){
 		io.emit("questions", questions);
+	});
+
+	socket.on('answer', function(userAnswer){
+		rooms[quizRef].users[id].userAnsMap[userAnswer.questionNumber] = userAnswer.answer;
 	});
 
 	socket.on('submit name', function(name){
