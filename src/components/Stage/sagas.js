@@ -1,6 +1,8 @@
 import {actionTypes as homeActions} from '../Home/actions';
 import {hideLoadingAction, showLoadingAction} from "../Loading/actions";
 import {setQuestion} from "../Questions/actions";
+import { endQuiz, actionTypes as stageActions } from '../Stage/actions';
+import { setDuoScore } from '../DuoResults/actions';
 import {roomCreated} from './actions';
 import {fork, take, call, put, takeLatest} from 'redux-saga/effects';
 import {socketServerURL} from '../../config/config';
@@ -24,6 +26,10 @@ function subscribe(socket) {
             let {questionNumber, question} = QObj;
             emit(setQuestion({...question, questionNumber}));
         });
+        socket.on('end quiz', score => {
+            emit(setDuoScore(score));
+            emit(endQuiz());
+        });
         socket.on('disconnect', e => {
             // TODO: handle
         });
@@ -39,16 +45,16 @@ function* read(socket) {
     }
 }
 
-// function* write(socket) {
-//     while (true) {
-//         const { payload } = yield take(`${sendMessage}`);
-//         socket.emit('message', payload);
-//     }
-// }
+function* write(socket) {
+    while (true) {
+        const { payload } = yield take(stageActions.SUBMIT_ANSWER);
+        socket.emit('answer', payload);
+    }
+}
 
 function* handleIO(socket) {
     yield fork(read, socket);
-    //yield fork(write, socket);
+    yield fork(write, socket);
 }
 
 function* createRoom(){

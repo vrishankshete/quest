@@ -1,8 +1,8 @@
 import React from 'react';
 import Questions from './src/components/Questions/Questions';
 import Home from './src/components/Home/Home';
+import DuoResults from './src/components/DuoResults/DuoResults';
 import Results from './src/components/Results/Results';
-import Loading from './src/components/Loading/Loading';
 import Stage from './src/components/Stage/Stage';
 import { createStore, compose, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
@@ -15,7 +15,8 @@ const RootStack = createStackNavigator({
   Home: Home,
   Questions: Questions,
   Results: Results,
-  Stage: Stage
+  Stage: Stage,
+  DuoResults: DuoResults
 },
 {
   initialRouteName: 'Home',

@@ -2,6 +2,7 @@ import React from 'react';
 import { View, BackHandler } from 'react-native';
 import Loading from '../Loading/Loading';
 import Question from '../Question/Question';
+import  { submitAnswer } from './actions'
 import { connect } from 'react-redux';
 import { styles } from '../../styles/styles';
 
@@ -11,6 +12,13 @@ class Stage extends React.Component {
         super(props);
         this.state = {
             backgroundColor: 'white'
+        }
+    }
+
+    componentWillReceiveProps(nextProps){
+        if(this.props.quizEnded == false && nextProps.quizEnded == true){
+            this.props.navigation.navigate('DuoResults');
+            return true;
         }
     }
 
@@ -28,6 +36,8 @@ class Stage extends React.Component {
     };
 
     submitAnswer(selectedOption){
+        this.props.submitAnswer({questionNumber:this.props.currentQuestion.get('questionNumber'),
+            answer: selectedOption});
         // if(selectedOption == this.props.currentQuestion.get('answer')){
         //     this.setState({backgroundColor:'green'});
         // }
@@ -53,12 +63,13 @@ class Stage extends React.Component {
 const mapStateToProps = (rootState) => {
     return {
         currentQuestion: rootState.stage.get('currentQuestion'),
+        quizEnded: rootState.stage.get('quizEnded')
     }
   }
   
   const mapDispatchToProps = (dispatch) => {
     return{
-        // correctAnswer: () => dispatch(correctAnswerAction()),
+        submitAnswer: (answer) => dispatch(submitAnswer(answer)),
         // incorrectAnswer: () => dispatch(incorrectAnswerAction()),
     }
   }

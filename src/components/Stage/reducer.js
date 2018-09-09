@@ -8,13 +8,17 @@ const defaultState = Map({
                         question:"Question will appear here",
                         options:[],
                         answer:-1
-                    })
+                    }),
+    quizEnded: false
 });
 
 export default function(state = defaultState, action) {
     switch(action.type) {
         case actionTypes.ROOM_CREATED:
-            return state.set("roomId", action.payload);
+            return state.merge({roomId: action.payload, quizEnded: false});
+        
+        case actionTypes.END_QUIZ:
+            return state.set('quizEnded', true);
 
         case questionsActionTypes.SET_QUESTION_OPTIONS:
             let currentQuestion = state.get('currentQuestion');

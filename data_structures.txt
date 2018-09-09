@@ -1,0 +1,23 @@
+rooms: {
+	'1234': {
+		users:  {'#\2def43rdf34sdf': {
+						userAnsMap: {
+							1: 2,
+							2: 4
+						}
+					},
+				//Array of user Ids(socket Ids),
+		questions: [question, question]; //Array of questions.
+	}
+}
+
+users: {
+	'#\2def43rdf34sdf' : {
+		name:'Vrishank',
+		roomId:'1234'
+	}
+}
+
+sidUnameMap: {
+	#\2def43rdf34sdf:'Vrishank'
+}
