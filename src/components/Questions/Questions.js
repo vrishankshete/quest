@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { View, BackHandler, TouchableOpacity, Text } from 'react-native';
 import Loading from '../Loading/Loading';
 import Question from '../Question/Question';
-import * as actionCreator from './actions';
+import { getQuestions, resetQuestions } from './actions';
 import { correctAnswerAction, incorrectAnswerAction } from '../Results/actions';
 import { resetScoreAction } from '../Results/actions';
 import { styles } from '../../styles/styles';
@@ -17,7 +17,8 @@ class Questions extends React.Component {
         options: [],
         answer: -1
       },
-      backgroundColor: 'white'
+      backgroundColor: 'white',
+      showAnswer: false
     };
   }
 
@@ -32,6 +33,7 @@ class Questions extends React.Component {
   }
 
   componentWillUnmount() {
+    this.props.resetQuestions();
     BackHandler.removeEventListener('hardwareBackPress');
   }
 
@@ -47,12 +49,13 @@ class Questions extends React.Component {
     else{
       this.props.incorrectAnswer();
     }
+    this.setState({showAnswer:true});
   }
 
   nextQuestion(){
     let cQuestion = this.props.questions[this.state.currentQuestion.questionNumber+1];
     if(cQuestion){
-      this.setState({currentQuestion:cQuestion, backgroundColor:'white'});
+      this.setState({currentQuestion:cQuestion, backgroundColor:'white', showAnswer:false});
     }
     else{
       this.props.navigation.navigate('Results');
@@ -71,6 +74,8 @@ class Questions extends React.Component {
           question={this.state.currentQuestion}
           backgroundColor={this.state.backgroundColor}
           submitAnswer={(selectedOption)=>this.submitAnswer(selectedOption)}
+          showAnswer={this.state.showAnswer}
+          isMultiplayer={false}
         />
         <TouchableOpacity style={styles.questionButton} onPress={()=>this.nextQuestion()}>
           <Text style={{textAlign:'center'}}>Next Question</Text>
@@ -89,12 +94,11 @@ const mapStateToProps = (rootState) => {
 
 const mapDispatchToProps = (dispatch) => {
   return{
-    //setQuestions: (questions) => dispatch(actionCreator.setQuestions(questions)),
-    //setQuestion: (questionObj) => dispatch(actionCreator.setQuestion(questionObj)),
-    getQuestions: ()=> dispatch(actionCreator.getQuestions()),
+    getQuestions: ()=> dispatch(getQuestions()),
     resetScore: ()=> dispatch(resetScoreAction()),
     correctAnswer: () => dispatch(correctAnswerAction()),
     incorrectAnswer: () => dispatch(incorrectAnswerAction()),
+    resetQuestions: () => dispatch(resetQuestions())
   }
 }
 

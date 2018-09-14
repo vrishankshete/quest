@@ -10,14 +10,14 @@ rooms: {
 		questions: [question, question]; //Array of questions.
 	}
 }
-
+question: {
+	no: 1,
+	question: "Some Question",
+	options: ["option1", "option2", "option3", "option4"],
+	answer: 2
+}
 users: {
 	'#\2def43rdf34sdf' : {
-		name:'Vrishank',
-		roomId:'1234'
+		quizRef:1234
 	}
-}
-
-sidUnameMap: {
-	#\2def43rdf34sdf:'Vrishank'
 }

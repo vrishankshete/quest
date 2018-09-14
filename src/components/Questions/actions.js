@@ -2,7 +2,7 @@ export const actionTypes = {
     SET_QUESTIONS:"SET_QUESTIONS",
     SET_QUESTION_OPTIONS:"SET_QUESTION_OPTIONS",
     GET_QUESTIONS:"GET_QUESTIONS",
-    NEXT_QUESTION:"NEXT_QUESTION"
+    RESET_QUESTIONS:"RESET_QUESTIONS"
 }
 
 export const setQuestions = (questions)=>{
@@ -25,10 +25,8 @@ export const getQuestions = ()=>{
     }
 }
 
-export const nextQuestion = ()=>{
+export const resetQuestions = ()=>{
     return {
-        type:actionTypes.NEXT_QUESTION
+        type:actionTypes.RESET_QUESTIONS
     }
 }
-
-export default actionTypes;

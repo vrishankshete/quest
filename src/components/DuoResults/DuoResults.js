@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { View, Text, BackHandler } from 'react-native';
 import { styles } from '../../styles/styles';
+import { disconnect } from '../Stage/actions';
 
 class DuoResults extends React.Component {
 
@@ -11,7 +12,11 @@ class DuoResults extends React.Component {
     };
 
     componentDidMount() {
-        this.backHandler = BackHandler.addEventListener('hardwareBackPress', ()=>{this.props.navigation.navigate('Home');return true;});
+        this.backHandler = BackHandler.addEventListener('hardwareBackPress', ()=>{
+            this.props.disconnectAction();
+            this.props.navigation.navigate('Home');
+            return true;
+        });
     }
 
     componentWillUnmount() {
@@ -19,12 +24,13 @@ class DuoResults extends React.Component {
     }
 
     render() {
-        let { score } = this.props;
+        let { score, socketId } = this.props;
         return (
             <View style={styles.resultsContainer}>
                 {Object.keys(score).map(function(id){
                     return (
                         <View key={id}>
+                            <Text>{id == socketId ? `ME: ${id}` : `Opponent: ${id}`}</Text>
                             <Text selectable={true}>
                                 {'Total Attempted: '}{score[id].attempted}
                             </Text>
@@ -44,8 +50,15 @@ class DuoResults extends React.Component {
 
 export const mapStateToProps = (rootState) => {
     return {
-        score: rootState.duoResults.get("score")
+        score: rootState.duoResults.get("score"),
+        socketId: rootState.stage.get("socketId")
     }
 };
 
-export default connect(mapStateToProps)(DuoResults);
+export const mapDispatchToProps = (dispatch) => {
+    return {
+        disconnectAction: ()=>dispatch(disconnect())
+    }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(DuoResults);

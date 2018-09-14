@@ -9,7 +9,9 @@ const defaultState = Map({
                         options:[],
                         answer:-1
                     }),
-    quizEnded: false
+    quizEnded: false,
+    socketId: null,
+    error: null
 });
 
 export default function(state = defaultState, action) {
@@ -18,7 +20,7 @@ export default function(state = defaultState, action) {
             return state.merge({roomId: action.payload, quizEnded: false});
         
         case actionTypes.END_QUIZ:
-            return state.set('quizEnded', true);
+            return state.merge({quizEnded: true, socketId: action.payload});
 
         case questionsActionTypes.SET_QUESTION_OPTIONS:
             let currentQuestion = state.get('currentQuestion');
@@ -28,6 +30,12 @@ export default function(state = defaultState, action) {
                     options:action.payload.options, 
                     answer:action.payload.answer
                 }));
+        case actionTypes.SET_ERROR:
+                return state.merge({error: action.payload});
+        case actionTypes.RESET_ERROR:
+                return state.merge({error: defaultState.error});
+        case actionTypes.RESET_ROOMID:
+                return state.merge({roomId: defaultState.roomId});
         default:
             return state;
     }

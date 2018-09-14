@@ -10,12 +10,6 @@ var fs = require('fs');
 var dir = './logs';
 var request = require('request');
 var ip = require("ip");
-var stdin = process.openStdin();
-
-stdin.addListener("data", function(d) {
-    console.log(`you entered: [${d.toString().trim()}]`);
-	io.emit("sms", d.toString().trim());
-  });
 
 if (!fs.existsSync(dir)){
     fs.mkdirSync(dir);
@@ -33,21 +27,24 @@ log4js.configure({
   ]
 });
 
-let errorCodes = {
+const errorCodes = {
 	NO_QUESTIONS: 1,
 	INVALID_ROOM_ID: 2
 };
 
-var logger = log4js.getLogger('quest');
+let logger = log4js.getLogger('quest');
 logger.setLevel('debug');
 
-const HOST = 'localhost';
 const PORT = 3000;
 
-var rooms = {};
-var users = {};
-var sidUnameMap = {};
-let questionTimeout = 5;
+let rooms = {};
+let users = {};
+
+let config = {
+	questionTimeout:10, //Timeout in seconds
+	questionsPerSession:5,
+	maxUsersPerRoom:2
+};
 
 app.use(express.static(path.join(__dirname, 'build')));
 
@@ -69,24 +66,22 @@ function getFormattedQuestions(results){
 let questions = [];
 
 function getQs(){
-	request('https://opentdb.com/api.php?amount=10&encode=url3986', function (error, response, body) {
-		if (!error && response.statusCode == 200) {
-			let result = JSON.parse(body);
-			let formattedQuestions = getFormattedQuestions(result.results);
-			questions = questions.concat(formattedQuestions);
-		}
-	})
-
-	request('https://opentdb.com/api.php?amount=10&encode=url3986', function (error, response, body) {
-		if (!error && response.statusCode == 200) {
-			let result = JSON.parse(body);
-			let formattedQuestions = getFormattedQuestions(result.results);
-			questions = questions.concat(formattedQuestions);
-		}
+	return new Promise(function(resolve, reject) {
+		request('https://opentdb.com/api.php?amount=10&encode=url3986', function (error, response, body) {
+			if (!error && response.statusCode == 200) {
+				let result = JSON.parse(body);
+				let formattedQuestions = getFormattedQuestions(result.results);
+				questions = questions.concat(formattedQuestions);
+				resolve("Got questions");
+			}
+			else{
+				reject(error)
+			}
+		})
 	})
 }
 
-getQs();
+getQs().then((msg)=>{console.log(msg)}, (error)=>{console.log(error)});
 
 app.get('/questions', function(req,res){
 	res.json(questions);
@@ -101,7 +96,6 @@ io.on('connection', function(socket){
 	logger.debug("Client Connected. " + socket.id);
 	let id = socket.id;
 	users[id] = {};
-	sidUnameMap[id] = null;
 	let quizRef;
 
 	function calculateScore(){
@@ -128,13 +122,13 @@ io.on('connection', function(socket){
 			}
 			returnScoreObj[user] = score;
 		}
-		logger.debug("\n***users  :::: ", util.inspect(rooms[quizRef].users, {showHidden: false, depth: null}));
+		logger.debug("***users  :::: ", util.inspect(rooms[quizRef].users, {showHidden: false, depth: null}));
 		return returnScoreObj;
 	}
 
 	function startQuiz(quizRef){
 		if(rooms[quizRef].questions.length < 10){
-			io.to(users[id].quizRef).emit('error', {code:errorCodes.NO_QUESTIONS});
+			io.to(users[id].quizRef).emit('app error', {code:errorCodes.NO_QUESTIONS});
 			return;
 		}
 		io.to(users[id].quizRef).emit('quiz started');
@@ -142,19 +136,21 @@ io.on('connection', function(socket){
 		io.to(users[id].quizRef).emit('question',{questionNumber, question:rooms[quizRef].questions[questionNumber++]});
 		logger.info('Sent first question');
 		let questionTimer = setInterval(()=>{
-			io.to(users[id].quizRef).emit('question',{questionNumber, question:rooms[quizRef].questions[questionNumber++]});
-			logger.info('Sent question: ', questionNumber);
-			if(questionNumber>=5){
+			if(questionNumber>=config.questionsPerSession){
 				clearInterval(questionTimer);
 				let scoreObj = calculateScore();
 				io.to(users[id].quizRef).emit('end quiz', scoreObj);
 			}
-		}, questionTimeout*1000);
+			else{
+				io.to(users[id].quizRef).emit('question',{questionNumber, question:rooms[quizRef].questions[questionNumber++]});
+				logger.info('Sent question: ', questionNumber);
+			}
+		}, config.questionTimeout*1000);
 	}
 
 	socket.on('create room', function(){
 		quizRef = getRandom().toString();
-		logger.info("Random : "+quizRef);
+		logger.info(`Created room number: ${quizRef}`);
 		rooms[quizRef] = {};
 		rooms[quizRef].users = {};
 		rooms[quizRef].questions = questions;
@@ -164,8 +160,11 @@ io.on('connection', function(socket){
 		users[id].quizRef = quizRef;
 		if(rooms[quizRef]){
 			rooms[quizRef].users[id] = {userAnsMap:{}};
-			logger.debug("\n***USERS: ", util.inspect(users, {showHidden: false, depth: null}));
-			logger.debug("\n***ROOMS: ", util.inspect(rooms, {showHidden: false, depth: null}));
+			logger.debug("***USERS: ", util.inspect(users, {showHidden: false, depth: null}));
+			logger.debug("***ROOMS: ", util.inspect(Object.keys(rooms).map(quizRef=>{
+				return {quizRef, participants: Object.keys(rooms[quizRef].users)}
+			}), {showHidden: false, depth: null}));
+
 			socket.join(users[id].quizRef);
 		}
 		//TODO: Temp code. To be removed
@@ -174,17 +173,17 @@ io.on('connection', function(socket){
 
 	socket.on('join room', function(quizRefNo){
 		quizRef = quizRefNo;
-		if(rooms[quizRef]){
+		if(rooms[quizRef] && Object.keys(rooms[quizRef].users).length < config.maxUsersPerRoom){
 			users[id].quizRef = quizRef;
 			rooms[quizRef].users[id] = {userAnsMap:{}};
 			
-			if(Object.keys(rooms[quizRef].users).length == 2){
-				socket.join(users[id].quizRef);
+			socket.join(users[id].quizRef);
+			if(Object.keys(rooms[quizRef].users).length == config.maxUsersPerRoom){
 				startQuiz(quizRef);
 			}
 		}
 		else{
-			socket.emit('error', {code:errorCodes.INVALID_ROOM_ID});
+			socket.emit('app error', {code:errorCodes.INVALID_ROOM_ID});
 		}
 	});
 
@@ -199,8 +198,33 @@ io.on('connection', function(socket){
 	socket.on('submit name', function(name){
 	});
 
+	socket.on('logout', ()=>logger.debug("LOGOUT::: ", id));
+
 	socket.on('disconnect', function(){
-		logger.debug("Disconnected");
+		logger.info(`User disconnected: ${id}`);
+
+		if(!users[id]){
+			logger.info(`Disconnecting silently: ${id}`);
+			return;
+		}
+		let roomId = users[id].quizRef;
+		if(!roomId){
+			delete users[id];
+		}
+		if(rooms[roomId] === undefined){
+			logger.debug("Invalid Room Operation");
+			return;
+		}
+		delete rooms[roomId].users[id];
+
+		if(rooms[roomId] && Object.keys(rooms[roomId].users).length === 0){
+			//No user left in this room. Delete it.
+			delete rooms[roomId];
+		}
+		delete users[id];
+		socket.leave(roomId);
+		logger.debug("***USERS: " + util.inspect(users));
+		logger.debug("***ROOMS: " + util.inspect(rooms));
 	});
 });
 

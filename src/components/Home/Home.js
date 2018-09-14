@@ -2,6 +2,8 @@ import React from 'react';
 import {connect} from 'react-redux';
 import { View, TextInput, Button, ToastAndroid } from 'react-native';
 import {createRoom, joinRoom} from './actions';
+import { resetRoomId } from '../Stage/actions';
+import { showLoadingAction } from '../Loading/actions';
 import { styles } from '../../styles/styles';
 
 export class Home extends React.Component {
@@ -20,6 +22,7 @@ export class Home extends React.Component {
 
   joinRoomClicked(){
     if(this.state.roomIdText){
+      this.props.showLoadingAction("Waiting for others to join...");
       this.props.joinRoom(this.state.roomIdText);
       this.props.navigation.navigate('Stage');
     }else{
@@ -28,6 +31,7 @@ export class Home extends React.Component {
   }
 
   createRoomClicked(){
+    this.props.showLoadingAction("Share this room id with opponent. Wait for him to join...");
     this.props.createRoom();
     this.props.navigation.navigate('Stage');
   }
@@ -38,7 +42,7 @@ export class Home extends React.Component {
         
         <View style={{paddingBottom: 30}}>
           <Button
-            onPress={()=>this.props.navigation.navigate('Questions')}
+            onPress={()=>{this.props.resetRoomId();this.props.navigation.navigate('Questions');}}
             title="Single Player Quiz"
             color="#841584"
           />
@@ -79,6 +83,8 @@ const mapDispatchToProps = (dispatch) => {
   return{
     createRoom: () => dispatch(createRoom()),
     joinRoom: (roomIdText) => dispatch(joinRoom(roomIdText)),
+    showLoadingAction: (msg) => dispatch(showLoadingAction(msg)),
+    resetRoomId: () => dispatch(resetRoomId())
   }
 }
 

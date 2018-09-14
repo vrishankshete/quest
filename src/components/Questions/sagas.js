@@ -1,7 +1,7 @@
 import {fetchQuestionsOpentdb} from './client';
-import actionTypes from '../Questions/actions';
+import {actionTypes} from '../Questions/actions';
 import {hideLoadingAction, showLoadingAction} from "../Loading/actions";
-import {setQuestions, setQuestion} from "../Questions/actions";
+import {setQuestions} from "../Questions/actions";
 import {call, put, takeLatest} from 'redux-saga/effects';
 import {getFormattedQuestions} from '../Helper/requestHelper';
 

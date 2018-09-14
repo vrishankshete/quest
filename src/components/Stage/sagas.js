@@ -1,11 +1,11 @@
-import {actionTypes as homeActions} from '../Home/actions';
-import {hideLoadingAction, showLoadingAction} from "../Loading/actions";
-import {setQuestion} from "../Questions/actions";
-import { endQuiz, actionTypes as stageActions } from '../Stage/actions';
+import { actionTypes as homeActions } from '../Home/actions';
+import { hideLoadingAction, showLoadingAction } from "../Loading/actions";
+import { setQuestion } from "../Questions/actions";
+import { endQuiz, setError, resetError, disconnect, actionTypes as stageActions } from '../Stage/actions';
 import { setDuoScore } from '../DuoResults/actions';
-import {roomCreated} from './actions';
-import {fork, take, call, put, takeLatest} from 'redux-saga/effects';
-import {socketServerURL} from '../../config/config';
+import { roomCreated } from './actions';
+import { fork, take, call, put, takeLatest, cancel } from 'redux-saga/effects';
+import { socketServerURL } from '../../config/config';
 import { eventChannel } from 'redux-saga';
 import io from 'socket.io-client';
 
@@ -28,10 +28,16 @@ function subscribe(socket) {
         });
         socket.on('end quiz', score => {
             emit(setDuoScore(score));
-            emit(endQuiz());
+            emit(endQuiz(socket.id));
+        });
+        socket.on('app error', error=>{
+            emit(setError(error.code));
+            emit(resetError());
+            emit(disconnect());
+            emit(hideLoadingAction());
         });
         socket.on('disconnect', e => {
-            // TODO: handle
+            console.log("DISCONNECTTTT...");
         });
         return () => {};
     });         
@@ -58,11 +64,15 @@ function* handleIO(socket) {
 }
 
 function* createRoom(){
-    yield put(showLoadingAction("Share this room id with opponent. Wait for him to join..."));
     try{
+        //yield put(showLoadingAction("Share this room id with opponent. Wait for him to join..."));
         const socket = yield call(connect);
         socket.emit('create room');
         const task = yield fork(handleIO, socket);
+        yield take(stageActions.DISCONNECT);
+        yield cancel(task);
+        socket.emit('logout');
+        socket.disconnect();
     }
     catch(e){
         alert(e);
@@ -71,9 +81,19 @@ function* createRoom(){
 }
 
 function* joinRoom(action){
-    const socket = yield call(connect);
-    socket.emit('join room', action.payload);
-    const task = yield fork(handleIO, socket);
+    try{
+        //yield put(showLoadingAction("Waiting for others to join..."));
+        const socket = yield call(connect);
+        socket.emit('join room', action.payload);
+        const task = yield fork(handleIO, socket);
+        yield take(stageActions.DISCONNECT);
+        yield cancel(task);
+        socket.emit('logout');
+        socket.disconnect();
+    }
+    catch(e){
+        alert(e);
+    }
 }
 
 export function* watchCreateRoom() {
