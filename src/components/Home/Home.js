@@ -1,10 +1,11 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import { View, TextInput, Button, ToastAndroid } from 'react-native';
+import { View, TextInput, Button, ToastAndroid, TouchableOpacity, Text } from 'react-native';
 import {createRoom, joinRoom} from './actions';
 import { resetRoomId } from '../Stage/actions';
 import { showLoadingAction } from '../Loading/actions';
 import { styles } from '../../styles/styles';
+import { LinearGradient } from 'expo';
 
 export class Home extends React.Component {
 
@@ -38,41 +39,35 @@ export class Home extends React.Component {
 
   render() {
     return (
-      <View style={styles.homeContainer}>
+      <LinearGradient style={styles.homeContainer} colors={['#d2ff9d', '#ffffff']}>
+      {/*'#000000', '#030184'     '#52e830', '#ffffff'*/}
         
         <View style={{paddingBottom: 30}}>
-          <Button
-            onPress={()=>{this.props.resetRoomId();this.props.navigation.navigate('Questions');}}
-            title="Single Player Quiz"
-            color="#841584"
-          />
+          <TouchableOpacity style={styles.singleQuizButton} onPress={()=>{this.props.resetRoomId();this.props.navigation.navigate('Questions');}}>
+            <Text style={{textAlign:'center', color:'white', fontWeight:'bold'}}>SINGLE PLAYER QUIZ</Text>
+          </TouchableOpacity>
         </View>
         <View style={{padding: 10}}>
           <TextInput
             keyboardType = 'numeric'
-            style={{height: 40, width:70}}
+            style={{height: 40, width:80, marginLeft:5, alignContent:'center', alignItems:'center', alignSelf:'center'}}
             placeholder="Room Id"
             placeholderTextColor="grey"
             onChangeText={(roomIdText) => this.setState({roomIdText})}
             maxLength = {4}
           />
-        </View>
-        <View style={{padding: 10}}>
-          <Button
-            onPress={()=>this.joinRoomClicked()}
-            title="Join Room"
-            color="#841584"
-          />
+        
+          <TouchableOpacity style={styles.singleQuizButton} onPress={()=>this.joinRoomClicked()}>
+            <Text style={{textAlign:'center', color:'white', fontWeight:'bold'}}>JOIN{'\n'}ROOM</Text>
+          </TouchableOpacity>
         </View>
 
         <View style={{padding: 10}}>
-          <Button
-            onPress={()=>this.createRoomClicked()}
-            title="Create Room"
-            color="#841584"
-          />
+          <TouchableOpacity style={styles.singleQuizButton} onPress={()=>this.createRoomClicked()}>
+            <Text style={{textAlign:'center', color:'white', fontWeight:'bold'}}>CREATE{'\n'}ROOM</Text>
+          </TouchableOpacity>
         </View>
-      </View>
+      </LinearGradient>
     )
   }
 }

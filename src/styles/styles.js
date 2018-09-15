@@ -13,16 +13,22 @@ export const styles = StyleSheet.create({
         flex:1,
         flexDirection: 'column',
         alignItems: 'flex-start',
-        justifyContent: 'center',
+        justifyContent: 'center'
+    },
+    modalContainer: {
+        width:'100%',
+        height:'100%'
     },
     loadingContainer: {
         marginTop: 270,
         justifyContent: 'center'
     },
     resultsContainer: {
-        marginTop: 22,
-        marginLeft: 20,
-        justifyContent: 'center'
+        flex:1,
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems:'center',
+        padding: 20
     },
     buttonContainer: {
         flexDirection:'column',
@@ -35,9 +41,17 @@ export const styles = StyleSheet.create({
     questionButton: {
         margin:10,
         width:110,
-        height:30,
+        height:40,
         justifyContent:'center',
-        backgroundColor:'#DDDDDD'
+        backgroundColor:'black',
+        borderRadius: 10
+    },
+    singleQuizButton: {
+        width:80,
+        height:80,
+        justifyContent:'center',
+        backgroundColor:'#841584',
+        borderRadius: 80
     },
     titleText: {
       fontSize: 50,

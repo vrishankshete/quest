@@ -78,7 +78,7 @@ class Questions extends React.Component {
           isMultiplayer={false}
         />
         <TouchableOpacity style={styles.questionButton} onPress={()=>this.nextQuestion()}>
-          <Text style={{textAlign:'center'}}>Next Question</Text>
+          <Text style={{textAlign:'center', color:'white'}}>Next Question</Text>
         </TouchableOpacity>
         <Loading/>
       </View>
