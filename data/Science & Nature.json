@@ -1,0 +1,1702 @@
+[
+  {
+    "no": 1,
+    "question": "What is the elemental symbol for mercury?",
+    "options": [
+      "Me",
+      "Mc",
+      "Hy",
+      "Hg"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 2,
+    "question": "How many officially recognized dwarf planets in the solar system are named after Polynesian deities?",
+    "options": [
+      "0",
+      "2",
+      "1",
+      "5"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 3,
+    "question": "What is the chemical formula for ammonia?",
+    "options": [
+      "CO2",
+      "NH3",
+      "NO3",
+      "CH4"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 4,
+    "question": "Which one of these scientists conducted the Gold Foil Experiment which concluded that atoms are mostly made of empty space?",
+    "options": [
+      "Ernest Rutherford",
+      "Joseph John Thomson",
+      "Archimedes",
+      "Niels Henrik David Bohr"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 5,
+    "question": "A comet's gaseous envelope (which creates the tail) is called what?",
+    "options": [
+      "The wake",
+      "The backwash",
+      "The ablative",
+      "The coma"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 6,
+    "question": "Human cells typically have how many copies of each gene?",
+    "options": [
+      "1",
+      "4",
+      "2",
+      "3"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 7,
+    "question": "What is the molecular formula of Ozone?",
+    "options": [
+      "O3",
+      "C6H2O6",
+      "N2O",
+      "SO4"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 8,
+    "question": "What stage of development do the majority of eukaryotic cells remain in for most of their life?",
+    "options": [
+      "Prophase",
+      "Interphase",
+      "Stasis",
+      "Telophase"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 9,
+    "question": "A positron is an antiparticle of a what?",
+    "options": [
+      "Electron",
+      "Neutron",
+      "Proton",
+      "Photon"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 10,
+    "question": "What is the same in Celsius and Fahrenheit?",
+    "options": [
+      "32",
+      "-39",
+      "-42",
+      "-40"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 11,
+    "question": "Botanically speaking, which of these fruits is NOT a berry?",
+    "options": [
+      "Blueberry",
+      "Strawberry",
+      "Banana",
+      "Concord Grape"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 12,
+    "question": "An average human can go two weeks without water.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 13,
+    "question": "What is the unit of electrical inductance?",
+    "options": [
+      "Weber",
+      "Coulomb",
+      "Mho",
+      "Henry"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 14,
+    "question": "Muscle fiber is constructed of bundles small long organelles called what?",
+    "options": [
+      "Epimysium",
+      "Myofiaments",
+      "Myocardium",
+      "Myofibrils"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 15,
+    "question": "Which of the following is NOT a word used to describe an earthquake?",
+    "options": [
+      "Drop-slide",
+      "Foreshock",
+      "Strike-slip",
+      "Temblor"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 16,
+    "question": "Psychology is the science of behavior and mind.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 17,
+    "question": "What is the largest living organism currently known to man?",
+    "options": [
+      "Blue Whale",
+      "Honey Fungus",
+      "Redwood Tree",
+      "The Coral Reef"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 18,
+    "question": "On which mission did the Space Shuttle Columbia break up upon re-entry?",
+    "options": [
+      "STS-107",
+      "STS-51-L",
+      "STS-61-C",
+      "STS-109"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 19,
+    "question": "Which chemical element was originally known as Alabamine?",
+    "options": [
+      "Selenium",
+      "Antimony",
+      "Molybdenum",
+      "Astatine"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 20,
+    "question": "The Western Lowland Gorilla is scientifically know as?",
+    "options": [
+      "Gorilla Gorilla Gorilla",
+      "Gorilla Gorilla Diehli",
+      "Gorilla Beringei Graueri",
+      "Gorilla Beringei Beringei"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 21,
+    "question": "Igneous rocks are formed by excessive heat and pressure.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 22,
+    "question": "How many objects are equivalent to one mole?",
+    "options": [
+      "6.002 x 10^22",
+      "6.022 x 10^23",
+      "6.022 x 10^22",
+      "6.002 x 10^23"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 23,
+    "question": "Chickens can live without a head.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 24,
+    "question": "What was the first living creature in space?",
+    "options": [
+      "Monkey",
+      "Dog",
+      "Mouse",
+      "Fruit Flies "
+    ],
+    "answer": 3
+  },
+  {
+    "no": 25,
+    "question": "To the nearest minute, how long does it take for light to travel from the Sun to the Earth?",
+    "options": [
+      "8 Minutes",
+      "6 Minutes",
+      "2 Minutes",
+      "12 Minutes"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 26,
+    "question": "Steel is an alloy of Iron and Carbon.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 27,
+    "question": "Which element has the atomic number of 7?",
+    "options": [
+      "Oxygen",
+      "Hydrogen",
+      "Neon",
+      "Nitrogen"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 28,
+    "question": "Au on the Periodic Table refers to which element?",
+    "options": [
+      "Gold",
+      "Silver",
+      "Oxygen",
+      "Nickel"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 29,
+    "question": "Which psychological term refers to the stress of holding contrasting beliefs?",
+    "options": [
+      "Cognitive Dissonance",
+      "Flip-Flop Syndrome",
+      "Split-Brain",
+      "Blind Sight"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 30,
+    "question": "What is the chemical makeup of water?",
+    "options": [
+      "C12H6O2",
+      "CO2",
+      "H20",
+      "H"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 31,
+    "question": "Who developed the first successful polio vaccine in the 1950s?",
+    "options": [
+      "John F. Enders",
+      "Jonas Salk",
+      "Thomas Weller",
+      "Frederick Robbins"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 32,
+    "question": "Which of these chemical compounds is NOT found in gastric acid?",
+    "options": [
+      "Sulfuric acid",
+      "Hydrochloric acid",
+      "Potassium chloride",
+      "Sodium chloride"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 33,
+    "question": "What is the scientific name of the red fox?",
+    "options": [
+      "Vulpes Vulpes",
+      "Vulpes Redus",
+      "Red Fox",
+      "Vulpes Vulpie"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 34,
+    "question": "Which one of these is scientific term for \"Brain Freeze\"?",
+    "options": [
+      "Sphenopalatine Ganglioneuralgia",
+      "Hyacinthoides Italica",
+      "Amaranthus Retroflexus",
+      "Amblyomma Americanum"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 35,
+    "question": "Which of these is a stop codon in DNA?",
+    "options": [
+      "ACT",
+      "ACA",
+      "GTA",
+      "TAA"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 36,
+    "question": "How many chromosomes are in your body cells?",
+    "options": [
+      "21",
+      "23",
+      "22",
+      "24"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 37,
+    "question": "Where is the Gluteus Maximus muscle located?",
+    "options": [
+      "Arm",
+      "Butt",
+      "Head",
+      "Torso"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 38,
+    "question": "How long is a light-year?",
+    "options": [
+      "1 AU",
+      "105.40 Earth-years",
+      "501.2 Million Miles",
+      "9.461 Trillion Kilometres"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 39,
+    "question": "What part of the brain takes its name from the Greek for seahorse?",
+    "options": [
+      "Cerebellum",
+      "Thalamus",
+      "Hippocampus",
+      "Amygdala"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 40,
+    "question": "Which of the following men does not have a chemical element named after him?",
+    "options": [
+      "Albert Einstein",
+      "Niels Borh",
+      "Sir Isaac Newton",
+      "Enrico Fermi"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 41,
+    "question": "Which of these bones is hardest to break?",
+    "options": [
+      "Cranium",
+      "Humerus",
+      "Femur",
+      "Tibia"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 42,
+    "question": "You can be sunburned on a cloudy day.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 43,
+    "question": "The humerus, paired radius, and ulna come together to form what joint?",
+    "options": [
+      "Knee",
+      "Sholder",
+      "Elbow",
+      "Ankle"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 44,
+    "question": "In aeronautics, flaps and slats are used to control what on an aircraft?",
+    "options": [
+      "Thrust",
+      "Lift",
+      "Drag",
+      "Weight "
+    ],
+    "answer": 1
+  },
+  {
+    "no": 45,
+    "question": "This element, when overcome with extreme heat and pressure, creates diamonds.",
+    "options": [
+      "Carbon",
+      "Nitrogen",
+      "Oxygen",
+      "Hydrogen"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 46,
+    "question": "The planet Mars has two moons orbiting it.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 47,
+    "question": "Which gas forms about 78% of the Earth’s atmosphere?",
+    "options": [
+      "Nitrogen",
+      "Oxygen",
+      "Argon",
+      "Carbon Dioxide"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 48,
+    "question": "What is the molecular formula of Glucose?",
+    "options": [
+      "C2H4O2",
+      "K+",
+      "CH4",
+      "C6H12O6"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 49,
+    "question": "The Axiom of Preventive Medicine states that people with ___ risk for a disease should be screened and we should treat ___ of those people.",
+    "options": [
+      "low, some",
+      "high, all",
+      "high, some",
+      "low, all"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 50,
+    "question": "Alzheimer's disease primarily affects which part of the human body?",
+    "options": [
+      "Lungs",
+      "Brain",
+      "Skin",
+      "Heart"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 51,
+    "question": "What is isobutylphenylpropanoic acid more commonly known as?",
+    "options": [
+      "Morphine",
+      "Ketamine",
+      "Ibuprofen",
+      "Aspirin"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 52,
+    "question": "Which of these is a type of stretch/deep tendon reflex?",
+    "options": [
+      "Gag reflex",
+      "Pupillary light reflex",
+      "Ankle jerk reflex",
+      "Scratch reflex"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 53,
+    "question": "The element involved in making human blood red is which of the following?",
+    "options": [
+      "Copper",
+      "Iridium",
+      "Iron",
+      "Cobalt"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 54,
+    "question": "Which is the most abundant element in the universe?",
+    "options": [
+      "Helium",
+      "Lithium",
+      "Oxygen",
+      "Hydrogen"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 55,
+    "question": "Which element has the highest melting point?",
+    "options": [
+      "Tungsten",
+      "Platinum",
+      "Carbon",
+      "Osmium"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 56,
+    "question": "How much radiation does a banana emit?",
+    "options": [
+      "0.3 Microsievert",
+      "0.5 Microsievert",
+      "0.7 Microsievert",
+      "0.1 Microsievert"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 57,
+    "question": "What are human nails made of?",
+    "options": [
+      "Keratin",
+      "Bone",
+      "Chitin",
+      "Calcium"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 58,
+    "question": "Celiac Disease is a disease that effects the heart, causing those effected to be unable to eat meat.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 59,
+    "question": "Pneumonoultramicroscopicsilicovolcanoconiosis is a synonym for the disease known as silicosis.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 60,
+    "question": "What is the scientific name for the extinct hominin known as \"Lucy\"?",
+    "options": [
+      "Australopithecus Africanus",
+      "Australopithecus Afarensis",
+      "Australopithecus Architeuthis",
+      "Australopithecus Antaris"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 61,
+    "question": "Along with Oxygen, which element is primarily responsible for the sky appearing blue?",
+    "options": [
+      "Nitrogen",
+      "Helium",
+      "Carbon",
+      "Hydrogen"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 62,
+    "question": "What name is given to all baby marsupials?",
+    "options": [
+      "Calf",
+      "Pup",
+      "Cub",
+      "Joey"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 63,
+    "question": "The moons, Miranda, Ariel, Umbriel, Titania and Oberon orbit which planet?",
+    "options": [
+      "Uranus",
+      "Jupiter",
+      "Venus",
+      "Neptune"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 64,
+    "question": "Which is the longest bone in the human body? ",
+    "options": [
+      "Femur",
+      "Scapula",
+      "Fibula",
+      "Ulna"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 65,
+    "question": "Which type of rock is created by intense heat AND pressure?",
+    "options": [
+      "Metamorphic",
+      "Sedimentary",
+      "Igneous",
+      "Diamond"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 66,
+    "question": "The 'Islets of Langerhans' is found in which human organ?",
+    "options": [
+      "Pancreas",
+      "Kidney",
+      "Liver",
+      "Brain"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 67,
+    "question": "Gannymede is the largest moon of which planet?",
+    "options": [
+      "Jupiter",
+      "Uranus",
+      "Neptune",
+      "Mars"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 68,
+    "question": "A defibrillator is used to start up a heartbeat once a heart has stopped beating.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 69,
+    "question": "What is the primary addictive substance found in tobacco?",
+    "options": [
+      "Cathinone",
+      "Nicotine",
+      "Ephedrine",
+      "Glaucine"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 70,
+    "question": "Which is not a type of neuron?",
+    "options": [
+      "Sensory Neuron",
+      "Motor Neuron",
+      "Interneuron",
+      "Perceptual Neuron"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 71,
+    "question": "What polymer is used to make CDs, safety goggles and riot shields?",
+    "options": [
+      "Rubber",
+      "Polycarbonate",
+      "Nylon",
+      "Bakelite"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 72,
+    "question": "What is the atomic number of the element Strontium?",
+    "options": [
+      "73",
+      "47",
+      "11",
+      "38"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 73,
+    "question": "Which of the following plastic is commonly used for window frames, gutters and drain pipes?",
+    "options": [
+      "Polyethylene (PE)",
+      "Polypropylene (PP)",
+      "Polyvinylchloride (PVC) ",
+      "Polystyrene (PS)"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 74,
+    "question": "Who made the discovery of X-rays?",
+    "options": [
+      "Thomas Alva Edison",
+      "James Watt",
+      "Albert Einstein",
+      "Wilhelm Conrad Röntgen"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 75,
+    "question": "An exothermic reaction is a chemical reaction that releases energy by radiating electricity.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 76,
+    "question": "About how old is Earth?",
+    "options": [
+      "3.5 Billion Years",
+      "4.5 Billion Years",
+      "2.5 Billion Years",
+      "5.5 Billion Years"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 77,
+    "question": "What is radiation measured in?",
+    "options": [
+      "Gray ",
+      "Watt",
+      "Decibel",
+      "Kelvin"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 78,
+    "question": "The chemical element Lithium is named after the country of Lithuania.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 79,
+    "question": "What does the term \"isolation\" refer to in microbiology?",
+    "options": [
+      "A lack of nutrition in microenviroments",
+      "The separation of a strain from a natural, mixed population of living microbes",
+      "The nitrogen level in soil",
+      "Testing effects of certain microorganisms in an isolated enviroments, such as caves"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 80,
+    "question": "Which desert is the only desert in the world where the \"Saguaro\" cactus grows indigenously?",
+    "options": [
+      "The Gobi Desert",
+      "The Yuma Desert",
+      "The Sonoran Desert",
+      "The Arabian Desert"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 81,
+    "question": "Hippopotomonstrosesquippedaliophobia is the irrational fear of long words.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 82,
+    "question": "You can calculate Induced Voltage using: ε =-N * (dΦB)/(d)",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 83,
+    "question": "On the Beaufort Scale of wind force, what wind name is given to number 8?",
+    "options": [
+      "Storm",
+      "Hurricane",
+      "Breeze",
+      "Gale"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 84,
+    "question": "How many degrees Fahrenheit is 100 degrees Celsius? ",
+    "options": [
+      "326",
+      "100",
+      "212",
+      "451"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 85,
+    "question": "All the following metal elements are liquids at or near room temperature EXCEPT:",
+    "options": [
+      "Beryllium",
+      "Gallium",
+      "Caesium",
+      "Mercury"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 86,
+    "question": "Which horizon in a soil profile consists of bedrock?",
+    "options": [
+      "R",
+      "O",
+      "B",
+      "D"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 87,
+    "question": "The \"Tibia\" is found in which part of the body?",
+    "options": [
+      "Leg",
+      "Arm",
+      "Hand",
+      "Head"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 88,
+    "question": "What is the scientific name of the knee cap?",
+    "options": [
+      "Femur",
+      "Patella",
+      "Foramen Magnum",
+      "Scapula"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 89,
+    "question": "Folic acid is the synthetic form of which vitamin?",
+    "options": [
+      "Vitamin A",
+      "Vitamin B",
+      "Vitamin C",
+      "Vitamin D"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 90,
+    "question": "Which part of the body does glaucoma affect?",
+    "options": [
+      "Throat",
+      "Stomach",
+      "Eyes",
+      "Blood"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 91,
+    "question": "Scientists can grow teeth from urine.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 92,
+    "question": "Centripedal force is an apparent force that acts outward on a body moving around a center, arising from the body's inertia.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 93,
+    "question": "What does the yellow diamond on the NFPA 704 fire diamond represent?",
+    "options": [
+      "Health",
+      "Reactivity",
+      "Flammability",
+      "Radioactivity"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 94,
+    "question": "The biggest distinction between a eukaryotic cell and a prokaryotic cell is:",
+    "options": [
+      "The overall size",
+      "The presence or absence of certain organelles",
+      "The mode of reproduction",
+      "The presence or absence of a nucleus"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 95,
+    "question": "The core of the Sun can reach which temperature?",
+    "options": [
+      "938,000° F (521093.3° C)",
+      "8° Billion F (°4.4 Billion C)",
+      "Absolute Zero (Both F and C)",
+      "27° Million F (15° Million C)"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 96,
+    "question": "An Astronomical Unit is the distance between Earth and the Moon.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 97,
+    "question": "What does LASER stand for?",
+    "options": [
+      "Lite analysing by stereo ecorazer",
+      "Light amplifiaction by stimulated eminission of radioation",
+      "Light ampiflier by standby energy of radio",
+      "Life antimatter by standing entry of range"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 98,
+    "question": "Sugar contains fat.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 99,
+    "question": "What is the unit of electrical capacitance?",
+    "options": [
+      "Gauss",
+      "Farad",
+      "Henry",
+      "Watt"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 100,
+    "question": "Which of the following is the term for \"surgical complications resulting from surgical sponges left inside the patient's body?",
+    "options": [
+      "Gongoozler",
+      "Gossypiboma",
+      "Jentacular",
+      "Meupareunia"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 101,
+    "question": "The Doppler effect applies to light.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 102,
+    "question": "What is the colour of unoxidized blood?",
+    "options": [
+      "Blue",
+      "Red",
+      "Purple",
+      "Green"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 103,
+    "question": "What is the largest animal currently on Earth?",
+    "options": [
+      "Orca",
+      "Colossal Squid",
+      "Blue Whale",
+      "Giraffe"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 104,
+    "question": "Which is the chemical name of H2O?",
+    "options": [
+      "Ammonium chloride",
+      "Dihydrogen Monoxide",
+      "Anhydrous Sodium Carbonate",
+      "Manganese dioxide"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 105,
+    "question": "What is the first element on the periodic table?",
+    "options": [
+      "Hydrogen",
+      "Helium",
+      "Oxygen",
+      "Lithium"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 106,
+    "question": "How many legs is it biologically impossible for a centipede to have?",
+    "options": [
+      "26",
+      "100",
+      "50",
+      "74"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 107,
+    "question": "Shrimp can swim backwards.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 108,
+    "question": "Type 1 diabetes is a result of the liver working improperly.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 109,
+    "question": "The medical condition osteoporosis affects which part of the body?",
+    "options": [
+      "Skin",
+      "Brain",
+      "Heart",
+      "Bones"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 110,
+    "question": "Which of these is NOT a part of the structure of a typical neuron?",
+    "options": [
+      "Node of Ranvier",
+      "Schwann cell",
+      "Islets of Langerhans",
+      "Myelin sheath"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 111,
+    "question": "Which of the following is NOT a real element?",
+    "options": [
+      "Vitrainium",
+      "Praseodymium",
+      "Hassium",
+      "Lutetium"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 112,
+    "question": "Scientists accidentally killed the once known world's oldest living creature, a mollusc, known to be aged as 507 years old.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 113,
+    "question": "\"The Big Bang Theory\" was first theorized by a priest of what religious ideology?",
+    "options": [
+      "Christian",
+      "Catholic",
+      "Jewish",
+      "Islamic"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 114,
+    "question": "Which moon is the only satellite in our solar system to possess a dense atmosphere?",
+    "options": [
+      "Titan",
+      "Europa",
+      "Miranda",
+      "Callisto"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 115,
+    "question": "The medical term for the belly button is which of the following?",
+    "options": [
+      "Umbilicus",
+      "Nevus",
+      "Nares",
+      "Paxillus"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 116,
+    "question": "In Chemistry, how many isomers does Butanol (C4H9OH) have?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 117,
+    "question": "What is the unit of electrical resistance?",
+    "options": [
+      "Mho",
+      "Ohm",
+      "Tesla",
+      "Joule"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 118,
+    "question": "In Psychology, which need appears highest in the \"Maslow's hierarchy of needs\" pyramid?",
+    "options": [
+      "Esteem",
+      "Love",
+      "Safety",
+      "Physiological"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 119,
+    "question": "Which planet did the \"Viking 1\" spacecraft send surface images of, starting in 1976?",
+    "options": [
+      "Saturn",
+      "Mars",
+      "Jupiter",
+      "Venus"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 120,
+    "question": "Coulrophobia is the irrational fear of what?",
+    "options": [
+      "Clowns",
+      "Cemeteries",
+      "Needles",
+      "Tunnels"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 121,
+    "question": "The Neanderthals were a direct ancestor of modern humans.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 122,
+    "question": "Which of the following liquids is least viscous? Assume temperature is 25°C.",
+    "options": [
+      "Water",
+      "Mercury",
+      "Benzene",
+      "Acetone"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 123,
+    "question": "What does the letter 'S' stand for in 'NASA'?",
+    "options": [
+      "Science",
+      "Space",
+      "Society",
+      "Star"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 124,
+    "question": "How many planets are in our Solar System?",
+    "options": [
+      "Eight",
+      "Nine",
+      "Seven",
+      "Ten"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 125,
+    "question": "What is the hottest planet in the Solar System?",
+    "options": [
+      "Mars",
+      "Mercury",
+      "Jupiter",
+      "Venus"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 126,
+    "question": "What is the powerhouse of the cell?",
+    "options": [
+      "Mitochondria",
+      "Ribosome",
+      "Redbull",
+      "Nucleus"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 127,
+    "question": "What is the standard SI unit for temperature?",
+    "options": [
+      "Kelvin",
+      "Fahrenheit",
+      "Celsius",
+      "Rankine"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 128,
+    "question": "Like with the Neanderthals, Homo sapiens sapiens also interbred with the Denisovans.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 129,
+    "question": "It was once believed that injecting shark cartilage into people would prevent them from contracting cancer.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 130,
+    "question": "If you planted the seeds of Quercus robur what would grow?",
+    "options": [
+      "Flowers",
+      "Trees",
+      "Vegtables",
+      "Grains"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 131,
+    "question": "Who is the chemical element Curium named after?",
+    "options": [
+      "The Curiosity Rover",
+      "Curious George",
+      "Marie & Pierre Curie",
+      "Stephen Curry"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 132,
+    "question": "Salt is 100% composed of Sodium.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 133,
+    "question": "What term is best associated with Sigmund Freud?",
+    "options": [
+      "Cognitive-Behavioral Therapy",
+      "Psychoanalysis",
+      "Theory of Gravity",
+      "Dialectical Behavior Therapy"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 134,
+    "question": "The human heart has how many chambers?",
+    "options": [
+      "4",
+      "2",
+      "6",
+      "3"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 135,
+    "question": "The human right lung has how many lobes?",
+    "options": [
+      "4",
+      "2",
+      "3",
+      "1"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 136,
+    "question": "Which of these elements on the Periodic Table is a Noble Gas?",
+    "options": [
+      "Neon",
+      "Potassium",
+      "Iodine",
+      "Colbalt"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 137,
+    "question": "What is the standard atomic weight of a Plutonium nucleus?",
+    "options": [
+      "94",
+      "481",
+      "128",
+      "244"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 138,
+    "question": "71% of the Earth's surface is made up of",
+    "options": [
+      "Deserts",
+      "Continents",
+      "Water",
+      "Forests"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 139,
+    "question": "What element on the periodic table has 92 electrons?",
+    "options": [
+      "Sulfur",
+      "Hydrogen",
+      "Iron",
+      "Uranium"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 140,
+    "question": "The value of one Calorie is different than the value of one calorie.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 141,
+    "question": "Which Apollo mission was the first one to land on the Moon?",
+    "options": [
+      "Apollo 10",
+      "Apollo 11",
+      "Apollo 9",
+      "Apollo 13"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 142,
+    "question": "What is considered the rarist form of color blindness?",
+    "options": [
+      "Red",
+      "Green",
+      "Blue",
+      "Purple"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 143,
+    "question": "Which element has the chemical symbol 'Fe'?",
+    "options": [
+      "Gold",
+      "Silver",
+      "Tin",
+      "Iron"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 144,
+    "question": "The \"Gympie Stinger\" is the deadliest plant in the world.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 145,
+    "question": "What common name is given to the medial condition, tibial stress syndrome (MTSS)?",
+    "options": [
+      "Shin Splints",
+      "Tennis Elbow",
+      "Carpal Tunnel",
+      "Housemaid's Knee"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 146,
+    "question": "What mineral has the lowest number on the Mohs scale?",
+    "options": [
+      "Quartz",
+      "Diamond",
+      "Talc",
+      "Gypsum"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 147,
+    "question": "Which chemical element has the lowest boiling point?",
+    "options": [
+      "Helium",
+      "Hydrogen",
+      "Neon",
+      "Nitrogen"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 148,
+    "question": "How many planets make up our Solar System?",
+    "options": [
+      "8",
+      "7",
+      "9",
+      "6"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 149,
+    "question": "All of the following human genetic haplogroup names are shared between Y-chromosome and mitochondrial DNA haplogroups EXCEPT:",
+    "options": [
+      "Haplogroup L",
+      "Haplogroup U",
+      "Haplogroup T",
+      "Haplogroup J"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 150,
+    "question": "Which of the following blood vessels carries deoxygenated blood?",
+    "options": [
+      "Pulmonary Artery",
+      "Pulmonary Vein",
+      "Aorta",
+      "Coronary Artery"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 151,
+    "question": "What does DNA stand for?",
+    "options": [
+      "Deoxyribogenetic Acid",
+      "Deoxyribonucleic Acid",
+      "Deoxyribogenetic Atoms",
+      "Detoxic Acid"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 152,
+    "question": "An atom contains a nucleus.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 153,
+    "question": "The asteroid belt is located between which two planets?",
+    "options": [
+      "Jupiter and Saturn",
+      "Mercury and Venus",
+      "Mars and Jupiter",
+      "Earth and Mars"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 154,
+    "question": "Myopia is the scientific term for which condition?",
+    "options": [
+      "Shortsightedness",
+      "Farsightedness",
+      "Double Vision",
+      "Clouded Vision"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 155,
+    "question": "In the periodic table, Potassium's symbol is the letter K.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 156,
+    "question": "What genetic disease is caused by having an extra Y chromosome (XYY)?",
+    "options": [
+      "Klinefelter's Syndrome",
+      "Jacob's Syndrome",
+      "Turner's Syndrome",
+      "Down Syndrome"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 157,
+    "question": "What animal takes part in Schrödinger's most famous thought experiment?",
+    "options": [
+      "Dog",
+      "Bat",
+      "Cat",
+      "Butterfly"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 158,
+    "question": "The Sun consists of mostly which two elements?",
+    "options": [
+      "Hydrogen & Nitrogen",
+      "Carbon & Nitrogen",
+      "Hydrogen & Helium",
+      "Carbon & Helium"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 159,
+    "question": "What do you study if you are studying entomology?",
+    "options": [
+      "Humans",
+      "the Brain",
+      "Fish",
+      "Insects"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 160,
+    "question": "Approximately how long is a year on Uranus?",
+    "options": [
+      "47 Earth years",
+      "62 Earth years",
+      "84 Earth years",
+      "109 Earth years"
+    ],
+    "answer": 2
+  }
+]

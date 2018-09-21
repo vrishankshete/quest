@@ -1,0 +1,214 @@
+[
+  {
+    "no": 1,
+    "question": "Who painted the Mona Lisa?",
+    "options": [
+      "Pablo Picasso",
+      "Claude Monet",
+      "Vincent van Gogh",
+      "Leonardo da Vinci"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 2,
+    "question": "Painter Piet Mondrian (1872 - 1944) was a part of what movement?",
+    "options": [
+      "Precisionism",
+      "Cubism",
+      "Impressionism",
+      "Neoplasticism"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 3,
+    "question": "Which time signature is commonly known as “Cut Time?”",
+    "options": [
+      "2/2",
+      "4/4",
+      "6/8",
+      "3/4"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 4,
+    "question": "Who painted the Sistine Chapel?",
+    "options": [
+      "Leonardo da Vinci",
+      "Pablo Picasso",
+      "Michelangelo",
+      "Raphael"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 5,
+    "question": "What French sculptor designed the Statue of Liberty? ",
+    "options": [
+      "Jean-Léon Gérôme",
+      "Frédéric Auguste Bartholdi",
+      "Auguste Rodin",
+      "Henri Matisse"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 6,
+    "question": "Leonardo da Vinci's Mona Lisa does not have eyebrows.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 7,
+    "question": "What nationality was the surrealist painter Salvador Dali?",
+    "options": [
+      "Italian",
+      "Spanish",
+      "French",
+      "Portuguese"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 8,
+    "question": "Vincent van Gogh cut off one of his ears.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 9,
+    "question": "What year did Albrecht Dürer create the painting \"The Young Hare\"?",
+    "options": [
+      "1702",
+      "1402",
+      "1502",
+      "1602"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 10,
+    "question": "What year was the Mona Lisa finished?",
+    "options": [
+      "1504",
+      "1487",
+      "1523",
+      "1511"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 11,
+    "question": "Who painted \"Swans Reflecting Elephants\", \"Sleep\", and \"The Persistence of Memory\"?",
+    "options": [
+      "Jackson Pollock",
+      "Vincent van Gogh",
+      "Edgar Degas",
+      "Salvador Dali"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 12,
+    "question": "Pablo Picasso is one of the founding fathers of \"Cubism.\"",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 13,
+    "question": "Which one of these paintings is not by Caspar David Friedrich?",
+    "options": [
+      "The Sea of Ice",
+      "The Black Sea",
+      "Wanderer above the Sea of Fog",
+      "The Monk by the Sea"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 14,
+    "question": "Which of these are the name of a famous marker brand?",
+    "options": [
+      "Dopix",
+      "Cofix",
+      "Marx",
+      "Copic"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 15,
+    "question": "Which artist's style was to use small different colored dots to create a picture?",
+    "options": [
+      "Paul Cézanne",
+      "Vincent Van Gogh",
+      "Henri Rousseau",
+      "Georges Seurat"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 16,
+    "question": "Which of these is not an additional variation of the color purple?",
+    "options": [
+      "Kobicha",
+      "Byzantium",
+      "Pomp and Power",
+      "Palatinate"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 17,
+    "question": "Leonardo da Vinci was not the creator of the Mona Lisa.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 18,
+    "question": "How many paint and pastel versions of \"The Scream\" is Norwegian painter Edvard Munch believed to have produced?",
+    "options": [
+      "4",
+      "1",
+      "3",
+      "2"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 19,
+    "question": "Who designed the Chupa Chups logo?",
+    "options": [
+      "Salvador Dali",
+      "Pablo Picasso",
+      "Andy Warhol",
+      "Vincent van Gogh"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 20,
+    "question": "Who painted The Starry Night?",
+    "options": [
+      "Pablo Picasso",
+      "Vincent van Gogh",
+      "Leonardo da Vinci",
+      "Michelangelo"
+    ],
+    "answer": 1
+  }
+]

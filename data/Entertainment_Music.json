@@ -1,0 +1,2806 @@
+[
+  {
+    "no": 1,
+    "question": "Rapper Snoop Dogg's real name is 'Cordozar Calvin Broadus, Jr.'.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 2,
+    "question": "Whose signature guitar technique is called the \"windmill\"?",
+    "options": [
+      "Jimmy Page",
+      "Pete Townshend",
+      "Eddie Van Halen",
+      "Jimi Hendrix"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 3,
+    "question": "Who is the lead singer of the band Coldplay?",
+    "options": [
+      "Chris Isaak",
+      "Chris Wallace",
+      "Chris Connelly",
+      "Chris Martin"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 4,
+    "question": "How many members are there in the band Nirvana?",
+    "options": [
+      "Two",
+      "Four",
+      "Five",
+      "Three"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 5,
+    "question": "Which of these artists was NOT a member of the electronic music supergroup Swedish House Mafia, which split up in 2013?",
+    "options": [
+      "Steve Angello",
+      "Sebastian Ingrosso",
+      "Alesso",
+      "Axwell"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 6,
+    "question": "Which brass instrument has the lowest pitch in an orchestra?",
+    "options": [
+      "Tuba",
+      "Trumpet",
+      "Saxophone",
+      "Trombone"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 7,
+    "question": "Brian May was the guitarist for which band?",
+    "options": [
+      "Pink Floyd",
+      "Rolling Stones",
+      "Queen",
+      "The Doors"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 8,
+    "question": "What is the stage name of English female rapper Mathangi Arulpragasam, who is known for the song \"Paper Planes\"?",
+    "options": [
+      "K.I.A.",
+      "M.I.A.",
+      "C.I.A.",
+      "A.I.A."
+    ],
+    "answer": 1
+  },
+  {
+    "no": 9,
+    "question": "What was Rage Against the Machine's debut album?",
+    "options": [
+      "Rage Against the Machine",
+      "Evil Empire",
+      "Bombtrack",
+      "The Battle Of Los Angeles"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 10,
+    "question": "The alternative rock band, They Might Be Giants, released their album 'Flood' in 1990. ",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 11,
+    "question": "Kanye West at 2009 VMA's interrupted which celebrity?",
+    "options": [
+      "MF DOOM",
+      "Taylor Swift",
+      "Beyonce",
+      "Beck"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 12,
+    "question": "From which country did the song \"Gangnam Style\" originate from?",
+    "options": [
+      "South Korea",
+      "Japan",
+      "North Korea",
+      "China"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 13,
+    "question": "Which song in Drake's \"Views\" features Future?",
+    "options": [
+      "Too Good",
+      "Grammys",
+      "Faithful",
+      "Pop Style"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 14,
+    "question": "What collaborative album was released by Kanye West and Jay-Z in 2011?",
+    "options": [
+      "Distant Relatives",
+      "What a Time to be Alive",
+      "Watch the Throne",
+      "Unfinished Business"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 15,
+    "question": "In what film was the Michael Jackson song \"Will You Be There\" featured?",
+    "options": [
+      "Free Willy",
+      "Sleepless in Seattle",
+      "Men in Black",
+      "Bad Boys"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 16,
+    "question": "Which song on Daft Punk's \"Random Access Memories\" features Pharrell Williams?",
+    "options": [
+      "Doin' It Right",
+      "Get Lucky",
+      "Instant Crush",
+      "The Game of Love"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 17,
+    "question": "\"The Singing Cowboy\" Gene Autry is credited with the first recording for all but which classic Christmas jingle?",
+    "options": [
+      "Frosty the Snowman",
+      "Rudolph the Red-Nosed Reindeer",
+      "White Christmas",
+      "Here Comes Santa Claus"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 18,
+    "question": "What is rapper Drake's real name?",
+    "options": [
+      "Shaun Carter",
+      "Dwayne Carter",
+      "Aubrey Graham",
+      "Andre Young"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 19,
+    "question": "Which artist or group did John Lennon consider \"son(s) of the Beatles\"?",
+    "options": [
+      "Jeff Lynne's Electric Light Orchestra",
+      "The Rolling Stones",
+      "Pink Floyd",
+      "The Who"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 20,
+    "question": "Which band recorded the album \"Parallel Lines\"?",
+    "options": [
+      "Paramore",
+      "Coldplay",
+      "Blondie",
+      "The Police"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 21,
+    "question": "Who is the founder and leader of industrial rock band, 'Nine Inch Nails'?",
+    "options": [
+      "Trent Reznor",
+      "Marilyn Manson",
+      "Robin Finck",
+      "Josh Homme"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 22,
+    "question": "The cover of The Beatles album \"Abbey Road\" featured a Volkswagen Beetle in the background.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 23,
+    "question": "What is the best selling album of all time from 1976 to 2018?",
+    "options": [
+      "Back in Black",
+      "Abbey Road",
+      "Thriller",
+      "The Dark Side of the Moon"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 24,
+    "question": "Where does the Mac part of the name Fleetwood Mac come from?",
+    "options": [
+      "John McVie",
+      "Christine McVie",
+      "Mac McAnally",
+      "David Tennant"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 25,
+    "question": "Scottish producer Calvin Harris is from the town of Dumfries, Scotland.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 26,
+    "question": "Which of these artists do NOT originate from France?",
+    "options": [
+      "Air",
+      "The Chemical Brothers",
+      "Justice",
+      "Daft Punk"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 27,
+    "question": "Which of these aliases has NOT been used by electronic musician Aphex Twin?",
+    "options": [
+      "Caustic Window",
+      "Bradley Strider",
+      "GAK",
+      "Burial"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 28,
+    "question": "Which of these artists did NOT remix the song \"Faded\" by Alan Walker?",
+    "options": [
+      "Skrillex",
+      "Tiësto",
+      "Slushii",
+      "Dash Berlin"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 29,
+    "question": "Which band is the longest active band in the world with no breaks or line-up changes?",
+    "options": [
+      "Radiohead",
+      "Rush",
+      "Rolling Stones",
+      "U2"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 30,
+    "question": "Which Death Grips album is the only one to feature a band member?",
+    "options": [
+      "Bottomless Pit",
+      "The Money Store",
+      "The Powers That B",
+      "No Love Deep Web"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 31,
+    "question": "The song \"Feel Good Inc.\" by British band Gorillaz features which hip hop group?",
+    "options": [
+      "Public Enemy",
+      "OutKast",
+      "De La Soul",
+      "Cypress Hill"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 32,
+    "question": "Which one of these songs did the group \"Men At Work\" NOT make?",
+    "options": [
+      "Safety Dance",
+      "Down Under",
+      "Who Can It Be Now?",
+      "It's a Mistake"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 33,
+    "question": "What is the name of the main character from the music video of \"Shelter\" by Porter Robinson and A-1 Studios?",
+    "options": [
+      "Rem",
+      "Ren",
+      "Ram",
+      "Rin"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 34,
+    "question": "Which country does the electronic music duo \"The Knife\" originate from?",
+    "options": [
+      "Finland",
+      "Denmark",
+      "Norway",
+      "Sweden"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 35,
+    "question": "What album did Bon Iver release in 2016?",
+    "options": [
+      "Bon Iver, Bon Iver",
+      "22, A Million",
+      "Blood Bank EP",
+      "For Emma, Forever Ago"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 36,
+    "question": "Ellie Goulding's earliest album was named?",
+    "options": [
+      "Halcyon",
+      "Bright Lights",
+      "Halcyon Days",
+      "Lights"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 37,
+    "question": "When was Gangnam Style uploaded to YouTube?",
+    "options": [
+      "2013",
+      "2014",
+      "2012",
+      "2011"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 38,
+    "question": "Which band released the album \"Sonic Highways\" in 2014?",
+    "options": [
+      "Coldplay",
+      "Foo Fighters",
+      "Nickelback",
+      "The Flaming Lips"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 39,
+    "question": "What is the stage name of New Zealand singer Phillipa \"Pip\" Brown?",
+    "options": [
+      "Lorde",
+      "Kesha",
+      "Ladyhawke",
+      "Anika Moa"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 40,
+    "question": "What is the frontman's name of the metal band Megadeth?",
+    "options": [
+      "Dave Mustaine",
+      "Rob Halford",
+      "Vince Neil",
+      "James Hetfield"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 41,
+    "question": "What is not a wind instrument?",
+    "options": [
+      "Oboe",
+      "Viola",
+      "Trombone",
+      "Duduk"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 42,
+    "question": "Which band had hits in 1975 with the songs, 'One Of These Nights' & 'Lyin Eyes'?",
+    "options": [
+      "Fools Gold",
+      "The Eagles",
+      "The Doobie Brothers",
+      "Fleetwood Mac"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 43,
+    "question": "Soulja Boy's 'Crank That' won a Grammy for Best Rap Song in 2007.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 44,
+    "question": "Which country is singer Kyary Pamyu Pamyu from?",
+    "options": [
+      "Japan",
+      "South Korea",
+      "China",
+      "Vietnam"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 45,
+    "question": "Which band released songs such as \"Electric Feel\", \"Kids\", and \"Time to Pretend\"?",
+    "options": [
+      "Passion Pit",
+      "Phoenix",
+      "Franz Ferdinand",
+      "MGMT"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 46,
+    "question": "EDM producer Marshmello performs live wearing clothes and a marshmallow mask of what colour?",
+    "options": [
+      "Black",
+      "White",
+      "Blue",
+      "Yellow"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 47,
+    "question": "Which artist released the 2012 single \"Harlem Shake\", which was used in numerous YouTube videos in 2013?",
+    "options": [
+      "RL Grime",
+      "NGHTMRE",
+      "Flosstradamus",
+      "Baauer"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 48,
+    "question": "In Mean Girls, who has breasts that tell when it's raining?",
+    "options": [
+      "Gretchen Weiners",
+      "Karen Smith",
+      "Janice Ian",
+      "Cady Heron"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 49,
+    "question": "The 2016 song \"Starboy\" by Canadian singer The Weeknd features which prominent electronic artist?",
+    "options": [
+      "deadmau5",
+      "Daft Punk",
+      "Disclosure",
+      "DJ Shadow"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 50,
+    "question": "Kanye West's \"Gold Digger\" featured which Oscar-winning actor?",
+    "options": [
+      "Alec Baldwin",
+      "Dwayne Johnson",
+      "Jamie Foxx",
+      " Bruce Willis"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 51,
+    "question": "What was Daft Punk's first studio album?",
+    "options": [
+      "Discovery",
+      "Random Access Memories",
+      "Homework",
+      "Human After All"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 52,
+    "question": "Who is the lead singer of Bastille?",
+    "options": [
+      "Dan Smith",
+      "Will Farquarson",
+      "Kyle Simmons",
+      "Chris Wood"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 53,
+    "question": "Stevie Wonder's real name is Stevland Hardaway Morris.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 54,
+    "question": "Which rapper had an album that went double platinum with no features?",
+    "options": [
+      "Kendrick Lamar",
+      "Drake",
+      "J. Cole",
+      "Big Sean"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 55,
+    "question": "Which rock band released the album \"The Bends\" in March 1995?",
+    "options": [
+      "Nirvana",
+      "Coldplay",
+      "Radiohead",
+      "U2"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 56,
+    "question": "Which former boy-band star released hit solo single \"Angels\" in 1997?",
+    "options": [
+      "Justin Timberlake",
+      "Robbie Williams",
+      "Harry Styles",
+      "Gary Barlow"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 57,
+    "question": "Which of the following guitarists recorded an album as a member of the Red Hot Chili Peppers?",
+    "options": [
+      "Dave Navarro",
+      "Tom Morello ",
+      "Billy Corgan",
+      "Ed O'Brien"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 58,
+    "question": "Which lyric is about Red Hot Chili Peppers frontman Anthony Kiedis?",
+    "options": [
+      "\"Fly away on, my zephyr / I feel it more than ever\"",
+      "\"And I liked the dimple in your chin / Your pale blue eyes\"",
+      "\"You used to be so warm and affectionate...but now you're quick to get into your regret\"",
+      "\"A rainy Lithuanian / Is dancing as an Indian\""
+    ],
+    "answer": 3
+  },
+  {
+    "no": 59,
+    "question": "What was the name of the cold-war singer who has a song in Grand Theft Auto IV, and a wall landmark in Moscow for his memorial?",
+    "options": [
+      "Viktor Tsoi",
+      "Jimi Hendrix",
+      "Brian Jones",
+      "Vladimir Vysotsky"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 60,
+    "question": "In which year was the Megadeth album \"Peace Sells... but Who's Buying?\" released?",
+    "options": [
+      "1979",
+      "1986",
+      "1987",
+      "1986"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 61,
+    "question": "Which band had hits in 1972 with the songs \"Baby I'm A Want You\", \"Everything I Own\" and \"The Guitar Man\"",
+    "options": [
+      "America",
+      "Bread",
+      "Chicago",
+      "Smokie"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 62,
+    "question": "Who had a 1983 hit with the song 'Africa'?",
+    "options": [
+      "Foreigner",
+      "Steely Dan",
+      "Toto",
+      "Journey"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 63,
+    "question": "Which Beatle led the way across the zebra crossing on the Abbey Road album cover?",
+    "options": [
+      "Paul",
+      "George",
+      "John",
+      "Ringo"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 64,
+    "question": "Which famous rapper is featured in Jack Ü (Skrillex and Diplo)'s 2015 single called \"Febreze\"?",
+    "options": [
+      "2 Chainz",
+      "Kendrick Lamar",
+      "Future",
+      "Fatman Scoop"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 65,
+    "question": "Which of these songs by Skrillex features Fatman Scoop as a side artist?",
+    "options": [
+      "All is Fair in Love and Brostep",
+      "Rock N Roll (Will Take You to the Mountain)",
+      "Recess",
+      "Scary Monsters and Nice Sprites"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 66,
+    "question": "In 2015, David Hasselhof released a single called...",
+    "options": [
+      "True Fighter",
+      "Real Kung-Fury",
+      "True Survivor",
+      "Real Warrior"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 67,
+    "question": "How many members are there in the idol group \"µ's\"?",
+    "options": [
+      "48",
+      "6",
+      "3",
+      "9"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 68,
+    "question": "Which Queen song was covered by Brittany Murphy in the 2006 film \"Happy Feet\"?",
+    "options": [
+      "Under Pressure",
+      "Flash",
+      "Bohemian Rhapsody",
+      "Somebody to Love"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 69,
+    "question": "Which of these is NOT a song featured on the Lockjaw EP released in 2013 by Flume & Chet Faker?",
+    "options": [
+      "What About Us",
+      "This Song Is Not About A Girl",
+      "Left Alone",
+      "Drop The Game"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 70,
+    "question": "The \"K\" in \"K-Pop\" stands for which word?",
+    "options": [
+      "Korean",
+      "Kenyan",
+      "Kazakhstan",
+      "Kuwaiti"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 71,
+    "question": "What year was Huun Huur Tu's album Altai Sayan Tandy-Uula released? ",
+    "options": [
+      "1993",
+      "2004",
+      "2006",
+      "2010"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 72,
+    "question": "Which of these bands are NOT from Australia?",
+    "options": [
+      "The Naked and Famous",
+      "Cut Copy",
+      "Empire of the Sun",
+      "Tame Impala"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 73,
+    "question": "What is the name of French electronic music producer Madeon's 2015 debut studio album?",
+    "options": [
+      "The City",
+      "Adventure",
+      "Icarus",
+      "Pop Culture"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 74,
+    "question": "What is the real name of Canadian electronic music producer deadmau5?",
+    "options": [
+      "Sonny Moore",
+      "Adam Richard Wiles",
+      "Joel Zimmerman",
+      "Thomas Wesley Pentz"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 75,
+    "question": "Which one of these rappers is NOT a member of the rap group Wu-Tang Clan?",
+    "options": [
+      "Ol' Dirty Bastard",
+      "GZA",
+      "Dr.Dre",
+      "Method Man"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 76,
+    "question": "Which Nirvana album had a naked baby on the cover?",
+    "options": [
+      "Nevermind",
+      "Bleach",
+      "In Utero",
+      "Incesticide"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 77,
+    "question": "Who designed the album cover for True Romance, an album by Estelle?",
+    "options": [
+      "Matt Burnett",
+      "Ian Jones Quartey",
+      "Ben Leven",
+      "Rebecca Sugar"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 78,
+    "question": "\"Drink the Sea\" is an album by which electronic music artist?",
+    "options": [
+      "Avicii",
+      "The Glitch Mob",
+      "XXYYXX",
+      "Flux Pavilion"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 79,
+    "question": "Who performed \"I Took A Pill In Ibiza\"?",
+    "options": [
+      "Mike Posner",
+      "Avicii",
+      "Robbie Williams",
+      "Harry Styles"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 80,
+    "question": "How many copies have Metallica album \"Metallica\" (A.K.A The Black Album) sold worldwide (in Millions of Copies)?",
+    "options": [
+      "19.5",
+      "20.5",
+      "22.5",
+      "25.5"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 81,
+    "question": "What French artist/band is known for playing on the midi instrument \"Launchpad\"?",
+    "options": [
+      "Daft Punk ",
+      "Disclosure",
+      "Madeon",
+      "David Guetta"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 82,
+    "question": "The music group Daft Punk got their name from a negative review they recieved.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 83,
+    "question": "Which French duo had UK hits in 1998 with the songs 'Sexy Boy', 'Kelly Watch The Stars' & 'All I Need'?",
+    "options": [
+      "Fire",
+      "Earth",
+      "Air",
+      "Water"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 84,
+    "question": "What was the title of ABBA`s first UK hit single?",
+    "options": [
+      "Mamma Mia",
+      "Fernando",
+      "Waterloo",
+      "Dancing Queen"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 85,
+    "question": "Which of these songs was released in 1996?",
+    "options": [
+      "Prince - \"1999\"",
+      "James Blunt - \"1973\"",
+      "The Smashing Pumpkins - \"1979\"",
+      "David Bowie - \"1984\""
+    ],
+    "answer": 2
+  },
+  {
+    "no": 86,
+    "question": "The Red Hot Chili Pepper song \"Give It Away\" is from what album?",
+    "options": [
+      "Blood Sugar Sex Magik",
+      "One Hot Minute",
+      "By the Way",
+      "Stadium Arcadium"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 87,
+    "question": "Which popular rock band has a one-armed drummer?",
+    "options": [
+      "The Beatles",
+      "Lynyrd Skynyrd",
+      "Foreigner",
+      "Def Leppard"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 88,
+    "question": "In which city did American rap producer DJ Khaled originate from?",
+    "options": [
+      "New York",
+      "Detroit",
+      "Miami",
+      "Atlanta"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 89,
+    "question": "EDM record label Monstercat is based in which country?",
+    "options": [
+      "United States",
+      "Canada",
+      "Australia",
+      "United Kingdom"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 90,
+    "question": "Which of these songs by artist Eminem contain the lyric \"Nice to meet you. Hi, my name is... I forgot my name!\"?",
+    "options": [
+      "Rain Man",
+      "Without Me",
+      "Kim",
+      "Square Dance"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 91,
+    "question": "Which country does the power metal band \"Sabaton\" originate from?",
+    "options": [
+      "Germany",
+      "Sweden",
+      "United States",
+      "Finland"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 92,
+    "question": "Sting, the lead vocalist of The Police, primarily plays what instrument?",
+    "options": [
+      "Drums",
+      "Guitar",
+      "Bass Guitar",
+      "Keyboards"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 93,
+    "question": "Which iconic album cover features the pulsar waves of CP 1919 placed in the center of the cover?",
+    "options": [
+      "The Dark Side of the Moon",
+      "Unknown Pleasures",
+      "London Calling",
+      "The Velvet Underground & Nico"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 94,
+    "question": "Who is the lead singer of Green Day?",
+    "options": [
+      "Billie Joe Armstrong",
+      "Mike Dirnt",
+      "Sean Hughes",
+      "Tré Cool"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 95,
+    "question": "The song \"Caramelldansen\" is commonly mistaken as a Japanese song, what language is the song actually sung in?",
+    "options": [
+      "Hungarian",
+      "Finnish",
+      "Chinese",
+      "Swedish"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 96,
+    "question": "How many members are in the Japanese rock band SCANDAL?",
+    "options": [
+      "5",
+      "4",
+      "2",
+      "18"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 97,
+    "question": "In which year did \"Caravan Palace\" release their first album?",
+    "options": [
+      "2000",
+      "2015",
+      "2008",
+      "2004"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 98,
+    "question": "What was the name of Pink Floyd's first studio album?",
+    "options": [
+      "Ummagumma",
+      "The Piper at the Gates of Dawn",
+      "More",
+      "Atom Heart Mother"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 99,
+    "question": "Which of these bands was a featuring artist in Compton rapper Kendrick Lamar's 2017 album, \"DAMN.\"?",
+    "options": [
+      "U2",
+      "Radiohead",
+      "Coldplay",
+      "Bon Jovi"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 100,
+    "question": "From which country does the piano originate?",
+    "options": [
+      "Germany",
+      "Austria",
+      "Italy",
+      "France"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 101,
+    "question": "Which American family band had a 1986 top 10 hit with the song 'Crush On You'?",
+    "options": [
+      "The Jets",
+      "DeBarge",
+      "The Jacksons",
+      "The Cover Girls"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 102,
+    "question": "The music video to The Buggle's \"Video Killed the Radio Star\" was the first music video to broadcast on MTV.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 103,
+    "question": "How many studio albums have the duo Daft Punk released?",
+    "options": [
+      "1",
+      "4",
+      "5",
+      "2"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 104,
+    "question": "Who wrote the musical composition, \"Rhapsody In Blue\"?",
+    "options": [
+      "Irving Berlin",
+      "Duke Ellington",
+      "Johnny Mandel",
+      "George Gershwin"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 105,
+    "question": "American rapper Dr. Dre actually has a Ph.D. doctorate.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 106,
+    "question": "Norwegian producer Kygo released a remix of the song \"Sexual Healing\" by Marvin Gaye.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 107,
+    "question": "The country song  “A Boy Named Sue” was written by Shel Silverstein.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 108,
+    "question": "Which of these languages was NOT included in the 2016 song \"Don't Mind\" by Kent Jones?",
+    "options": [
+      "Japanese",
+      "French",
+      "Portuguese",
+      "Spanish"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 109,
+    "question": "Who won the 1989 Drum Corps International championships?",
+    "options": [
+      "Santa Clara Vanguard",
+      "Blue Devils",
+      "The Academy",
+      "The Bluecoats"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 110,
+    "question": "What is the English title of the vaporwave track \"リサフランク420 / 現代のコンピュー\" by Macintosh Plus (Vektroid)?",
+    "options": [
+      "Lisa Frank 420 / Modern Computing",
+      "Smoke Weed 420 / Everyday",
+      "Make Your Move 420 / My Mind",
+      "It's All In Your Head 420 / Understand"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 111,
+    "question": "Johnny Cash did a cover of this song written by lead singer of Nine Inch Nails, Trent Reznor.",
+    "options": [
+      "Closer",
+      "Hurt",
+      "A Warm Place",
+      "Big Man with a Gun"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 112,
+    "question": "May 16th of every year is known as __________ Day, named after a punk band prominent in the 1990s.",
+    "options": [
+      "Lagwagon",
+      "Goldfinger",
+      "Less Than Jake",
+      "Lit"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 113,
+    "question": "What was the title of Sakamoto Kyu's song \"Ue o Muite Arukou\" (I Look Up As I Walk) changed to in the United States?",
+    "options": [
+      "Takoyaki",
+      "Sushi",
+      "Sukiyaki",
+      "Oden"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 114,
+    "question": "Which famous 90's rap album is commonly referred to as \"The Bible of Hip Hop\"?",
+    "options": [
+      "The Low End Theory",
+      "Illmatic",
+      "The Chronic",
+      "Enter The Wu-Tang (36 Chambers)"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 115,
+    "question": "This album, now considered to be one of the greatest of all time, was a commercial failure when it was released.",
+    "options": [
+      "Abbey Road",
+      "Led Zeppelin IV",
+      "Pet Sounds",
+      "The Velvet Underground and Nico"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 116,
+    "question": "According to a song by Belinda Carlisle, Heaven is a place on what?",
+    "options": [
+      "Venus",
+      "Mars",
+      "Earth",
+      "Uranus"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 117,
+    "question": "When did The Beatles release the LP \"Please Please Me\"?",
+    "options": [
+      "1970",
+      "1960",
+      "1963",
+      "1969"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 118,
+    "question": "What is the last song on the first Panic! At the Disco album?",
+    "options": [
+      "Nails for Breakfast, Tacks for Snacks",
+      "I Write Sins Not Tragedies",
+      "Lying Is The Most Fun A Girl Can Have Without Taking Her Clothes Off",
+      "Build God, Then We'll Talk"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 119,
+    "question": "In 2006, which band released their debut album \"A Fever You Can't Sweat Out\"?",
+    "options": [
+      "Twenty One Pilots",
+      "Panic! At the Disco",
+      "My Chemical Romance",
+      "Fall Out Boy"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 120,
+    "question": "Who performed the guitar solo on Michael Jackson's hit \"Beat It\"?",
+    "options": [
+      "Steve Vai",
+      "Kirk Hammett",
+      "Eddie Van Halen",
+      "Zakk Wylde"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 121,
+    "question": "Who is the artist of the recent new album the Uncanny Valley?",
+    "options": [
+      "Perturbator",
+      "Carpenter Brut",
+      "GOST",
+      "Dan Terminus "
+    ],
+    "answer": 0
+  },
+  {
+    "no": 122,
+    "question": "On which Beatles album would you find the song 'Eleanor Rigby'?",
+    "options": [
+      "Help!",
+      "Rubber Soul",
+      "Revolver",
+      "Abbey Road"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 123,
+    "question": "What was the last Aphex Twin album released before his decade-long hiatus?",
+    "options": [
+      "Windowlicker",
+      "Syro",
+      "Drukqs",
+      "Collected Ambient Works 85-92"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 124,
+    "question": "Which English guitarist has the nickname \"Slowhand\"?",
+    "options": [
+      "Mark Knopfler",
+      "Jeff Beck",
+      "Eric Clapton",
+      "Jimmy Page"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 125,
+    "question": "The song \"Twin Size Mattress\" was written by which band?",
+    "options": [
+      "Twenty One Pilots",
+      "The Wonder Years",
+      "The Smith Street Band",
+      "The Front Bottoms"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 126,
+    "question": "What was the name of singer Frank Ocean's second studio album, which was released on August 20, 2016?",
+    "options": [
+      "Blonde",
+      "Brunette",
+      "Black",
+      "Burgundy"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 127,
+    "question": "Which artist collaborated with American DJ Dillon Francis to release the song 2016 \"Need You\"?",
+    "options": [
+      "LOUDPVCK",
+      "KRNE",
+      "DVBBS",
+      "NGHTMRE"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 128,
+    "question": "Which of these is NOT the name of an album released by English singer-songwriter Adele?",
+    "options": [
+      "19",
+      "12",
+      "21",
+      "25"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 129,
+    "question": "Which of these songs is not by Tatsuro Yamashita?",
+    "options": [
+      "Merry-Go Round",
+      "Let's Dance Baby",
+      "Love Talkin'",
+      "Lucky Lady Feel So Good "
+    ],
+    "answer": 3
+  },
+  {
+    "no": 130,
+    "question": "The key of sharps does the key of G# minor contain?",
+    "options": [
+      "3",
+      "7",
+      "0",
+      "5"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 131,
+    "question": "What musician made the song \"Fuckin` Perfect\" in 2010?",
+    "options": [
+      "P!nk",
+      "Mitis",
+      "Adam lambert",
+      "Koven"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 132,
+    "question": "EDM label Monstercat signs tracks instead of artists.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 133,
+    "question": "\"Lift Your Spirit\" is an album by which artist?",
+    "options": [
+      "Aloe Blacc",
+      "Lena Meyer-Landrut",
+      "Stevie Wonder",
+      "Taylor Swift"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 134,
+    "question": "What is the name of the song by Beyoncé and Alejandro Fernández released in 2007?",
+    "options": [
+      "La ultima vez",
+      "Amor Gitano",
+      "Rocket",
+      "Hasta Dondes Estes"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 135,
+    "question": "What was the best selling album of 2015?",
+    "options": [
+      "Fetty Wap, Fetty Wap",
+      "Taylor Swift, 1989",
+      "Adele, 25",
+      "Justin Bieber, Purpose"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 136,
+    "question": "Who is the vocalist and frontman of rock band \"Guns N' Roses\"?",
+    "options": [
+      "Axl Rose",
+      "Kurt Cobain",
+      "Slash",
+      "Bono"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 137,
+    "question": "Who was the lead singer and frontman of rock band R.E.M?",
+    "options": [
+      "Chris Martin",
+      "Thom Yorke",
+      "Michael Stipe",
+      "George Michael"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 138,
+    "question": "The Who's eponymous line, \"Teenage Wasteland\", appears in which of their songs?",
+    "options": [
+      "Baba O' Riley",
+      "The Seeker",
+      "Won't Get Fooled Again",
+      "Pinball Wizard"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 139,
+    "question": "Which of these is not a single by Pink Floyd guitarist, David Gilmour?",
+    "options": [
+      "Rattle That Lock",
+      "Sunset Strip",
+      "Blue Light",
+      "Arnold Layne"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 140,
+    "question": "From which album is the Gorillaz song, \"On Melancholy Hill\" featured in?",
+    "options": [
+      "Plastic Beach",
+      "Demon Days",
+      "Humanz",
+      "The Fall"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 141,
+    "question": "Who had a US and UK number 1 hit in 1962 with the instrumental, 'Telstar'?",
+    "options": [
+      "The Ventures",
+      "The Spotnicks",
+      "The Tremeloes",
+      "The Tornados"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 142,
+    "question": "Typically, how many keys are on a piano?",
+    "options": [
+      "24",
+      "12",
+      "96",
+      "88"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 143,
+    "question": "Who is the primary lyricist for Canadian progressive rock band Rush?",
+    "options": [
+      "Neil Peart",
+      "Geddy Lee",
+      "Alex Lifeson",
+      "John Rutsey"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 144,
+    "question": "Who had a 1981 hit with the song \"Japanese Boy\"?",
+    "options": [
+      "Toyah",
+      "Sandra",
+      "Madonna",
+      "Aneka"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 145,
+    "question": "Irish musician Hozier released a music track in 2013 titled, \"Take Me to ______\"",
+    "options": [
+      "Mosque",
+      "Synagogue",
+      "Temple",
+      "Church"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 146,
+    "question": "Which song in rapper Kanye West's album \"The Life of Pablo\" features Rihanna?",
+    "options": [
+      "Wolves",
+      "Ultralight Beam",
+      "Highlights",
+      "Famous"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 147,
+    "question": "Which of these is NOT the name of an album released by American rapper Viper?",
+    "options": [
+      "Kill Urself My Man",
+      "You'll Cowards Don't Even Smoke Crack",
+      "Yo Wife Handcuffin' Me",
+      "The Life of Pablo"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 148,
+    "question": "What is the name of the 2016 mixtape released by Venezuelan electronic producer Arca?",
+    "options": [
+      "Entrañas",
+      "&&&&&&",
+      "Sheep",
+      "Xen"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 149,
+    "question": "Who is the lead singer of Silverchair?",
+    "options": [
+      "Ben Gillies",
+      "Chris Joannou",
+      "Daniel Johns",
+      ""
+    ],
+    "answer": 2
+  },
+  {
+    "no": 150,
+    "question": "What is the British term for a 64th note?",
+    "options": [
+      "Hemidemisemiquaver",
+      "Semihemidemisemiquaver",
+      "Semiquaver",
+      "Demisemiquaver"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 151,
+    "question": "Pink Floyd made this song for their previous lead singer Syd Barrett.",
+    "options": [
+      "Wish You Were Here",
+      "Have A Cigar",
+      "Welcome to the Machine",
+      "Shine On You Crazy Diamond"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 152,
+    "question": "What is Brian May's guitar called?",
+    "options": [
+      "Blue Special",
+      "Green Special",
+      "Yellow Special",
+      "Red Special"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 153,
+    "question": "Which 80s band is fronted by singer/guitarist Robert Smith?",
+    "options": [
+      "The Cure",
+      "The Smiths",
+      "Echo & the Bunnymen",
+      "New Order"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 154,
+    "question": "Cryoshell, known for \"Creeping in My Soul\" did the advertising music for what Lego Theme?",
+    "options": [
+      "Hero Factory",
+      "Bionicle",
+      "Ben 10 Alien Force",
+      "Star Wars"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 155,
+    "question": "Which of the following bands is Tom DeLonge not a part of?",
+    "options": [
+      "Box Car Racer",
+      "+44",
+      "Blink-182",
+      "Angels & Airwaves"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 156,
+    "question": "Scatman John's real name was John Paul Larkin.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 157,
+    "question": "Which member of \"The Beatles\" narrated episodes of \"Thomas the Tank Engine\"?",
+    "options": [
+      "George Harrison",
+      "John Lennon",
+      "Ringo Starr",
+      "Paul McCartney"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 158,
+    "question": "Electronic artists Boys Noize and Skrillex have collaborated and released tracks under what name?",
+    "options": [
+      "Jack Ü",
+      "What So Not",
+      "Dog Blood",
+      "Noisia"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 159,
+    "question": "Michael Jackson wrote The Simpsons song \"Do the Bartman\".",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 160,
+    "question": "Which of these songs is NOT in The Beatles' album \"Sgt. Pepper's Lonely Hearts Club Band\"?",
+    "options": [
+      "Getting Better",
+      "Strawberry Fields Forever",
+      "Fixing a Hole",
+      "Lucy in the Sky with Diamonds"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 161,
+    "question": "Who wrote the Sinead O`Connor hit 'Nothing Compares 2 U'?",
+    "options": [
+      "Michael Jackson",
+      "Prince",
+      "Cameo",
+      "Rick James"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 162,
+    "question": "Which Elton John hit starts with the line \"When are you gonna come down\"?",
+    "options": [
+      "Goodbye Yellow Brick Road",
+      "Rocket Man",
+      "Bennie and the Jets",
+      "Crocodile Rock"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 163,
+    "question": "Who recorded the1975 album 'Captain Fantastic and the Brown Dirt Cowboy'?",
+    "options": [
+      "John Denver",
+      "Billy Joel",
+      "Joe Cocker",
+      "Elton John"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 164,
+    "question": "Ringo Starr of The Beatles mainly played what instrument?",
+    "options": [
+      "Bass",
+      "Drums",
+      "Guitar",
+      "Piano"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 165,
+    "question": "Which one of these artists appears in the album Deltron 3030?",
+    "options": [
+      "Lamarr Kendrick",
+      "Danger Mouse",
+      "CeeLo Green",
+      "Dan the Automater"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 166,
+    "question": "Madonna's song \"Hung Up\" includes a piece from which popular 70s song?",
+    "options": [
+      "Staying Alive",
+      "Night Fever",
+      "The Chain",
+      "Gimmie! Gimmie! Gimme! (A Man After Midnight)"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 167,
+    "question": "Which of these is NOT the name of an album released by Miami-based producer DJ Khaled?",
+    "options": [
+      "Major Key",
+      "Don't Ever Play Yourself",
+      "Suffering From Success",
+      "I Changed A Lot"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 168,
+    "question": "Which song by Swedish electronic musician Avicii samples the song \"Something's Got A Hold On Me\" by Etta James?",
+    "options": [
+      "Fade Into Darkness",
+      "Silhouettes",
+      "Seek Bromance",
+      "Levels"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 169,
+    "question": "What's the most common time signature for rock songs?",
+    "options": [
+      "1/2",
+      "4/4",
+      "8/12",
+      "2/4"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 170,
+    "question": "What animal is featured on the cover of English electronic music group The Prodigy's album, \"The Fat of the Land\"?",
+    "options": [
+      "Fox",
+      "Elephant",
+      "Tiger",
+      "Crab"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 171,
+    "question": "Which of these songs is NOT included in the Suicide Squad OST?",
+    "options": [
+      "Heathens - Twenty One Pilots",
+      "Without Me - Eminem",
+      "Fortunate Son - Creedence Clearwater Revival",
+      "Skies on Fire - AC/DC"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 172,
+    "question": "The song \"Mystery Train\" was released by artist \"Little Junior's Blue Flames\" in 1953.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 173,
+    "question": "What was Radiohead's first album?",
+    "options": [
+      "Pablo Honey",
+      "The Bends",
+      "Kid A",
+      "A Moon Shaped Pool"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 174,
+    "question": "Which of these is not an Ed Sheeran album?",
+    "options": [
+      "+",
+      "X",
+      "÷",
+      "-"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 175,
+    "question": "For his performance at ComplexCon 2016 in Long Beach, California, Skrillex revived his \"Mothership\" set piece for one night only.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 176,
+    "question": "Daft Punk originated in France.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 177,
+    "question": "Which of these is NOT a song by Pegboard Nerds?",
+    "options": [
+      "Swamp Thing",
+      "Emoji",
+      "WiFi Tears",
+      "BAMF"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 178,
+    "question": "Which of Michael Jackson's albums sold the most copies?",
+    "options": [
+      "Thriller",
+      "Dangerous",
+      "Bad",
+      "Off the Wall"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 179,
+    "question": "Which classical composer wrote the \"Moonlight Sonata\"?",
+    "options": [
+      "Ludvig Van Beethoven",
+      "Chief Keef",
+      "Wolfgang Amadeus Mozart",
+      "Johannes Brahms"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 180,
+    "question": "Pete Townshend's solo album, \"White City: A Novel\", is set in the metropolitan area of Chicago.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 181,
+    "question": "In the song “The Ultimate Showdown of Ultimate Destiny,” who is the only one to survive the battle?",
+    "options": [
+      "Batman",
+      "Chuck Norris",
+      "Godzilla",
+      "Mr. Rogers"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 182,
+    "question": "Who is the best selling artist of all time?",
+    "options": [
+      "Michael Jackson",
+      "Elton John",
+      "Elvis Presley",
+      "The Beatles"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 183,
+    "question": "In the  Rossini opera, what was the name of 'The Barber of Seville'?",
+    "options": [
+      "Angelo",
+      "Fernando",
+      "Figaro",
+      "Dave"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 184,
+    "question": "What is the name of the album released in 2014 by American band Maroon 5?",
+    "options": [
+      "V",
+      "X",
+      "III",
+      "IV"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 185,
+    "question": "Ashley Frangipane performs under the stage name Halsey.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 186,
+    "question": "What was the subject of the 2014 song \"CoCo\" by American rapper O. T. Genasis?",
+    "options": [
+      "Cocaine",
+      "Conan O'Brien",
+      "Cobalt(II) carbonate",
+      "Coconut cream pie"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 187,
+    "question": "Which of the following is NOT a real song from the band Thousand Foot Krutch?",
+    "options": [
+      "Let The Sparks Fly",
+      "Down",
+      "Give Up The Ghost",
+      "Limitless Fury"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 188,
+    "question": "What is the name of the 2016 studio album by the French electronic music duo Justice?",
+    "options": [
+      "Woman",
+      "Randy",
+      "Safe and Sound",
+      "Pleasure"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 189,
+    "question": "What year was Red Hot Chill Pepper's album \"Californication\" released?",
+    "options": [
+      "1997",
+      "1999",
+      "2000",
+      "1992"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 190,
+    "question": "In the Panic! At the Disco's song \"Nothern Downpour\", which lyric follows 'I know the world's a broken bone'.",
+    "options": [
+      "\"So sing your song until you're home\"",
+      "\"So let them know they're on their own\"",
+      "\"So start a fire in their cold stone\"",
+      "\"So melt your headaches call it home\""
+    ],
+    "answer": 3
+  },
+  {
+    "no": 191,
+    "question": "Who was featured in the song \"Words\" by Feint? ",
+    "options": [
+      "Anna Yvette ",
+      "Danyka Nadeau",
+      "Laura Brehm",
+      "Veela"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 192,
+    "question": "Who wrote the song \"You Know You Like It\"?",
+    "options": [
+      "DJ Snake",
+      "AlunaGeorge",
+      "Steve Aoki",
+      "Major Lazer"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 193,
+    "question": "Which company did the animation for Peter Gabriel's Video Sledgehammer (1986)?",
+    "options": [
+      "HIT Entertainment",
+      "Aardman Animations",
+      "Illumination Entertainment",
+      "VIZ Media"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 194,
+    "question": "When did Tame Impala release their second album?",
+    "options": [
+      "2012",
+      "2015",
+      "2010",
+      "1967"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 195,
+    "question": "What year was Min Yoongi from South Korea boy band \"BTS\" born in?",
+    "options": [
+      "1992",
+      "1995",
+      "1994",
+      "1993"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 196,
+    "question": "What was the name of the hip hop group Kanye West was a member of in the late 90s?",
+    "options": [
+      "The Jumpers",
+      "The Kickstarters",
+      "The Beat-Busters",
+      "The Go-Getters"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 197,
+    "question": "Nick Mason is the only member to appear on every Pink Floyd album.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 198,
+    "question": "Which of the following songs did Elton John perform following Princess Diane's passing?",
+    "options": [
+      "Candles in the Wind",
+      "I Guess That's Why They Call It The Blues",
+      "Your Song",
+      "Island Girl"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 199,
+    "question": "Björk's \"Unison\" contains a sample of which Oval song?",
+    "options": [
+      "Textuell",
+      "Aero Deck",
+      "Panorama",
+      "Do While"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 200,
+    "question": "Which Iron Maiden album did the song \"Dream of Mirrors\" feature in?",
+    "options": [
+      "Dance of Death",
+      "A Matter of Life and Death",
+      "Somewhere in Time",
+      "Brave New World"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 201,
+    "question": "Who had hits in the 70s with the songs \"Lonely Boy\" and \"Never Let Her Slip Away\"?",
+    "options": [
+      "Elton John",
+      "Leo Sayer",
+      "Barry White ",
+      "Andrew Gold"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 202,
+    "question": "Which Canadian reggae musician had a 1993 hit with the song 'Informer'?",
+    "options": [
+      "Rain",
+      "Hail",
+      "Snow",
+      "Sleet"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 203,
+    "question": "\"Some people call me the space cowboy\" is the first line from what song?",
+    "options": [
+      "Fandango",
+      "Take The Money and Run",
+      "Fly Like an Eagle",
+      "The Joker"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 204,
+    "question": "Which country does the band Rammstein hail from?",
+    "options": [
+      "Austria",
+      "Armenia",
+      "Belgium",
+      "Germany"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 205,
+    "question": "Which member of the Foo Fighters was previously the drummer for Nirvana?",
+    "options": [
+      "Taylor Hawkins",
+      "Nate Mendel",
+      "Dave Grohl",
+      "Chris Shiflett"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 206,
+    "question": "Finish these lyrics from the 2016 song \"Panda\" by Desiigner: \"I got broads in _______\".",
+    "options": [
+      "Atlanta",
+      "Savannah",
+      "Augusta",
+      "Marietta"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 207,
+    "question": "Which of these is the name of an American psychedelic rock band formed in 2002 by Benjamin Goldwasser and Andrew VanWyngarden?",
+    "options": [
+      "MSTRKRFT",
+      "MGMT",
+      "STRFKR",
+      "SBTRKT"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 208,
+    "question": "Which one of these Rammstein songs has two official music videos?",
+    "options": [
+      "Du Hast",
+      "Benzin",
+      "Mein Teil",
+      "Du Riechst So Gut"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 209,
+    "question": "In an orchestra, what is the lowest member of the brass family?",
+    "options": [
+      "Trombone",
+      "Contrabass",
+      "Bassoon",
+      "Tuba"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 210,
+    "question": "According to the American rapper Nelly, what should you do when its hot in here?",
+    "options": [
+      "Take a cool shower",
+      "Drink some water",
+      "Go skinny dipping",
+      "Take off all your clothes"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 211,
+    "question": "\"Twenty One Pilots\" made the song \"The Motion\" featuring Sampha.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 212,
+    "question": "Which Disney character sings the song \"A Dream is a Wish Your Heart Makes\"?",
+    "options": [
+      "Belle",
+      "Cinderella",
+      "Snow White",
+      "Pocahontas"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 213,
+    "question": "Which of these bands is the oldest?",
+    "options": [
+      "AC/DC",
+      "Pink Floyd",
+      "Metallica",
+      "Red Hot Chili Peppers"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 214,
+    "question": "3 members of 2 Live Crew were arrested for playing songs from their album, As Nasty As They Wanna Be, live.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 215,
+    "question": "The heavy metal band Black Sabbath hail from which English city?",
+    "options": [
+      "Birmingham",
+      "Manchester",
+      "London",
+      "Newcastle-Upon-Tyne"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 216,
+    "question": "Who is a pioneer of \"Minimal Music\" in 1960s?",
+    "options": [
+      "Wolfgang Amadeus Mozart",
+      "Brian Eno",
+      "Steve Reich",
+      "Sigur Rós"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 217,
+    "question": "Pete Townshend collaborated with which famous guitarist for an event at Brixton Academy in 1985?",
+    "options": [
+      "Jimmy Page",
+      "David Gilmour",
+      "Mark Knopfler",
+      "Eric Clapton"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 218,
+    "question": "Which of these songs did Jimi Hendrix cover?",
+    "options": [
+      "Sgt. Pepper's Lonely Hearts Club Band",
+      "All Along the Watchtower",
+      "All of these songs",
+      "House of the Rising Sun"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 219,
+    "question": "Which album by American rapper Kanye West contained songs such as \"Love Lockdown\", \"Paranoid\" and \"Heartless\"?",
+    "options": [
+      "Late Registration",
+      "The Life of Pablo",
+      "Graduation",
+      "808s & Heartbreak"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 220,
+    "question": "The band Muse released their first album, Showbiz, in what year?",
+    "options": [
+      "1999",
+      "1998",
+      "2000",
+      "2001"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 221,
+    "question": "Who had a 1973 hit with the song 'Hocus Pocus'?",
+    "options": [
+      "Pilot",
+      "Rush",
+      "Focus",
+      "AC/DC"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 222,
+    "question": "According to their 1974 hit, what were Brownsville Station doing \"In The Boys' Room\"?",
+    "options": [
+      "Hangin'",
+      "Smokin'",
+      "Lovin'",
+      "Peein'"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 223,
+    "question": "Who is the lead singer of Pearl Jam?",
+    "options": [
+      "Ozzy Osbourne",
+      "Stone Gossard",
+      "Kurt Cobain",
+      "Eddie Vedder"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 224,
+    "question": "Which singer was featured in Jack Ü (Skrillex & Diplo)'s 2015 song 'Where Are Ü Now'?",
+    "options": [
+      "Justin Bieber",
+      "Selena Gomez",
+      "Ellie Goulding",
+      "The Weeknd"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 225,
+    "question": "Saul Hudson (Slash) of the band Guns N' Roses is known for playing what type of guitar?",
+    "options": [
+      "Fender Stratocaster",
+      "Les Paul Standard",
+      "LsL Mongrel",
+      "Gretsch Falcon"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 226,
+    "question": "Which member of the English band \"The xx\" released their solo album \"In Colour\" in 2015?",
+    "options": [
+      "Romy Madley Croft",
+      "Oliver Sim",
+      "Jamie xx",
+      "Baria Qureshi"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 227,
+    "question": "Which M83 album is the song \"Midnight City\" featured in?",
+    "options": [
+      "Saturdays = Youth",
+      "Before the Dawn Heals Us",
+      "Hurry Up, We're Dreaming",
+      "Junk"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 228,
+    "question": "The 1952 musical composition 4'33\", composed by prolific American composer John Cage, is mainly comprised of what sound?",
+    "options": [
+      "Silence",
+      "Farts",
+      "People talking",
+      "Cricket chirps"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 229,
+    "question": "Who is the lead singer of the British pop rock band Coldplay?",
+    "options": [
+      "Jonny Buckland",
+      "Guy Berryman",
+      "Chris Martin",
+      "Will Champion"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 230,
+    "question": "Which one of these Pink Floyd albums were also a movie?",
+    "options": [
+      "The Wall",
+      "The Dark Side of the Moon",
+      "Wish You Were Here",
+      "Animals"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 231,
+    "question": "Which of these is NOT a name of an album released by American rapper Pitbull?",
+    "options": [
+      "Dale",
+      "Global Warming",
+      "Welcome to Miami",
+      "Armando"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 232,
+    "question": "Which band released songs suchs as \"Rio\", \"Girls on Film\", and \"The Reflex\"?",
+    "options": [
+      "Duran Duran",
+      "The Cure",
+      "New Order",
+      "Depeche Mode"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 233,
+    "question": "Which year was the album \"Floral Shoppe\" by Macintosh Plus released?",
+    "options": [
+      "2014",
+      "2011",
+      "2013",
+      "2012"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 234,
+    "question": "\"The Division Bell\" is the final album of the progressive rock band Pink Floyd.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 235,
+    "question": "The song \"Stronger Than You\" is a single by Estelle, who played Garnet in Steven Universe.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 236,
+    "question": "\"All the Boys\" by Panic! At the Disco was released as a bonus track on what album?",
+    "options": [
+      "A Fever You Can't Sweat Out",
+      "Death Of A Bachelor",
+      "Too Weird To Live, Too Rare To Die!",
+      "Vices & Virtues"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 237,
+    "question": "Who is the lead singer of The Lumineers?",
+    "options": [
+      "Jeremiah Fraites",
+      "Wesley Schultz",
+      "Jay Van Dyke",
+      "Neyla Pekarek"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 238,
+    "question": "What is the first Studio Album to be released on the Internet with a \"Pay-What-You-Want\" price?",
+    "options": [
+      "The Help Album",
+      "Skrillex and Diplo Present Jack Ü",
+      "In Rainbows",
+      "Blackstar"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 239,
+    "question": "Which of these songs is not on the \"untitled\" album by Led Zeppelin?",
+    "options": [
+      "Celebration Day",
+      "Stairway to Heaven",
+      "Black Dog",
+      "Rock and Roll"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 240,
+    "question": "\"Make You Feel My Love\" was originally written and performed by which singer-songwriter?",
+    "options": [
+      "Elvis",
+      "Adele",
+      "Billy Joel",
+      "Bob Dylan"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 241,
+    "question": "Which of these is NOT an album released by The Beatles?",
+    "options": [
+      "Abbey Road",
+      "Magical Mystery Tour",
+      "Revolver",
+      "The Wall"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 242,
+    "question": "Which rap group released the album \"Straight Outta Compton\"?",
+    "options": [
+      "N.W.A",
+      "Wu-Tang Clan",
+      "Run-D.M.C.",
+      "Beastie Boys"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 243,
+    "question": "Arcade Fire's 'The Suburbs' won the Album of the Year award in the 2011 Grammys.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 244,
+    "question": "Who was the original drummer for The Beatles?",
+    "options": [
+      "Ringo Starr",
+      "Stuart Sutcliffe",
+      "Tommy Moore",
+      "Pete Best"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 245,
+    "question": "Who is the Pink Floyd song \"Shine On You Crazy Diamond\" written about?",
+    "options": [
+      "Syd Barrett",
+      "John Lennon",
+      "David Gilmour",
+      "Floyd"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 246,
+    "question": "According to a Beatles song, who kept her face in a jar by the door?",
+    "options": [
+      "Loretta Martin",
+      "Molly Jones",
+      "Lady Madonna",
+      "Eleanor Rigby"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 247,
+    "question": "Eurobeat is primarily an Italian genre of music.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 248,
+    "question": "Which singer was featured in Swedish producer Avicii's song \"Wake Me Up\"?",
+    "options": [
+      "Aloe Blacc",
+      "John Legend",
+      "CeeLo Green",
+      "Pharrell Williams"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 249,
+    "question": "What genre of EDM is the Dutch DJ, musician, and remixer Armin van Buuren most well-known for?",
+    "options": [
+      "Trance",
+      "House",
+      "Drum and Bass",
+      "Dubstep"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 250,
+    "question": "Who was not in the band \"The Smiths\"?",
+    "options": [
+      "Morrissey",
+      "Andy Rourke",
+      "Mike Joyce",
+      "Martin Chambers"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 251,
+    "question": "Which of these is NOT a song on The Beatles' 1968 self titled album, also known as the White album?",
+    "options": [
+      "Being For The Benefit Of Mr. Kite!",
+      "Why Don't We Do It in the Road?",
+      "Everybody's Got Something to Hide Except Me and My Monkey",
+      "The Continuing Story of Bungalow Bill"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 252,
+    "question": "Which Beatles album does NOT feature any of the band members on it's cover?",
+    "options": [
+      "Rubber Soul",
+      "The Beatles (White Album)",
+      "Abbey Road",
+      "Magical Mystery Tour"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 253,
+    "question": "What is the relationship between the band members of American rock band King of Leon?",
+    "options": [
+      "Brothers & cousins",
+      "Childhood friends",
+      "Former classmates",
+      "Fraternity house members"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 254,
+    "question": "In Kendrick Lamar's 2012 album, \"Good Kid, M.A.A.D City\", the album's story takes place in which city?",
+    "options": [
+      "Compton",
+      "Detroit",
+      "New York",
+      "Baltimore"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 255,
+    "question": "Who recorded the album called \"Down to the Moon\" in 1986?",
+    "options": [
+      "Jean-Michel Jarre",
+      "Bing Crosby",
+      "Enya",
+      "Andreas Vollenweider"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 256,
+    "question": "Which album was released by Kanye West in 2013?",
+    "options": [
+      "My Beautiful Dark Twisted Fantasy",
+      "Yeezus",
+      "The Life of Pablo",
+      "Watch the Throne"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 257,
+    "question": "A Saxophone is a brass instrument.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 258,
+    "question": "What is the first track on Kanye West's 808s & Heartbreak?",
+    "options": [
+      "Welcome to Heartbreak",
+      "Street Lights",
+      "Say You Will",
+      "Heartless"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 259,
+    "question": "What was David Bowie's real surname?",
+    "options": [
+      "Johnson",
+      "Jones",
+      "Edwards",
+      "Carter"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 260,
+    "question": "The song Scatman's World was released after Scatman (Ski-Ba-Bop-Ba-Dop-Bop).",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1
+  }
+]

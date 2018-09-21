@@ -1,0 +1,654 @@
+[
+  {
+    "no": 1,
+    "question": "In South Park, what is Stan's surname?",
+    "options": [
+      "Marsh",
+      "Stotch",
+      "Broflovski",
+      "Tweak"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 2,
+    "question": "What is the standard frame rate for animation?",
+    "options": [
+      "12 FPS",
+      "30 FPS",
+      "60 FPS",
+      "24 FPS"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 3,
+    "question": "What Cartoon Network show aired its first episode on November 4th, 2013?",
+    "options": [
+      "Regular Show",
+      "Steven Universe",
+      "Adventure Time",
+      "The Amazing World of Gumball"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 4,
+    "question": "In the animated series RWBY, what is the name of the weapon used by Weiss Schnee?",
+    "options": [
+      "Myrtenaster",
+      "Gambol Shroud",
+      "Crescent Rose",
+      "Ember Celica"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 5,
+    "question": "What is lost in Hawaiian and is also the name of a little girl in a 2002 film which features a alien named \"Stitch\"?",
+    "options": [
+      "Lolo",
+      "Lucy",
+      "Lulu",
+      "Lilo"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 6,
+    "question": "Nickelodeon rejected the pilot to Adventure Time.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 7,
+    "question": "In the show \"Steven Universe\", who are the main two employees of The Big Donut?",
+    "options": [
+      "Sadie and Lars",
+      "Steven and James",
+      "Erik and Julie",
+      "Bob and May"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 8,
+    "question": "Who created the Cartoon Network series \"Regular Show\"?",
+    "options": [
+      "Ben Bocquelet",
+      "J. G. Quintel",
+      "Pendleton Ward",
+      "Rebecca Sugar"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 9,
+    "question": "In \"Rick and Morty\", from which dimension do Rick and Morty originate from?",
+    "options": [
+      "C-137",
+      "J1977",
+      "C-136",
+      "C500-a"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 10,
+    "question": "In \"My Little Pony: Friendship is Magic\", which of these ponies represents the quality of honesty?",
+    "options": [
+      "Twilight Sparkle",
+      "Applejack",
+      "Pinkie Pie",
+      "Rarity"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 11,
+    "question": "In the \"Shrek\" film franchise, Donkey is played by Eddie Murphy.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 12,
+    "question": "Who is the only voice actor to have a speaking part in all of the Disney Pixar feature films? ",
+    "options": [
+      "John Ratzenberger",
+      "Tom Hanks",
+      "Dave Foley",
+      "Geoffrey Rush"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 13,
+    "question": "What was the first Disney movie to use CGI?",
+    "options": [
+      "Tron",
+      "The Black Cauldron",
+      "Toy Story",
+      "Fantasia"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 14,
+    "question": "The stop motion comedy show \"Robot Chicken\" was created by which of the following?",
+    "options": [
+      "Seth MacFarlane",
+      "Seth Rogen",
+      "Seth Green",
+      "Seth Rollins"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 15,
+    "question": "In the web-comic Homestuck, what is the name of the game the 4 kids play?",
+    "options": [
+      "Homesick",
+      "Husslie",
+      "Sburb",
+      "Hiveswap"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 16,
+    "question": "Which Teenage Mutant Ninja Turtle traditionally wears an orange bandana?",
+    "options": [
+      "Leonardo",
+      "Donatello",
+      "Michelangelo",
+      "Raphael"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 17,
+    "question": "Who created \"RWBY\"?",
+    "options": [
+      "Miles Luna",
+      "Kerry Shawcross",
+      "Monty Oum",
+      "Shane Newville"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 18,
+    "question": "In \"Gravity Falls\", the character Bill Cipher remarks that \"the universe is what?\"",
+    "options": [
+      "An illusion ",
+      "A hologram ",
+      "A simulation",
+      "Corrupting"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 19,
+    "question": "What is Dipper's real name from \"Gravity Falls\"?",
+    "options": [
+      "Mable Pines",
+      "Mason Pines",
+      "Jason Pines",
+      "Mark Pines"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 20,
+    "question": "What was the number on Gerald's shirt in \"Hey Arnold!\"?",
+    "options": [
+      "88",
+      "38",
+      "83",
+      "33"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 21,
+    "question": "In the TV show \"Rick and Morty\", Rick uses the catchphrase \"Wubba Lubba Dub Dub\", which means ___ in Birdperson",
+    "options": [
+      "I pray that my life ends soon.",
+      "Lets get this party started!",
+      "I am in great pain, please help me.",
+      "I am suffering, please help me."
+    ],
+    "answer": 2
+  },
+  {
+    "no": 22,
+    "question": "The song 'Little April Shower' features in which Disney cartoon film?",
+    "options": [
+      "Cinderella",
+      "Pinocchio",
+      "The Jungle Book",
+      "Bambi"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 23,
+    "question": "What was the name of the sea witch in the 1989 Disney film \"The Little Mermaid\"?",
+    "options": [
+      "Madam Mim",
+      "Maleficent",
+      "Lady Tremaine",
+      "Ursula"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 24,
+    "question": "Butters Stotch, Pip Pirrup, and Wendy Testaburger are all characters in which long running animated TV series?",
+    "options": [
+      "The Simpsons",
+      "Family Guy",
+      "Bob's Burgers",
+      "South Park"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 25,
+    "question": "When did the last episode of \"Futurama\" air?",
+    "options": [
+      "September 4, 2013",
+      "December 25, 2010",
+      "March 28, 1999",
+      "On Going"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 26,
+    "question": "What is the name of Sid's dog in \"Toy Story\"?",
+    "options": [
+      "Buster",
+      "Whiskers",
+      "Mr. Jones",
+      "Scud"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 27,
+    "question": "In \"Avatar: The Last Airbender\", which element does Aang begin to learn after being defrosted?",
+    "options": [
+      "Air",
+      "Earth",
+      "Fire",
+      "Water"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 28,
+    "question": "In \"The Amazing World of Gumball\", who is the principal of Elmore Junior High?",
+    "options": [
+      "Principal Small",
+      "Principal Brawn",
+      "Principal Simeon",
+      "Principal Brown"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 29,
+    "question": "In \"The Simpsons\", where did Homer and Marge first meet?",
+    "options": [
+      "At High School",
+      "At Summer Camp",
+      "At Church",
+      "At 742 Evergreen Terrace"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 30,
+    "question": "How many episodes were in season five of Samurai Jack?",
+    "options": [
+      "12",
+      "11",
+      "10",
+      "13"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 31,
+    "question": "Who was the villain of ''The Lion King''?",
+    "options": [
+      "Fred",
+      "Jafar",
+      "Scar",
+      "Vada"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 32,
+    "question": "Which 'Family Guy' character got his own spin-off show in 2009?",
+    "options": [
+      "Glenn Quagmire",
+      "Joe Swanson",
+      "Cleveland Brown",
+      "The Greased-up Deaf Guy"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 33,
+    "question": "What year was the Disney film \"A Goofy Movie\" released?",
+    "options": [
+      "1999",
+      "2001",
+      "1997",
+      "1995"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 34,
+    "question": "Which city did Anger berate for ruining pizza in \"Inside Out\"?",
+    "options": [
+      "Minnesota",
+      "San Francisco",
+      "Washington",
+      "California"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 35,
+    "question": "In the Pixar film, \"Toy Story\" what was the name of the child who owned the toys?",
+    "options": [
+      "Edward",
+      "Danny",
+      "Andy",
+      "Matt"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 36,
+    "question": "Bill Cipher in the show \"Gravity Falls\" is the good guy.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 37,
+    "question": "Who voice acted the character Hiccup in the movie \"How to Train Your Dragon\"?",
+    "options": [
+      "Jack Brauchel",
+      "Jay Baruchel",
+      "John Powell",
+      "Gerard Butler"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 38,
+    "question": "What is Everest's favorite food in the Nickelodeon/Nick Jr. series \"PAW Patrol\"?",
+    "options": [
+      "Chicken",
+      "Liver",
+      "Steak",
+      "Caribou"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 39,
+    "question": "Waylon Smithers from \"The Simpsons\" was originally black when he first appeared in the series.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 40,
+    "question": "In \"Gravity Falls\", what does Quentin Trembley do when he is driven out from the White House?",
+    "options": [
+      "Leave in peace.",
+      "Jump out the window.",
+      "Release 1,000 captive salamanders into the white house.",
+      "Eat a salamander and jump out the window."
+    ],
+    "answer": 3
+  },
+  {
+    "no": 41,
+    "question": "Which \"Toy Story\" character was voiced by Don Rickles?",
+    "options": [
+      "Slinky Dog",
+      "Mr. Potato Head",
+      "Hamm",
+      "Rex"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 42,
+    "question": "Which of these is NOT a catchphrase used by Rick Sanchez in the TV show \"Rick and Morty\"?",
+    "options": [
+      "Hit the sack, Jack!",
+      "Rikki-Tikki-Tavi, biatch!",
+      "Wubba-lubba-dub-dub!",
+      "Slam dunk, nothing but net!"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 43,
+    "question": "Which of these is NOT a Disney cartoon character?",
+    "options": [
+      "Donald Duck",
+      "Daisy Duck",
+      "Scrooge McDuck",
+      "Daffy Duck"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 44,
+    "question": "What is the relationship between Rick and Morty in the show \"Rick and Morty\"?",
+    "options": [
+      "Father and Son",
+      "Best Friends",
+      "Grandfather and Grandson",
+      "Crimefighting Partners"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 45,
+    "question": "Which of these is not a real character in the cartoon series My Little Pony: Friendship is Magic?",
+    "options": [
+      "Pinkie Pie",
+      "Maud Pie",
+      "Rainbow Dash",
+      "Rose Marene"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 46,
+    "question": "In the 1993 Disney animated series \"Bonkers\", what is the name of Bonker's second partner?",
+    "options": [
+      "Miranda Wright",
+      "Dick Tracy",
+      "Eddie Valiant",
+      "Dr. Ludwig von Drake"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 47,
+    "question": "Who is the \"dumb blonde\" character in Nickelodeon's \"The Loud House\"?",
+    "options": [
+      "Luan",
+      "Luna",
+      "Leni",
+      "Lincoln"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 48,
+    "question": "Which of the following is not a Flintstones character?",
+    "options": [
+      "Rockhead Slate",
+      "The Great Gazoo",
+      "Barney Rubble",
+      "Lord Rockingham IX"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 49,
+    "question": "In \"Gravity Falls\", how much does Waddles weigh when Mable wins him in \"The Time Traveler's Pig\"?",
+    "options": [
+      "20 pounds",
+      "10 pounds",
+      "30 pounds",
+      "15 pounds"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 50,
+    "question": "Which Hanna-Barbera cartoon character travelled with a canine companion named Beegle Beagle?",
+    "options": [
+      "Boss Gator",
+      "Wally Gator",
+      "Grape Ape",
+      "Yogi Bear"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 51,
+    "question": "What is Scooby-Doo's real name?",
+    "options": [
+      "Scooter",
+      "Scrappy",
+      "Scoobert",
+      "Shooby"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 52,
+    "question": "What town was \"Springfield\" from \"The Simpsons\" originally named after?",
+    "options": [
+      "Springfield, Oregon",
+      "Springfield, Missouri",
+      "Springfield, Illinois",
+      "Springfield, Massachusetts"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 53,
+    "question": "Who voices for Ruby in the animated series RWBY?",
+    "options": [
+      "Tara Strong",
+      "Jessica Nigri",
+      "Hayden Panettiere",
+      "Lindsay Jones"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 54,
+    "question": "Which of the following films was Don Bluth both the writer, director, and producer for?",
+    "options": [
+      "Titan A.E.",
+      "Anastasia",
+      "The Land Before Time",
+      "All Dogs Go To Heaven"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 55,
+    "question": "Who created the Cartoon Network series \"Adventure Time\"?",
+    "options": [
+      "J. G. Quintel",
+      "Ben Bocquelet",
+      "Pendleton Ward",
+      "Rebecca Sugar"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 56,
+    "question": "Which episode from The Amazing World Of Gumball won the Childrens Choice Award at the British Animation Awards in 2016?",
+    "options": [
+      "The Shell",
+      "The Limit",
+      "The Kids",
+      "The Gripes"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 57,
+    "question": "Which one of these cartoon characters is NOT voiced by Rob Paulsen?",
+    "options": [
+      "Carl Wheezer (Jimmy Neutron)",
+      "Yakko Warner (Animaniacs)",
+      "The Mask (The Mask, TV Series)",
+      "Max Tennyson (Ben 10)"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 58,
+    "question": "Which of these characters from \"SpongeBob SquarePants\" is not a squid?",
+    "options": [
+      "Orvillie",
+      "Squidward",
+      "Gary",
+      "Squidette"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 59,
+    "question": "Adam West was the mayor of which cartoon town?",
+    "options": [
+      "Quahog",
+      "Springfield",
+      "South Park",
+      "Langley Falls"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 60,
+    "question": "Which Sanrio character was introduced in 1996?",
+    "options": [
+      "My Melody",
+      "Badtz-Maru",
+      "Kerropi",
+      "Pompompurin"
+    ],
+    "answer": 3
+  }
+]

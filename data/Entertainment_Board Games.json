@@ -1,0 +1,432 @@
+[
+  {
+    "no": 1,
+    "question": "Carcassonne is based on which French town?",
+    "options": [
+      "Paris",
+      "Marseille",
+      "Clermont-Ferrand",
+      "Carcassonne"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 2,
+    "question": "Snakes and Ladders was originally created in India?",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 3,
+    "question": "In a standard game of Monopoly, what colour are the two cheapest properties?",
+    "options": [
+      "Green",
+      "Yellow",
+      "Blue",
+      "Brown"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 4,
+    "question": "How many dice are used in the game of Yahtzee?",
+    "options": [
+      "Four",
+      "Six",
+      "Eight",
+      "Five"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 5,
+    "question": "How many dots are on a single die?",
+    "options": [
+      "21",
+      "24",
+      "15",
+      "18"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 6,
+    "question": "The board game, Nightmare was released in what year?",
+    "options": [
+      "1992",
+      "1989",
+      "1995",
+      "1991"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 7,
+    "question": "Who is the main character in the VHS tape included in the board game Nightmare?",
+    "options": [
+      "The Kryptkeeper",
+      "The Monster",
+      "The Nightmare",
+      "The Gatekeeper"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 8,
+    "question": "Which of these games includes the phrase \"Do not pass Go, do not collect $200\"?",
+    "options": [
+      "Pay Day",
+      "Cluedo",
+      "Monopoly",
+      "Coppit"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 9,
+    "question": "The Angry Video Game Nerd's alter ego is \"Board James\".",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 10,
+    "question": "There is a Donald Trump Board Game, which was made in 1989.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 11,
+    "question": "Which one of these is not a real game in the Dungeons & Dragons series?",
+    "options": [
+      "Advanced Dungeons & Dragons",
+      "Extreme Dungeons & Dragons",
+      "Dungeons & Dragons 3.5th edition",
+      "Advanced Dungeons & Dragons 2nd edition"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 12,
+    "question": "The board game Monopoly takes its street names from which real American city?",
+    "options": [
+      "Las Vegas, Nevada",
+      "Duluth, Minnesota",
+      "Atlantic City, New Jersey",
+      "Charleston, South Carolina"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 13,
+    "question": "What do you declare in Rīchi Mahjong when you've drawn your winning tile?",
+    "options": [
+      "Tsumo",
+      "Ron",
+      "Rīchi",
+      "Kan"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 14,
+    "question": "The board game Go has more possible legal positions than the number of atoms in the visible universe.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 15,
+    "question": "The board game \"Ra\" was designed by which designer? ",
+    "options": [
+      "Bruno Cathala",
+      "Uwe Rosenburg",
+      "Allison Kline",
+      "Reiner Knizia"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 16,
+    "question": "What is the most challenging monster in the Dungeons & Dragons 5th Edition Monster Manual?",
+    "options": [
+      "Beholder",
+      "Displacer Beast",
+      "Tarrasque",
+      "Lich"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 17,
+    "question": "What was the development code name for the \"Weatherlight\" expansion for \"Magic: The Gathering\", released in 1997?",
+    "options": [
+      "Decaf",
+      "Mocha Latte",
+      "Frappuccino",
+      "Macchiato"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 18,
+    "question": "Which of these cards from \"Magic: The Gathering\" has a flavor text that begins with \"Oi oi oi\"?",
+    "options": [
+      "Lotleth Troll",
+      "Albino Troll",
+      "Harvester Troll",
+      "Uthden Troll"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 19,
+    "question": "When Magic: The Gathering was first solicited, which of the following was it originally titled?",
+    "options": [
+      "Magic",
+      "Magic Clash",
+      "Mana Duels",
+      "Mana Clash"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 20,
+    "question": "Which character class in Dungeons and Dragons 5th edition gains it's powers from making a pact with a being of higher power?",
+    "options": [
+      "Wizard",
+      "Warlock",
+      "Sorceror",
+      "Cleric"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 21,
+    "question": "The board game 'Monopoly' is a variation of what board game?",
+    "options": [
+      "Territorial Dispute",
+      "The Landlord's Game",
+      "Property Feud",
+      "The Monopolist's Game"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 22,
+    "question": "How many spaces are there on a standard Monopoly board?",
+    "options": [
+      "40",
+      "28",
+      "55",
+      "36"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 23,
+    "question": "How many pieces are there on the board at the start of a game of chess?",
+    "options": [
+      "16",
+      "20",
+      "32",
+      "36"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 24,
+    "question": "On a standard Monopoly board, which square is diagonally opposite 'Go'? ",
+    "options": [
+      "Go to Jail",
+      "Jail",
+      "The Electric Company",
+      "Free Parking"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 25,
+    "question": "How many points is the Z tile worth in Scrabble?",
+    "options": [
+      "8",
+      "10",
+      "5",
+      "6"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 26,
+    "question": "What special item did the creators of Cards Against Humanity ship for their Black Friday pack?",
+    "options": [
+      "A Card Expansion",
+      "A Racist Toy",
+      "Cat Urine",
+      "Bull Feces"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 27,
+    "question": "On a standard Monopoly board, how much do you have to pay for Tennessee Ave?",
+    "options": [
+      "$200",
+      "$180",
+      "$160",
+      "$220"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 28,
+    "question": "In standard Monopoly, what's the rent if you land on Park Place with no houses?",
+    "options": [
+      "$30",
+      "$50",
+      "$35",
+      "$45"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 29,
+    "question": "Which board game was first released on February 6th, 1935?",
+    "options": [
+      "Risk",
+      "Monopoly",
+      "Clue",
+      "Candy Land"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 30,
+    "question": "\"PAYDAY: The Heist\" is a sequel to the board game \"Payday\".",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 31,
+    "question": "How many rooms are there, not including the hallways and the set of stairs, in the board game \"Clue\"?",
+    "options": [
+      "1",
+      "6",
+      "10",
+      "9"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 32,
+    "question": "In Yu-Gi-Oh, how does a player perform an Xyz Summon?",
+    "options": [
+      "Activate a Spell and Send Monsters to the Graveyard",
+      "Add the Monsters' Levels Together to Match the Xyz Monster",
+      "Overlay at least 2 Monsters of the Same Level",
+      "Banish A Number of Monsters From Your Hand And Deck"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 33,
+    "question": "In which year was the pen and paper RPG \"Deadlands\" released?",
+    "options": [
+      "2003",
+      "1996",
+      "1999",
+      "1993"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 34,
+    "question": "The Dice Tower network of board game podcasts and videos is run by which individual?",
+    "options": [
+      "Jason LeVine",
+      "Borth Sampson",
+      "Tom Vasel",
+      "Uncle Pennybags"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 35,
+    "question": "In \"Magic: The Gathering\", what instant card has the highest converted mana cost?",
+    "options": [
+      "Vitalizing Wind",
+      " Chant of Vitu-Ghazi",
+      "Blinkmoth Infusion",
+      "Assert Authority"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 36,
+    "question": "What was the development code name for the \"Urza's Destiny\" expansion for \"Magic: The Gathering\", released in 1999?",
+    "options": [
+      "Burrito",
+      "Taquito",
+      "Enchilada",
+      "Chimichanga"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 37,
+    "question": "Which ability from the \"Magic: The Gathering\" Scars of Mirrodin expansion involves having at least three artifacts in play?",
+    "options": [
+      "Metalcraft",
+      "Affinity",
+      "Imprint",
+      "Living Weapon"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 38,
+    "question": "Some of the \"Fallen Empires\" cards from \"Magic: The Gathering\" were misprinted on the backs of which other card game?",
+    "options": [
+      "Pokemon",
+      "Dominion",
+      "Wyvern",
+      "Yu-Gi-Oh"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 39,
+    "question": "In Magic: The Gathering, what was a tribute card to Jamie Wakefield's late wife Marilyn, who loved horses?",
+    "options": [
+      "Loyal Pegasus",
+      "Vryn Wingmare",
+      "Sungrace Pegasus",
+      "Timbermare"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 40,
+    "question": "Europa Universalis is a strategy video game based on which French board game?",
+    "options": [
+      "Europa Universalis",
+      "Europe and the Universe",
+      "Europa!",
+      "Power in Europe"
+    ],
+    "answer": 0
+  }
+]

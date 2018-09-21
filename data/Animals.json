@@ -1,0 +1,416 @@
+[
+  {
+    "no": 1,
+    "question": "What was the name of the Ethiopian Wolf before they knew it was related to wolves?",
+    "options": [
+      "Ethiopian Coyote",
+      "Amharic Fox",
+      "Canis Simiensis",
+      "Simien Jackel"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 2,
+    "question": "An octopus can fit through any hole larger than its beak.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 3,
+    "question": "A slug’s blood is green.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 4,
+    "question": "Kangaroos keep food in their pouches next to their children.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 5,
+    "question": "A bear does NOT defecate during hibernation. ",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 6,
+    "question": "What are rhino's horn made of?",
+    "options": [
+      "Bone",
+      "Ivory",
+      "Keratin",
+      "Skin"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 7,
+    "question": "How many legs do butterflies have?",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "0"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 8,
+    "question": "For what reason would a spotted hyena \"laugh\"?",
+    "options": [
+      "Excitement",
+      "Nervousness",
+      "Aggression",
+      "Exhaustion"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 9,
+    "question": "What is the scientific name of the Budgerigar?",
+    "options": [
+      "Melopsittacus undulatus",
+      "Nymphicus hollandicus",
+      "Pyrrhura molinae",
+      "Ara macao"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 10,
+    "question": "Which animal was part of an Russian domestication experiment in 1959?",
+    "options": [
+      "Pigeons",
+      "Foxes",
+      "Bears",
+      "Alligators"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 11,
+    "question": "In 2016, the IUCN reclassified the status of Giant Pandas from endangered to vulnerable.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 12,
+    "question": "The now extinct species \"Thylacine\" was native to where?",
+    "options": [
+      "Baluchistan, Pakistan",
+      "Tasmania, Australia",
+      "Wallachia, Romania",
+      "Oregon, United States"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 13,
+    "question": "The average lifespan of a wildcat is only around 5-6 years. ",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 14,
+    "question": "A flock of crows is known as a homicide.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 15,
+    "question": "Which of these animals is NOT a lizard?",
+    "options": [
+      "Komodo Dragon",
+      "Gila Monster",
+      "Tuatara",
+      "Green Iguana"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 16,
+    "question": "What is Grumpy Cat's real name?",
+    "options": [
+      "Tardar Sauce",
+      "Sauce",
+      "Minnie",
+      "Broccoli"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 17,
+    "question": "Unlike on most salamanders, this part of a newt is flat?",
+    "options": [
+      "Head",
+      "Teeth",
+      "Feet",
+      "Tail"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 18,
+    "question": "What is the name of the family that the domestic cat is a member of?",
+    "options": [
+      "Felinae",
+      "Felidae",
+      "Felis",
+      "Cat"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 19,
+    "question": "A caterpillar has more muscles than humans do.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 20,
+    "question": "Finnish Lapphund dogs were used for herding reindeer.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 21,
+    "question": "The Axolotl is an amphibian that can spend its whole life in a larval state.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 22,
+    "question": "What does \"hippopotamus\" mean and in what langauge?",
+    "options": [
+      "River Horse (Latin)",
+      "Fat Pig (Greek)",
+      "Fat Pig (Latin)",
+      "River Horse (Greek)"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 23,
+    "question": "What type of animal is a natterjack?",
+    "options": [
+      "Bird",
+      "Fish",
+      "Toad",
+      "Insect"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 24,
+    "question": "The Ceratosaurus, a dinosaur known for having a horn on the top of its nose, is also known to be a decendent of the Tyrannosaurus Rex.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 25,
+    "question": "What is the scientific name for modern day humans?",
+    "options": [
+      "Homo Ergaster",
+      "Homo Erectus",
+      "Homo Neanderthalensis",
+      "Homo Sapiens"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 26,
+    "question": "Which species of Brown Bear is not extinct?",
+    "options": [
+      "California Grizzly Bear",
+      "Atlas Bear",
+      "Mexican Grizzly Bear",
+      "Syrian Brown Bear"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 27,
+    "question": "What color/colour is a polar bear's skin?",
+    "options": [
+      "Black",
+      "White",
+      "Pink",
+      "Green"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 28,
+    "question": "What scientific suborder does the family Hyaenidae belong to?",
+    "options": [
+      "Haplorhini",
+      "Caniformia",
+      "Ciconiiformes",
+      "Feliformia"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 29,
+    "question": "How many known living species of hyenas are there?",
+    "options": [
+      "8",
+      "2",
+      "6",
+      "4"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 30,
+    "question": "What scientific family does the Aardwolf belong to?",
+    "options": [
+      "Canidae",
+      "Felidae",
+      "Hyaenidae",
+      "Eupleridae"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 31,
+    "question": "What do you call a baby bat?",
+    "options": [
+      "Cub",
+      "Pup",
+      "Chick",
+      "Kid"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 32,
+    "question": "What is the scientific name of the cheetah?",
+    "options": [
+      "Panthera onca",
+      "Lynx rufus",
+      "Felis catus",
+      "Acinonyx jubatus"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 33,
+    "question": "What is the Gray Wolf's scientific name?",
+    "options": [
+      "Canis Aureus",
+      "Canis Latrans",
+      "Canis Lupus Lycaon",
+      "Canis Lupus"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 34,
+    "question": "The Platypus is a mammal.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 35,
+    "question": "Which of these species is not extinct?",
+    "options": [
+      "Japanese sea lion",
+      "Komodo dragon",
+      "Tasmanian tiger",
+      "Saudi gazelle"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 36,
+    "question": "Which class of animals are newts members of?",
+    "options": [
+      "Fish",
+      "Amphibian",
+      "Reptiles",
+      "Mammals"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 37,
+    "question": "What is the name of the copper-rich protein that creates the blue blood in the Antarctic octopus?",
+    "options": [
+      "Cytochrome",
+      "Iron",
+      "Methionine",
+      "Hemocyanin"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 38,
+    "question": "The Killer Whale is considered a type of dolphin.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 39,
+    "question": "Which species is a \"mountain chicken\"?",
+    "options": [
+      "Chicken",
+      "Horse",
+      "Fly",
+      "Frog"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 40,
+    "question": "What is the fastest animal?",
+    "options": [
+      "Golden Eagle",
+      "Cheetah",
+      "Peregrine Falcon",
+      "Horsefly"
+    ],
+    "answer": 2
+  }
+]

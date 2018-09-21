@@ -1,0 +1,416 @@
+[
+  {
+    "no": 1,
+    "question": "Whose 2016 presidential campaign slogan was \"Make America Great Again\"?",
+    "options": [
+      "Ted Cruz",
+      "Donald Trump",
+      "Marco Rubio",
+      "Bernie Sanders"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 2,
+    "question": "Which of the following Pacific Islander countries is ruled by a constitutional monarchy?",
+    "options": [
+      "Palau",
+      "Fiji",
+      "Tonga",
+      "Kiribati"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 3,
+    "question": "The 2014 movie \"The Raid 2: Berandal\" was mainly filmed in which Asian country?",
+    "options": [
+      "Indonesia",
+      "Thailand",
+      "Brunei",
+      "Malaysia"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 4,
+    "question": "Due to the Nagoya Resolution, China agreed to allow Taiwan to compete separately in international sporting events under what name?",
+    "options": [
+      "Chinese Taiwan",
+      "Republic of Taiwan",
+      "Republic of Taipei ",
+      "Chinese Taipei"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 5,
+    "question": "How many people are in the U.S. House of Representatives?",
+    "options": [
+      "260",
+      "415",
+      "435",
+      "50"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 6,
+    "question": "Denmark has a monarch.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 7,
+    "question": "Russia passed a law in 2013 which outlaws telling children that homosexuals exist.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 8,
+    "question": "During the 2016 United States presidential election, the State of California possessed the most electoral votes, having 55.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 9,
+    "question": "According to the United States Constitution, how old must a person be to be elected President of the United States?",
+    "options": [
+      "35",
+      "30",
+      "40",
+      "45"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 10,
+    "question": "Which of the following United States Presidents served the shortest term in office?",
+    "options": [
+      "William Henry Harrison",
+      "Zachary Taylor",
+      "James A. Garfield",
+      "Warren G. Harding"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 11,
+    "question": "What is centralism?",
+    "options": [
+      "Conforming to one single common political agenda.",
+      "Remaining politically neutral.",
+      "The grey area in the spectrum of political left and right.",
+      " Concentration of power and authority in a central organization."
+    ],
+    "answer": 3
+  },
+  {
+    "no": 12,
+    "question": "Which of the following United States senators is known for performing a 24-hour long filibuster?",
+    "options": [
+      "Roy Blunt",
+      "Strom Thurmond",
+      "John Barrasso",
+      "Chuck Schumer"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 13,
+    "question": "Who became Prime Minister of the United Kingdom in July 2016?",
+    "options": [
+      "Boris Johnson",
+      "David Cameron",
+      "Theresa May",
+      "Tony Blair"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 14,
+    "question": "Who was elected leader of the UK Labour Party in September 2015?",
+    "options": [
+      "Jeremy Corbyn",
+      "Ed Miliband",
+      "David Cameron",
+      "Theresa May"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 15,
+    "question": "What is former United States President Bill Clinton's full name?",
+    "options": [
+      "William Jefferson Clinton",
+      "William Roosevelt Clinton",
+      "William Truman Clinton",
+      "William Lincoln Clinton"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 16,
+    "question": "Which of these is NOT one of Donald Trump's children?",
+    "options": [
+      "Donald Jr.",
+      "Ivanka",
+      "Eric",
+      "Julius"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 17,
+    "question": "In United States history, how many vice presidents did Franklin D. Roosevelt have during his time in office as president?",
+    "options": [
+      "1",
+      "2",
+      "0",
+      "3"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 18,
+    "question": "Helen Clark was the 37th Prime Minister of Australia.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 19,
+    "question": "Former United States President Bill Clinton famously played which instrument?",
+    "options": [
+      "Baritone horn",
+      "Piano",
+      "Saxophone",
+      "Violin"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 20,
+    "question": "Who succeeded Joseph Stalin as General Secretary of the Communist Party of the Soviet Union?",
+    "options": [
+      "Leonid Brezhnev",
+      "Mikhail Gorbachev",
+      "Boris Yeltsin",
+      "Nikita Khrushchev"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 21,
+    "question": "Which president erased the national debt of the United States?",
+    "options": [
+      "Ronald Reagan",
+      "John F. Kennedy",
+      "Franklin Roosevelt",
+      "Andrew Jackson"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 22,
+    "question": "Who was the only president to not be in office in Washington D.C?",
+    "options": [
+      "Abraham Lincoln",
+      "Richard Nixon",
+      "Thomas Jefferson",
+      "George Washington"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 23,
+    "question": "Who was the 40th President of the USA?",
+    "options": [
+      "Ronald Reagan",
+      "Jimmy Carter",
+      "Bill Clinton",
+      "Richard Nixon"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 24,
+    "question": "Before 2011, \"True Capitalist Radio\" was known by a different name. What was that name?",
+    "options": [
+      "True Republican Radio",
+      "Texan Capitalist Radio",
+      "True Conservative Radio",
+      "United Capitalists"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 25,
+    "question": "The S in Harry S. Truman stands for \"Samuel\".",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 26,
+    "question": "There was a satirical candidate named \"Deez Nuts\" running in the 2016 US presidential elections.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 27,
+    "question": "Despite being seperated into multiple countries, The Scandinavian countries are unified by all having the same monarch.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 28,
+    "question": "The 2016 United States Presidential Election is the first time Hillary Clinton has run for President.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 29,
+    "question": "Which letter do you need to have on a European driver license in order to ride any motorbikes?",
+    "options": [
+      "A",
+      "X",
+      "D",
+      "B"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 30,
+    "question": "\"Yes, America Can!\" was this United States politician's de facto campaign slogan in 2004.",
+    "options": [
+      "John Kerry",
+      "Barack Obama",
+      "George W. Bush",
+      "Al Gore"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 31,
+    "question": "One of Barack Obama's United States presidential campaign slogan's was \"Yes We Can\".",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 32,
+    "question": "Who was the 45th President of the United States?",
+    "options": [
+      "Barack Obama",
+      "Donald Trump",
+      "Bill Clinton",
+      "George Bush"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 33,
+    "question": "The State of Queensland, Australia voted NO to a referendum for daylight savings in 1992.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 34,
+    "question": "Donald Trump won the popular vote in the 2016 United States presidential election.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 35,
+    "question": "Nazi Germany surrendered on Harry Truman's birthday while he was president.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 36,
+    "question": "What is the name of Niccolò Machiavelli's work that argued effective leaders needed to crush their opponents at all costs?",
+    "options": [
+      "The Prince",
+      "The Rape of Lucrece",
+      "Will to Power",
+      "Love's Labours Lost"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 37,
+    "question": "Which of these was an official candidate in the 2017 British General Election?",
+    "options": [
+      "James Francis",
+      "Robert Wimbledon",
+      "Lord Buckethead",
+      "Sir Crumpetsby"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 38,
+    "question": "What was the personal nickname of the 40th Governor of the US State Louisiana, Huey Long?",
+    "options": [
+      "The Champ",
+      "The Hoot Owl",
+      "The Kingfish",
+      "The Oracle"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 39,
+    "question": "In June 2017, Saudi Arabia and Egypt broke off ties with which country over its supposed support for terrorism?",
+    "options": [
+      "Bahrain",
+      "United States of America",
+      "Qatar",
+      "Russia"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 40,
+    "question": "Former president Theodore Roosevelt (1900-1908)  ran for another term under the Progressive Party in 1912.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1
+  }
+]

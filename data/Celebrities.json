@@ -1,0 +1,436 @@
+[
+  {
+    "no": 1,
+    "question": "Which actress's real name was Frances Ethel Gumm?",
+    "options": [
+      "Doris Day",
+      "Julie Andrews",
+      "Judy Garland",
+      "Marilyn Monroe"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 2,
+    "question": "Michael Jackson had a pet python named ‘Crusher’.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 3,
+    "question": "What is the real name of \"moot\", founder of the imageboard 4chan?",
+    "options": [
+      "Mark Zuckerberg",
+      "Allison Harvard",
+      "Catie Wayne",
+      "Christopher Poole"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 4,
+    "question": "What is Doug Walker's YouTube name?",
+    "options": [
+      "The Angry Video Game Nerd",
+      "AngryJoeShow",
+      "The Nostalgia Critic",
+      "The Cinema Snob"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 5,
+    "question": "By what name is Carlos Estevez better known? ",
+    "options": [
+      "Charlie Sheen",
+      "Ricky Martin",
+      "Bruno Mars",
+      "Joaquin Phoenix"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 6,
+    "question": "What was the cause of death for Freddie Mercury?",
+    "options": [
+      "Stomach Cancer",
+      "HIV",
+      "Brain Hemorrhage",
+      "Pneumonia"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 7,
+    "question": "What was the cause of Marilyn Monroes suicide?",
+    "options": [
+      "Knife Attack",
+      "Drug Overdose",
+      "House Fire",
+      "Gunshot"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 8,
+    "question": "What is generally considered to be William Shakespeare's birth date?",
+    "options": [
+      "July 4th, 1409",
+      "September 29th, 1699",
+      "December 1st, 1750",
+      "April 23rd, 1564"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 9,
+    "question": "Before voicing Pearl in Steven Universe, Deedee Magno Hall was part of which American band?",
+    "options": [
+      "The Weather Girls",
+      "The Pussycat Dolls",
+      "The Cheetah Girls",
+      "The Party"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 10,
+    "question": "Aubrey Graham is better known as",
+    "options": [
+      "Travis Scott",
+      "Drake",
+      "Lil Wayne",
+      "2 Chainz"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 11,
+    "question": "What was the name of Marilyn Monroe's first husband?",
+    "options": [
+      "Joe Dimaggio",
+      "Kirk Douglas",
+      "James Dougherty",
+      "Arthur Miller"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 12,
+    "question": "How much weight did Chris Pratt lose for his role as Star-Lord in \"Guardians of the Galaxy\"?",
+    "options": [
+      "30 lbs",
+      "50 lbs",
+      "60 lbs",
+      "70 lbs"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 13,
+    "question": "Who out of these actresses is the youngest?",
+    "options": [
+      "Ariel Winter",
+      "Emma Watson",
+      "Kiernan Shipka",
+      "Bonnie Wright"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 14,
+    "question": "In what year did \"Bob Ross\" die?",
+    "options": [
+      "1986",
+      "1995",
+      "1989",
+      "1997"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 15,
+    "question": "Tupac Shakur died due to complications from being stabbed in 1996.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 16,
+    "question": "In which of these TV shows did the chef Gordon Ramsay not appear?",
+    "options": [
+      "Ramsay's Kitchen Nightmares",
+      "Hotel Hell",
+      "Auction Hunters",
+      "Hell's Kitchen"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 17,
+    "question": "Who is \"James Rolfe\" better known as?",
+    "options": [
+      "TotalBiscuit",
+      "The Angry Video Game Nerd",
+      "PeanutButterGamer",
+      "PewDiePie"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 18,
+    "question": "Which American celebrity died in 1977 playing golf in La Moraleja, Madrid?",
+    "options": [
+      "Bing Crosby",
+      "Elvis Presley",
+      "Charlie Chaplin",
+      "Groucho Marx"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 19,
+    "question": "By which name is Ramon Estevez better known as?",
+    "options": [
+      "Martin Sheen",
+      "Charlie Sheen",
+      "Ramon Sheen",
+      "Emilio Estevez"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 20,
+    "question": "Who was Donald Trump's first wife?",
+    "options": [
+      "Ivana Zelníčková",
+      "Melania Knauss",
+      "Marla Maples",
+      "Nancy Davis"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 21,
+    "question": "What is the name of Jontron's parrot?",
+    "options": [
+      "Jak",
+      "John",
+      "Jacques",
+      "Jaques"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 22,
+    "question": "Paul McCartney has always used his middle name. What is his real first name? ",
+    "options": [
+      "John",
+      "Jack",
+      "Justin",
+      "James"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 23,
+    "question": "Which actress married Michael Douglas in 2000?",
+    "options": [
+      "Ruth Jones",
+      "Pam Ferris",
+      "Sara Sugarman",
+      "Catherine Zeta-Jones"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 24,
+    "question": "Donald J. Trump's Middle Name is...",
+    "options": [
+      "John",
+      "Jeff",
+      "Jerald",
+      "Jason"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 25,
+    "question": "What year did radio icon Howard Stern start a job at radio station WNBC?",
+    "options": [
+      "1985",
+      "1982",
+      "1984",
+      "1995"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 26,
+    "question": "Which of these people is NOT a part of the Internet comedy group Mega64?",
+    "options": [
+      "Jon Jafari",
+      "Rocco Botte",
+      "Derrick Acosta",
+      "Shawn Chatfield"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 27,
+    "question": "When was Elvis Presley born?",
+    "options": [
+      "December 13, 1931",
+      "July 18, 1940",
+      "April 17, 1938",
+      "January 8, 1935"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 28,
+    "question": "What was the religion of famous singer \"Freddie Mercury\"?",
+    "options": [
+      "Paganism",
+      "Ashurism",
+      "Judaism",
+      "Zoroastrianism"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 29,
+    "question": "What does film maker Dan Bell typically focus his films on?",
+    "options": [
+      "Historic Landmarks",
+      "Action Films",
+      "Documentaries ",
+      "Abandoned Buildings and Dead Malls"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 30,
+    "question": "How tall is Tom Cruise?",
+    "options": [
+      "5′ 9″",
+      "5′ 4″",
+      "5′ 5″",
+      "5′ 7″"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 31,
+    "question": "Gwyneth Paltrow has a daughter named...?",
+    "options": [
+      "Lily",
+      "French",
+      "Apple",
+      "Dakota"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 32,
+    "question": "If he was still alive, in what year would Elvis Presley celebrate his 100th birthday?",
+    "options": [
+      "2035",
+      "2030",
+      "2040",
+      "2045"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 33,
+    "question": "Which celebrity announced his presidency in 2015?",
+    "options": [
+      "Kanye West",
+      "Donald Trump",
+      "Leonardo DiCaprio",
+      "Miley Cyrus"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 34,
+    "question": "Where was Kanye West born?",
+    "options": [
+      "Atlanta, Georgia",
+      "Chicago, Illinois",
+      "Los Angeles, California",
+      "Detroit, Michigan"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 35,
+    "question": "Which famous New York Yankees outfielder did Marilyn Monroe marry?",
+    "options": [
+      "Tino Martinez",
+      "Babe Ruth",
+      "Joe DiMaggio",
+      "Mason Williams"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 36,
+    "question": "Marilyn Monroe was born on July 1, 1926.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 37,
+    "question": "Which radio personality calls himself \"The King of All Media\"?",
+    "options": [
+      "Rush Limbaugh",
+      "Howard Stern",
+      "Pete Tong",
+      "Ryan Seacrest"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 38,
+    "question": "Nikki Diamond portrayed which Gladiator in the 1992 TV show \"Gladiators\"?",
+    "options": [
+      "Scorpio",
+      "Jet",
+      "Nightshade",
+      "Falcon"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 39,
+    "question": "Neil Hamburger is played by which comedian?",
+    "options": [
+      "Gregg Turkington",
+      "Nathan Fielder",
+      "Tim Heidecker",
+      "Todd Glass"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 40,
+    "question": "Billy Herrington is from which US state?",
+    "options": [
+      "Arizona",
+      "California",
+      "New York",
+      "Georgia"
+    ],
+    "answer": 2
+  }
+]

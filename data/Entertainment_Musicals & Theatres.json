@@ -1,0 +1,220 @@
+[
+  {
+    "no": 1,
+    "question": "When was the play 'Macbeth' written?",
+    "options": [
+      "1605",
+      "1723",
+      "1628",
+      "1606"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 2,
+    "question": "Which Shakespeare play inspired the musical 'West Side Story'?",
+    "options": [
+      "Hamlet",
+      "Romeo & Juliet",
+      "Macbeth",
+      "Othello"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 3,
+    "question": "In which Shakespeare play does the character Marcellus say, \"Something is rotten in the state of Denmark\"?",
+    "options": [
+      "Hamlet",
+      "Macbeth",
+      "King Lear",
+      "Twelfth Night"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 4,
+    "question": "In the play Oedipus Rex, Oedipus kills his father due to jealousy in loving his mother.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 5,
+    "question": "Which of these musicals won the Tony Award for Best Musical?",
+    "options": [
+      "The Color Purple",
+      "American Idiot",
+      "Newsies",
+      "Rent"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 6,
+    "question": "In which Shakespearean play will you find the suicide of Ophelia?",
+    "options": [
+      "Hamlet",
+      "Macbeth",
+      "Othello",
+      "King Lear"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 7,
+    "question": "Who wrote the award winning musical \"In The Heights\"?",
+    "options": [
+      "Steven Sondheim",
+      "Lin-Manuel Miranda",
+      "Francis Scott Key",
+      "John Phillips Sousa"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 8,
+    "question": "Who is the musical director for the award winning musical \"Hamilton\"?",
+    "options": [
+      "Alex Lacamoire",
+      "Lin-Manuel Miranda",
+      "Renee Elise-Goldberry",
+      "Leslie Odom Jr."
+    ],
+    "answer": 0
+  },
+  {
+    "no": 9,
+    "question": "What was George Bizet's last opera?",
+    "options": [
+      "Don Rodrigue",
+      "Grisélidis",
+      "Les pêcheurs de perles",
+      "Carmen"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 10,
+    "question": "In Shakespeare's play Julius Caesar, Caesar's last words were...",
+    "options": [
+      "Iacta alea est!",
+      "Vidi, vini, vici.",
+      "Aegri somnia vana.",
+      "Et tu, Brute? "
+    ],
+    "answer": 3
+  },
+  {
+    "no": 11,
+    "question": "In Les Misérables, who is Prison Code 24601?",
+    "options": [
+      "Jean Valjean",
+      "Marius Pontmercy",
+      "Javert",
+      "Jean Claude Van Damme"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 12,
+    "question": "In Jeff Wayne's Musical Version of War of the Worlds, the chances of anything coming from Mars are...",
+    "options": [
+      "A billion to one",
+      "A million to one",
+      "A trillion to one",
+      "A hundred to one"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 13,
+    "question": "What play is the quote \"Hell is other people\" from?",
+    "options": [
+      "The Devil and the Good Lord",
+      "The Condemned of Altona",
+      "No Exit",
+      "The Flies"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 14,
+    "question": "Who wrote the lyrics for Leonard Bernstein's 1957 Brodway musical West Side Story?",
+    "options": [
+      "Stephen Sondheim",
+      "Himself",
+      "Oscar Hammerstein",
+      "Richard Rodgers"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 15,
+    "question": "How many plays is Shakespeare generally considered to have written?",
+    "options": [
+      "37",
+      "18",
+      "54",
+      "25"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 16,
+    "question": "In Macbeth, the eyes of what animals were used in the Witches' cauldron?",
+    "options": [
+      "Humans",
+      "Sharks",
+      "Squids",
+      "Newts"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 17,
+    "question": "Which of the following is not a piece from the 1950's musical West Side Story?",
+    "options": [
+      "The Back Alley",
+      "Maria",
+      "Tonight",
+      "Mambo"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 18,
+    "question": "\"Doctor Who\" star David Tennant performed in a rendition of which Shakespearean play?",
+    "options": [
+      "The Tempest",
+      "Hamlet",
+      "Othello",
+      "The Taming of the Shrew"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 19,
+    "question": "After England, more Shakespeare plays are set in this present day country than in any other.",
+    "options": [
+      "United States",
+      "Greece",
+      "Italy",
+      "France"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 20,
+    "question": "Who played \"Charlie Price\" in the musical \"Kinky Boots\" on Broadway in New York from May 26th - Aug 6th 2017?",
+    "options": [
+      "Brendon Urie",
+      "Ed Sheeren",
+      "Tom Cruise",
+      "Dallon Weekes"
+    ],
+    "answer": 0
+  }
+]

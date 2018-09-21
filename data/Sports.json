@@ -1,0 +1,646 @@
+[
+  {
+    "no": 1,
+    "question": "At which bridge does the annual Oxford and Cambridge boat race start?",
+    "options": [
+      "Putney",
+      "Hammersmith",
+      "Vauxhall ",
+      "Battersea"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 2,
+    "question": "Which German sportswear company's logo is the 'Formstripe'?",
+    "options": [
+      "Nike",
+      "Adidas",
+      "Puma",
+      "Reebok"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 3,
+    "question": "What cricketing term denotes a batsman being dismissed with a score of zero?",
+    "options": [
+      "Bye",
+      "Duck",
+      "Beamer",
+      "Carry"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 4,
+    "question": "Which of these teams isn't a member of the NHL's \"Original Six\" era?",
+    "options": [
+      "New York Rangers",
+      "Toronto Maple Leafs",
+      "Philadelphia Flyers",
+      "Boston Bruins"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 5,
+    "question": "Who was the British professional wrestler Shirley Crabtree better known as?",
+    "options": [
+      "Giant Haystacks",
+      "Big Daddy",
+      "Kendo Nagasaki",
+      "Masambula"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 6,
+    "question": "Soccer player Cristiano Ronaldo opened a museum dedicated to himself.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 7,
+    "question": "Which nation hosted the FIFA World Cup in 2006?",
+    "options": [
+      "United Kingdom",
+      "Brazil",
+      "South Africa",
+      "Germany"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 8,
+    "question": "Which country is hosting the 2018 FIFA World Cup?",
+    "options": [
+      "Germany",
+      "United States",
+      "Russia",
+      "Saudi Arabia"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 9,
+    "question": "Who won the 2015 Formula 1 World Championship?",
+    "options": [
+      "Nico Rosberg",
+      "Lewis Hamilton",
+      "Sebastian Vettel",
+      "Jenson Button"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 10,
+    "question": "Skateboarding will be included in the 2020 Summer Olympics in Tokyo.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 11,
+    "question": "Which team was the 2015-2016 NBA Champions?",
+    "options": [
+      "Golden State Warriors",
+      "Toronto Raptors",
+      "Cleveland Cavaliers",
+      "Oklahoma City Thunders"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 12,
+    "question": "The Olympics tennis court is a giant green screen.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 13,
+    "question": "Which team won 2014 FIFA World Cup in Brazil?",
+    "options": [
+      "Argentina",
+      "Brazil",
+      "Netherlands",
+      "Germany"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 14,
+    "question": "Who won the 2016 Formula 1 World Driver's Championship?",
+    "options": [
+      "Lewis Hamilton",
+      "Max Verstappen",
+      "Nico Rosberg",
+      "Kimi Raikkonen"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 15,
+    "question": "Which city did the former NHL team \"The Nordiques\" originiate from?",
+    "options": [
+      "Houston",
+      "Quebec City",
+      "Montreal",
+      "New York"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 16,
+    "question": "What team won the 2016 MLS Cup?",
+    "options": [
+      "Seattle Sounders",
+      "Colorado Rapids",
+      "Toronto FC",
+      "Montreal Impact"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 17,
+    "question": "In Formula 1, the Virtual Safety Car was introduced following the fatal crash of which driver?",
+    "options": [
+      "Ayrton Senna",
+      "Ronald Ratzenberger",
+      "Jules Bianchi",
+      "Gilles Villeneuve"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 18,
+    "question": "Which of the following Grand Slam tennis tournaments occurs LAST?",
+    "options": [
+      "French Open",
+      "Wimbledon",
+      "Australian Open",
+      "US Open"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 19,
+    "question": "Which team has won the most Stanley Cups in the NHL?",
+    "options": [
+      "Chicago Blackhawks",
+      "Toronto Maple Leafs",
+      "Detroit Red Wings",
+      "Montreal Canadians"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 20,
+    "question": "What is the full name of the footballer \"Cristiano Ronaldo\"?",
+    "options": [
+      "Cristiano Ronaldo los Santos Diego",
+      "Cristiano Armando Diego Ronaldo",
+      "Cristiano Ronaldo dos Santos Aveiro",
+      "Cristiano Luis Armando Ronaldo"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 21,
+    "question": "Which of the following sports is not part of the triathlon?",
+    "options": [
+      "Cycling",
+      "Swimming",
+      "Running",
+      "Horse-Riding"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 22,
+    "question": "What tool lends it's name to a last-stone advantage in an end in Curling?",
+    "options": [
+      "Wrench",
+      "Hammer",
+      "Drill",
+      "Screwdriver"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 23,
+    "question": "How many soccer players should be on the field at the same time?",
+    "options": [
+      "20",
+      "24",
+      "22",
+      "26"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 24,
+    "question": "Manchester United won the 2013-14 English Premier League.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 25,
+    "question": "Which team won the 2015-16 English Premier League?",
+    "options": [
+      "Leicester City",
+      "Liverpool",
+      "Cheslea",
+      "Manchester United"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 26,
+    "question": "With which doubles partner did John McEnroe have most success?",
+    "options": [
+      "Mark Woodforde",
+      "Peter Fleming",
+      "Michael Stich",
+      "Mary Carillo"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 27,
+    "question": "Which country will host the 2020 Summer Olympics?",
+    "options": [
+      "Japan",
+      "China",
+      "Australia",
+      "Germany"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 28,
+    "question": "Which driver has been the Formula 1 world champion for a record 7 times?",
+    "options": [
+      "Ayrton Senna",
+      "Fernando Alonso",
+      "Michael Schumacher",
+      "Jim Clark"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 29,
+    "question": "Which car manufacturer won the 2016 24 Hours of Le Mans?",
+    "options": [
+      "Toyota",
+      "Audi",
+      "Porsche",
+      "Ferrari"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 30,
+    "question": "Which Italian footballer told Neuer where he's putting his shot and dragging it wide, during the match Italy-Germany, UEFA EURO 2016?",
+    "options": [
+      "Pelle",
+      "Insigne",
+      "Barzagli",
+      "Giaccherini"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 31,
+    "question": "Which female player won the gold medal of table tennis singles in 2016 Olympics Games?",
+    "options": [
+      "LI Xiaoxia (China)",
+      "Ai FUKUHARA (Japan)",
+      "DING Ning (China)",
+      "Song KIM (North Korea)"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 32,
+    "question": "What national team won the 2016 edition of UEFA European Championship?",
+    "options": [
+      "France",
+      "Portugal",
+      "Germany",
+      "England"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 33,
+    "question": "Formula E is an auto racing series that uses hybrid electric race cars.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 34,
+    "question": "In Baseball, how many times does the ball have to be pitched outside of the strike zone before the batter is walked?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 35,
+    "question": "What year did the New Orleans Saints win the Super Bowl?",
+    "options": [
+      "2009",
+      "2008",
+      "2010",
+      "2011"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 36,
+    "question": "This Canadian television sportscaster is known for his \"Hockey Night in Canada\" role, a commentary show during hockey games.",
+    "options": [
+      "Don McKellar",
+      "Don Cherry",
+      "Don Taylor ",
+      "Donald Sutherland"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 37,
+    "question": "Wilt Chamberlain scored his infamous 100-point-game against the New York Knicks in 1962.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 38,
+    "question": "Who won the \"Champions League\" in 1999?",
+    "options": [
+      "Barcelona",
+      "Manchester United",
+      "Bayern Munich",
+      "Liverpool"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 39,
+    "question": "Who won the 2015 College Football Playoff (CFP) National Championship? ",
+    "options": [
+      "Alabama Crimson Tide",
+      "Clemson Tigers",
+      "Ohio State Buckeyes",
+      "Wisconsin Badgers"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 40,
+    "question": "What year was hockey legend Wayne Gretzky born?",
+    "options": [
+      "1965",
+      "1959",
+      "1963",
+      "1961"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 41,
+    "question": "What is the nickname of Northampton town's rugby union club?",
+    "options": [
+      "Harlequins",
+      "Saracens",
+      "Saints",
+      "Wasps"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 42,
+    "question": "Which English football club has the nickname 'The Foxes'?",
+    "options": [
+      "Leicester City",
+      "Northampton Town",
+      "Bradford City",
+      "West Bromwich Albion"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 43,
+    "question": "Which Formula One driver was nicknamed 'The Professor'?",
+    "options": [
+      "Ayrton Senna",
+      "Niki Lauda",
+      "Alain Prost",
+      "Emerson Fittipaldi"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 44,
+    "question": "How many scoring zones are there on a conventional dart board?",
+    "options": [
+      "82",
+      "62",
+      "42",
+      "102"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 45,
+    "question": "In baseball, how many fouls are an out?",
+    "options": [
+      "5",
+      "3",
+      "0",
+      "2"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 46,
+    "question": "Peyton Manning retired after winning Super Bowl XLIX.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 47,
+    "question": "What is the highest belt you can get in Taekwondo?",
+    "options": [
+      "White",
+      "Red",
+      "Black",
+      "Green"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 48,
+    "question": "Which country is hosting the 2022 FIFA World Cup?",
+    "options": [
+      "Uganda",
+      "Vietnam",
+      "Qatar",
+      "Bolivia"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 49,
+    "question": "Tennis was once known as Racquetball.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 50,
+    "question": "Where was the Games of the XXII Olympiad held?",
+    "options": [
+      "Barcelona",
+      "Moscow",
+      "Tokyo",
+      "Los Angeles"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 51,
+    "question": "Which male player won the gold medal of table tennis singles in 2016 Olympics Games?",
+    "options": [
+      "Ma Long (China)",
+      "Zhang Jike (China)",
+      "Jun Mizutani (Japan)",
+      "Vladimir Samsonov (Belarus)"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 52,
+    "question": "Which soccer team won the Copa América 2015 Championship ?",
+    "options": [
+      "Argentina",
+      "Brazil",
+      "Paraguay",
+      "Chile"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 53,
+    "question": "Which soccer team won the Copa América Centenario 2016?",
+    "options": [
+      "Argentina",
+      "Brazil",
+      "Colombia",
+      "Chile"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 54,
+    "question": "In 2016, who won the Formula 1 World Constructor's Championship for the third time in a row?",
+    "options": [
+      "Scuderia Ferrari",
+      "McLaren Honda",
+      "Mercedes-AMG Petronas",
+      "Red Bull Racing Renault"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 55,
+    "question": "What is the oldest team in the NFL?",
+    "options": [
+      "Chicago Bears",
+      "Arizona Cardinals",
+      "Green Bay Packers",
+      "New York Giants"
+    ],
+    "answer": 1
+  },
+  {
+    "no": 56,
+    "question": "What is the oldest team in Major League Baseball?",
+    "options": [
+      "Chicago Cubs",
+      "Cincinnati Reds",
+      "Atlanta Braves",
+      "St. Louis Cardinals"
+    ],
+    "answer": 2
+  },
+  {
+    "no": 57,
+    "question": "What is the exact length of one non-curved part in Lane 1 of an Olympic Track?",
+    "options": [
+      "84.39m",
+      "100m",
+      "100yd",
+      "109.36yd"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 58,
+    "question": "Which portuguese island is soccer player Cristiano Ronaldo from?",
+    "options": [
+      "Terceira",
+      "Santa Maria",
+      "Porto Santo",
+      "Madeira"
+    ],
+    "answer": 3
+  },
+  {
+    "no": 59,
+    "question": "Which of the following pitchers was named National League Rookie of the Year for the 2013 season?",
+    "options": [
+      "Jose Fernandez",
+      "Jacob deGrom",
+      "Shelby Miller",
+      "Matt Harvey"
+    ],
+    "answer": 0
+  },
+  {
+    "no": 60,
+    "question": "Why was The Green Monster at Fenway Park was originally built?",
+    "options": [
+      "To make getting home runs harder.",
+      "To display advertisements.",
+      "To provide extra seating.",
+      "To prevent viewing games from outside the park."
+    ],
+    "answer": 3
+  }
+]
