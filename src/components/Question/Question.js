@@ -21,7 +21,7 @@ export default class Question extends React.Component {
       this.setState({selectedOption:-1, 
         backgroundColor:'white',
         timerProgress:0,
-        questionProgress:this.state.questionProgress+0.1
+        questionProgress:this.state.questionProgress+0.2
       });
       if(this.timer){
         clearInterval(this.timer);
@@ -51,15 +51,14 @@ export default class Question extends React.Component {
     let {questionNumber, question, options, answer} = this.props.question;
     
     return (
-      <View style={[styles.questionContainer, {backgroundColor:this.state.backgroundColor}]}>
-      <LinearGradient
-          colors={['#000000', '#030184']}
-          style={[styles.questionContainer, { padding: 15, alignItems: 'flex-start', borderRadius: 10 }]}>
-        {/* <ProgressBarAndroid style={{width:'100%'}}
+      <LinearGradient colors={['#000000', '#030184']}
+        style={[styles.questionContainer, { padding: 15, alignItems: 'flex-start', borderRadius: 10 }]}>
+      <ProgressBarAndroid style={{width:'100%', alignSelf:'flex-start'}}
           styleAttr="Horizontal"
           indeterminate={false}
           progress={this.state.questionProgress}
-        /> */}
+      />
+      <View style={[styles.questionContainer,{backgroundColor:'transparent'}]}>
         {this.props.isMultiplayer && <ProgressBarAndroid style={{width:'100%'}}
           styleAttr="Horizontal"
           indeterminate={false}
@@ -87,9 +86,9 @@ export default class Question extends React.Component {
             <Text style={{textAlign:'center', color:'white'}}>Submit Answer</Text>
           </TouchableOpacity>
         </View>
-        </LinearGradient>
-        {this.props.showAnswer && <Text style={{marginTop: 10,  marginLeft:20 }}>Answer: {options[answer]}</Text>}
-      </View>
+        {this.props.showAnswer ? <Text style={{marginTop: 10,  marginLeft:23, color:'white' }}>Answer: {options[answer]}</Text>:<Text>{" "}</Text>}
+        </View>
+      </LinearGradient>
     );
   }
 }

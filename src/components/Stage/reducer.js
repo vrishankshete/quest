@@ -32,10 +32,10 @@ export default function(state = defaultState, action) {
                 }));
         case actionTypes.SET_ERROR:
                 return state.merge({error: action.payload});
-        case actionTypes.RESET_ERROR:
-                return state.merge({error: defaultState.error});
         case actionTypes.RESET_ROOMID:
                 return state.merge({roomId: defaultState.roomId});
+        case actionTypes.RESET_STAGE:
+                return defaultState;
         default:
             return state;
     }

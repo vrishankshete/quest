@@ -10,5 +10,6 @@ export const questionTimeout = 10; //in seconds
 
 export const errorCodes = {
 	1: "No Questions",
-	2: "Invalid Room Id"
+	2: "Invalid Room Id",
+	3: "Server is experiencing load. Please try again after some time."
 };

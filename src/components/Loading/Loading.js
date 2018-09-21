@@ -8,7 +8,7 @@ import * as actionCreator from './actions'
 class Loading extends React.Component {
     render() {
         return (
-            <Modal  animationType="fade"
+            <Modal  animationType="slide"
                     transparent={false}
                     visible={this.props.isLoading}
                     onRequestClose={() => {

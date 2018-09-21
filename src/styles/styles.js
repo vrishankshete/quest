@@ -31,15 +31,14 @@ export const styles = StyleSheet.create({
         padding: 20
     },
     buttonContainer: {
-        flexDirection:'column',
-        marginLeft:20
+        flexDirection:'column'
     },
     options: {
         flexDirection: 'row',
         marginLeft:20
     },
     questionButton: {
-        margin:10,
+        margin:20,
         width:110,
         height:40,
         justifyContent:'center',

@@ -2,10 +2,10 @@ export const actionTypes = {
     ROOM_CREATED:"ROOM_CREATED",
     END_QUIZ:"END_QUIZ",
     SUBMIT_ANSWER: "SUBMIT_ANSWER",
-    DISCONNECT: "DISCONNECT",
-    RESET_ERROR: "RESET_ERROR",
+    DISCONNECT_GAME: "DISCONNECT_GAME",
     SET_ERROR: "SET_ERROR",
-    RESET_ROOMID: "RESET_ROOMID"
+    RESET_ROOMID: "RESET_ROOMID",
+    RESET_STAGE: "RESET_STAGE"
 }
 export const roomCreated = (roomIdText)=>{
     return {
@@ -25,9 +25,9 @@ export const endQuiz = (socketId)=>{
         payload: socketId
     }
 }
-export const disconnect = ()=>{
+export const disconnectGame = ()=>{
     return {
-        type:actionTypes.DISCONNECT
+        type:actionTypes.DISCONNECT_GAME
     }
 }
 export const setError = (error)=>{
@@ -36,13 +36,13 @@ export const setError = (error)=>{
         payload: error
     }
 }
-export const resetError = ()=>{
-    return {
-        type:actionTypes.RESET_ERROR
-    }
-}
 export const resetRoomId = ()=>{
     return {
         type:actionTypes.RESET_ROOMID
+    }
+}
+export const resetStage = ()=>{
+    return {
+        type:actionTypes.RESET_STAGE
     }
 }

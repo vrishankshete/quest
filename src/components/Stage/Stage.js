@@ -2,7 +2,7 @@ import React from 'react';
 import { View, BackHandler, ToastAndroid } from 'react-native';
 import Loading from '../Loading/Loading';
 import Question from '../Question/Question';
-import  { submitAnswer, disconnect } from './actions'
+import  { submitAnswer, disconnectGame, resetStage} from './actions'
 import { connect } from 'react-redux';
 import { styles } from '../../styles/styles';
 import { errorCodes } from '../../config/config';
@@ -28,21 +28,12 @@ class Stage extends React.Component {
             else{
                 ToastAndroid.show('Unexpected error...', ToastAndroid.SHORT);
             }
-            // switch(nextProps.error){
-            //     case 1:
-            //         ToastAndroid.show('No Questions...', ToastAndroid.SHORT);
-            //     break;
-            //     case 2:
-            //         ToastAndroid.show('Room does not exist...', ToastAndroid.SHORT);
-            //     break;
-            //     default:
-            //         ToastAndroid.show('Unexpected error...', ToastAndroid.SHORT);
-            // }
         }
     }
 
     componentDidMount() {
         this.backHandler = BackHandler.addEventListener('hardwareBackPress', ()=>{
+            this.props.resetStage();
             this.props.disconnectAction();
             this.props.navigation.navigate('Home');
             this.backHandler.remove();
@@ -91,7 +82,8 @@ const mapStateToProps = (rootState) => {
   const mapDispatchToProps = (dispatch) => {
     return{
         submitAnswer: (answer) => dispatch(submitAnswer(answer)),
-        disconnectAction: () => dispatch(disconnect()),
+        disconnectAction: () => dispatch(disconnectGame()),
+        resetStage: () => dispatch(resetStage()),
     }
   }
   

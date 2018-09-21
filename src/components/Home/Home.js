@@ -5,7 +5,7 @@ import {createRoom, joinRoom} from './actions';
 import { resetRoomId } from '../Stage/actions';
 import { showLoadingAction } from '../Loading/actions';
 import { styles } from '../../styles/styles';
-import { LinearGradient } from 'expo';
+import { LinearGradient, Constants } from 'expo';
 
 export class Home extends React.Component {
 
@@ -19,6 +19,7 @@ export class Home extends React.Component {
     this.state = {
       roomIdText:''
     }
+    console.log('ASDASD::',Constants.deviceId, Constants.deviceName, Constants.platform);
   }
 
   joinRoomClicked(){
@@ -50,7 +51,7 @@ export class Home extends React.Component {
         <View style={{padding: 10}}>
           <TextInput
             keyboardType = 'numeric'
-            style={{height: 40, width:80, marginLeft:5, alignContent:'center', alignItems:'center', alignSelf:'center'}}
+            style={{height: 40, width:80, marginLeft:5, textAlign: 'center'}}
             placeholder="Room Id"
             placeholderTextColor="grey"
             onChangeText={(roomIdText) => this.setState({roomIdText})}

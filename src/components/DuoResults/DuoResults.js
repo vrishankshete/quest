@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { View, Text, BackHandler } from 'react-native';
 import { LinearGradient } from 'expo';
 import { styles } from '../../styles/styles';
-import { disconnect } from '../Stage/actions';
+import { disconnectGame, resetStage } from '../Stage/actions';
 
 class DuoResults extends React.Component {
 
@@ -22,6 +22,7 @@ class DuoResults extends React.Component {
 
     componentWillUnmount() {
         this.backHandler.remove();
+        this.props.resetStage();
     }
 
     render() {
@@ -58,7 +59,8 @@ export const mapStateToProps = (rootState) => {
 
 export const mapDispatchToProps = (dispatch) => {
     return {
-        disconnectAction: ()=>dispatch(disconnect())
+        disconnectAction: ()=>dispatch(disconnectGame()),
+        resetStage: ()=>dispatch(resetStage())
     }
 }
 

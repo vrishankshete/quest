@@ -1,7 +1,7 @@
 import { actionTypes as homeActions } from '../Home/actions';
 import { hideLoadingAction, showLoadingAction } from "../Loading/actions";
 import { setQuestion } from "../Questions/actions";
-import { endQuiz, setError, resetError, disconnect, actionTypes as stageActions } from '../Stage/actions';
+import { endQuiz, setError, resetStage, disconnectGame, actionTypes as stageActions } from '../Stage/actions';
 import { setDuoScore } from '../DuoResults/actions';
 import { roomCreated } from './actions';
 import { fork, take, call, put, takeLatest, cancel } from 'redux-saga/effects';
@@ -32,12 +32,12 @@ function subscribe(socket) {
         });
         socket.on('app error', error=>{
             emit(setError(error.code));
-            emit(resetError());
-            emit(disconnect());
+            emit(resetStage());
             emit(hideLoadingAction());
+            emit(disconnectGame());
         });
         socket.on('disconnect', e => {
-            console.log("DISCONNECTTTT...");
+            emit(resetStage());
         });
         return () => {};
     });         
@@ -69,7 +69,7 @@ function* createRoom(){
         const socket = yield call(connect);
         socket.emit('create room');
         const task = yield fork(handleIO, socket);
-        yield take(stageActions.DISCONNECT);
+        yield take(stageActions.DISCONNECT_GAME);
         yield cancel(task);
         socket.emit('logout');
         socket.disconnect();
@@ -86,7 +86,7 @@ function* joinRoom(action){
         const socket = yield call(connect);
         socket.emit('join room', action.payload);
         const task = yield fork(handleIO, socket);
-        yield take(stageActions.DISCONNECT);
+        yield take(stageActions.DISCONNECT_GAME);
         yield cancel(task);
         socket.emit('logout');
         socket.disconnect();

@@ -5,7 +5,6 @@ var http = require('http').Server(app);
 const path = require('path');
 var io = require('socket.io')(http);
 var util = require('util');
-var moment = require('moment');
 var fs = require('fs');
 var dir = './logs';
 var request = require('request');
@@ -29,7 +28,8 @@ log4js.configure({
 
 const errorCodes = {
 	NO_QUESTIONS: 1,
-	INVALID_ROOM_ID: 2
+	INVALID_ROOM_ID: 2,
+	SERVER_FULL: 3
 };
 
 let logger = log4js.getLogger('quest');
@@ -92,6 +92,20 @@ function getRandom(){
 	return Math.floor(Math.random()*(max-min+1)+min);
 }
 
+function generateQuizRef(){
+	let maxIterations=0;
+	let tempQuizRef
+	do{
+		tempQuizRef = getRandom().toString();
+		maxIterations++;
+	}while(Object.keys(rooms).indexOf(tempQuizRef)!=-1 && maxIterations<100);
+
+	if(maxIterations>=100){
+		return null;
+	}
+	return tempQuizRef;
+}
+
 io.on('connection', function(socket){
 	logger.debug("Client Connected. " + socket.id);
 	let id = socket.id;
@@ -127,63 +141,88 @@ io.on('connection', function(socket){
 	}
 
 	function startQuiz(quizRef){
-		if(rooms[quizRef].questions.length < 10){
-			io.to(users[id].quizRef).emit('app error', {code:errorCodes.NO_QUESTIONS});
-			return;
+		try{
+			if(rooms[quizRef].questions.length < 10){
+				io.to(users[id].quizRef).emit('app error', {code:errorCodes.NO_QUESTIONS});
+				return;
+			}
+			io.to(users[id].quizRef).emit('quiz started');
+			let questionNumber=0;
+			io.to(users[id].quizRef).emit('question',{questionNumber, question:rooms[quizRef].questions[questionNumber++]});
+			logger.info('Sent first question');
+			let questionTimer = setInterval(()=>{
+				try{
+					if(questionNumber>=config.questionsPerSession){
+						clearInterval(questionTimer);
+						let scoreObj = calculateScore();
+						io.to(users[id].quizRef).emit('end quiz', scoreObj);
+					}
+					else{
+						io.to(users[id].quizRef).emit('question',{questionNumber, question:rooms[quizRef].questions[questionNumber++]});
+						logger.info('Sent question: ', questionNumber);
+					}
+				}
+				catch(e){
+					logger.info(`Error in questionTimer ${e}`);
+					clearInterval(questionTimer);
+				}
+			}, config.questionTimeout*1000);
 		}
-		io.to(users[id].quizRef).emit('quiz started');
-		let questionNumber=0;
-		io.to(users[id].quizRef).emit('question',{questionNumber, question:rooms[quizRef].questions[questionNumber++]});
-		logger.info('Sent first question');
-		let questionTimer = setInterval(()=>{
-			if(questionNumber>=config.questionsPerSession){
-				clearInterval(questionTimer);
-				let scoreObj = calculateScore();
-				io.to(users[id].quizRef).emit('end quiz', scoreObj);
-			}
-			else{
-				io.to(users[id].quizRef).emit('question',{questionNumber, question:rooms[quizRef].questions[questionNumber++]});
-				logger.info('Sent question: ', questionNumber);
-			}
-		}, config.questionTimeout*1000);
+		catch(e){
+			logger.info(`Error in startQuiz ${e}`);
+		}
 	}
-
 	socket.on('create room', function(){
-		quizRef = getRandom().toString();
-		logger.info(`Created room number: ${quizRef}`);
-		rooms[quizRef] = {};
-		rooms[quizRef].users = {};
-		rooms[quizRef].questions = questions;
+		try{
+			quizRef = generateQuizRef();
+			if(!quizRef){
+				socket.emit('app error', {code:errorCodes.SERVER_FULL});
+				logger.info('Maximum tries to find room reached');
+				return;
+			}
+			logger.info(`Created room number: ${quizRef}`);
+			rooms[quizRef] = {};
+			rooms[quizRef].users = {};
+			rooms[quizRef].questions = questions;
 
-		socket.emit('room created', quizRef);
+			socket.emit('room created', quizRef);
 
-		users[id].quizRef = quizRef;
-		if(rooms[quizRef]){
-			rooms[quizRef].users[id] = {userAnsMap:{}};
-			logger.debug("***USERS: ", util.inspect(users, {showHidden: false, depth: null}));
-			logger.debug("***ROOMS: ", util.inspect(Object.keys(rooms).map(quizRef=>{
-				return {quizRef, participants: Object.keys(rooms[quizRef].users)}
-			}), {showHidden: false, depth: null}));
+			users[id].quizRef = quizRef;
+			if(rooms[quizRef]){
+				rooms[quizRef].users[id] = {userAnsMap:{}};
+				logger.debug("***USERS: ", util.inspect(users, {showHidden: false, depth: null}));
+				logger.debug("***ROOMS: ", util.inspect(Object.keys(rooms).map(quizRef=>{
+					return {quizRef, participants: Object.keys(rooms[quizRef].users)}
+				}), {showHidden: false, depth: null}));
 
-			socket.join(users[id].quizRef);
+				socket.join(users[id].quizRef);
+			}
+			//TODO: Temp code. To be removed
+			setTimeout(()=>startQuiz(quizRef), 3000);
 		}
-		//TODO: Temp code. To be removed
-		//setTimeout(()=>startQuiz(quizRef), 3000);
+		catch(e){
+			logger.info(`Error in Create Room ${e}`);
+		}
 	});
 
 	socket.on('join room', function(quizRefNo){
-		quizRef = quizRefNo;
-		if(rooms[quizRef] && Object.keys(rooms[quizRef].users).length < config.maxUsersPerRoom){
-			users[id].quizRef = quizRef;
-			rooms[quizRef].users[id] = {userAnsMap:{}};
-			
-			socket.join(users[id].quizRef);
-			if(Object.keys(rooms[quizRef].users).length == config.maxUsersPerRoom){
-				startQuiz(quizRef);
+		try{
+			quizRef = quizRefNo;
+			if(rooms[quizRef] && Object.keys(rooms[quizRef].users).length < config.maxUsersPerRoom){
+				users[id].quizRef = quizRef;
+				rooms[quizRef].users[id] = {userAnsMap:{}};
+				
+				socket.join(users[id].quizRef);
+				if(Object.keys(rooms[quizRef].users).length == config.maxUsersPerRoom){
+					startQuiz(quizRef);
+				}
+			}
+			else{
+				socket.emit('app error', {code:errorCodes.INVALID_ROOM_ID});
 			}
 		}
-		else{
-			socket.emit('app error', {code:errorCodes.INVALID_ROOM_ID});
+		catch(e){
+			logger.info(`Error in Join Room ${e}`);
 		}
 	});
 
@@ -192,7 +231,12 @@ io.on('connection', function(socket){
 	});
 
 	socket.on('answer', function(userAnswer){
-		rooms[quizRef].users[id].userAnsMap[userAnswer.questionNumber] = userAnswer.answer;
+		try{
+			rooms[quizRef].users[id].userAnsMap[userAnswer.questionNumber] = userAnswer.answer;
+		}
+		catch(e){
+			logger.info(`Error in answer ${e}`);
+		}
 	});
 
 	socket.on('submit name', function(name){
@@ -201,30 +245,35 @@ io.on('connection', function(socket){
 	socket.on('logout', ()=>logger.debug("LOGOUT::: ", id));
 
 	socket.on('disconnect', function(){
-		logger.info(`User disconnected: ${id}`);
+		try{
+			logger.info(`User disconnected: ${id}`);
 
-		if(!users[id]){
-			logger.info(`Disconnecting silently: ${id}`);
-			return;
-		}
-		let roomId = users[id].quizRef;
-		if(!roomId){
+			if(!users[id]){
+				logger.info(`Disconnecting silently: ${id}`);
+				return;
+			}
+			let roomId = users[id].quizRef;
+			if(!roomId){
+				delete users[id];
+			}
+			if(rooms[roomId] === undefined){
+				logger.debug("Room does not exist");
+				return;
+			}
+			delete rooms[roomId].users[id];
+
+			if(rooms[roomId] && Object.keys(rooms[roomId].users).length === 0){
+				//No user left in this room. Delete it.
+				delete rooms[roomId];
+			}
 			delete users[id];
+			socket.leave(roomId);
+			logger.debug("***USERS: " + util.inspect(users));
+			logger.debug("***ROOMS: " + util.inspect(rooms));
 		}
-		if(rooms[roomId] === undefined){
-			logger.debug("Invalid Room Operation");
-			return;
+		catch(e){
+			logger.info(`Error in disconnect ${e}`);
 		}
-		delete rooms[roomId].users[id];
-
-		if(rooms[roomId] && Object.keys(rooms[roomId].users).length === 0){
-			//No user left in this room. Delete it.
-			delete rooms[roomId];
-		}
-		delete users[id];
-		socket.leave(roomId);
-		logger.debug("***USERS: " + util.inspect(users));
-		logger.debug("***ROOMS: " + util.inspect(rooms));
 	});
 });
 
