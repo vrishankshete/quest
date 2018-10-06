@@ -7,6 +7,7 @@ import { getQuestions, resetQuestions } from './actions';
 import { correctAnswerAction, incorrectAnswerAction } from '../Results/actions';
 import { resetScoreAction } from '../Results/actions';
 import { styles } from '../../styles/styles';
+import { singlePlayerQNos } from '../../config/config';
 
 class Questions extends React.Component {
   constructor(props){
@@ -68,6 +69,7 @@ class Questions extends React.Component {
   }
 
   render() {
+    let {hand} = this.props;
     return (
       <View style={styles.questionContainer}>
         <Question
@@ -76,10 +78,15 @@ class Questions extends React.Component {
           submitAnswer={(selectedOption)=>this.submitAnswer(selectedOption)}
           showAnswer={this.state.showAnswer}
           isMultiplayer={false}
+          totalQuestions={singlePlayerQNos}
+          hand={hand}
         />
-        <TouchableOpacity style={styles.questionButton} onPress={()=>this.nextQuestion()}>
-          <Text style={{textAlign:'center', color:'white'}}>Next Question</Text>
-        </TouchableOpacity>
+        <View style={{alignSelf:hand===0?'flex-start':'flex-end'}}>
+          <TouchableOpacity style={styles.questionButton} onPress={()=>this.nextQuestion()}>
+            <Text style={{textAlign:'center', color:'white'}}>
+            {this.state.currentQuestion.questionNumber == singlePlayerQNos-1?'Shw Results':'Next Question'}</Text>
+          </TouchableOpacity>
+        </View>
         <Loading/>
       </View>
     )
@@ -88,7 +95,8 @@ class Questions extends React.Component {
 
 const mapStateToProps = (rootState) => {
   return {
-    questions: rootState.questions.get('questions')
+    questions: rootState.questions.get('questions'),
+    hand: rootState.home.get('hand')
   }
 }
 

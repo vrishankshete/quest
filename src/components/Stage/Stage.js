@@ -5,7 +5,7 @@ import Question from '../Question/Question';
 import  { submitAnswer, disconnectGame, resetStage} from './actions'
 import { connect } from 'react-redux';
 import { styles } from '../../styles/styles';
-import { errorCodes } from '../../config/config';
+import { errorCodes, multiPlayerQNos } from '../../config/config';
 
 class Stage extends React.Component {
 
@@ -64,6 +64,7 @@ class Stage extends React.Component {
                 submitAnswer={(selectedOption)=>this.submitAnswer(selectedOption)}
                 showAnswer={false}
                 isMultiplayer={true}
+                totalQuestions={multiPlayerQNos}
             />
             <Loading/>
         </View>
