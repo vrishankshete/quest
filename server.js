@@ -9,6 +9,7 @@ var fs = require('fs');
 var dir = './logs';
 var request = require('request');
 var ip = require("ip");
+var questions = require('./data/ugly/Random.json');
 
 if (!fs.existsSync(dir)){
     fs.mkdirSync(dir);
@@ -48,47 +49,11 @@ let config = {
 
 app.use(express.static(path.join(__dirname, 'build')));
 
-function getFormattedQuestions(results){
-	return results.map((element, index)=>{
-		let options = element.incorrect_answers;
-		let ansIndex = Math.floor(Math.random() * (options.length+1));
-		options.splice(ansIndex, 0, element.correct_answer);
-		options = options.map((entry)=>decodeURIComponent(entry));
-		return {
-			no: index + 1,
-			question: decodeURIComponent(element.question),
-			options,
-			answer: ansIndex
-		};
-	});
-}
-
-let questions = [];
-
-function getQs(){
-	return new Promise(function(resolve, reject) {
-		request('https://opentdb.com/api.php?amount=10&encode=url3986', function (error, response, body) {
-			if (!error && response.statusCode == 200) {
-				let result = JSON.parse(body);
-				let formattedQuestions = getFormattedQuestions(result.results);
-				questions = questions.concat(formattedQuestions);
-				resolve("Got questions");
-			}
-			else{
-				reject(error)
-			}
-		})
-	})
-}
-
-getQs().then((msg)=>{console.log(msg)}, (error)=>{console.log(error)});
-
 app.get('/questions', function(req,res){
 	res.json(questions);
 });
 
-function getRandom(){
-	let max=9999, min=1000;
+function getRandom(min, max){
 	return Math.floor(Math.random()*(max-min+1)+min);
 }
 
@@ -96,7 +61,7 @@ function generateQuizRef(){
 	let maxIterations=0;
 	let tempQuizRef
 	do{
-		tempQuizRef = getRandom().toString();
+		tempQuizRef = getRandom(1000, 9999).toString();
 		maxIterations++;
 	}while(Object.keys(rooms).indexOf(tempQuizRef)!=-1 && maxIterations<100);
 
@@ -114,7 +79,7 @@ io.on('connection', function(socket){
 
 	function calculateScore(){
 		let users = rooms[quizRef].users;
-		let questions = rooms[quizRef].questions;
+		let startQNo = rooms[quizRef].startQNo;
 		let returnScoreObj = {};
 
 		for(var user in users){
@@ -142,23 +107,24 @@ io.on('connection', function(socket){
 
 	function startQuiz(quizRef){
 		try{
-			if(rooms[quizRef].questions.length < 10){
+			if(questions.length < 10){
 				io.to(users[id].quizRef).emit('app error', {code:errorCodes.NO_QUESTIONS});
 				return;
 			}
 			io.to(users[id].quizRef).emit('quiz started');
-			let questionNumber=0;
-			io.to(users[id].quizRef).emit('question',{questionNumber, question:rooms[quizRef].questions[questionNumber++]});
+			let questionNumber=rooms[quizRef].startQNo;
+			io.to(users[id].quizRef).emit('question',{questionNumber, question:questions[questionNumber++]});
 			logger.info('Sent first question');
 			let questionTimer = setInterval(()=>{
 				try{
-					if(questionNumber>=config.questionsPerSession){
+					console.log(questionNumber, rooms[quizRef].startQNo);
+					if(questionNumber-rooms[quizRef].startQNo>=config.questionsPerSession){
 						clearInterval(questionTimer);
 						let scoreObj = calculateScore();
 						io.to(users[id].quizRef).emit('end quiz', scoreObj);
 					}
 					else{
-						io.to(users[id].quizRef).emit('question',{questionNumber, question:rooms[quizRef].questions[questionNumber++]});
+						io.to(users[id].quizRef).emit('question',{questionNumber, question:questions[questionNumber++]});
 						logger.info('Sent question: ', questionNumber);
 					}
 				}
@@ -181,9 +147,12 @@ io.on('connection', function(socket){
 				return;
 			}
 			logger.info(`Created room number: ${quizRef}`);
+
+			let startQNo = getRandom(1,1090);
+
 			rooms[quizRef] = {};
 			rooms[quizRef].users = {};
-			rooms[quizRef].questions = questions;
+			rooms[quizRef].startQNo = startQNo;
 
 			socket.emit('room created', quizRef);
 
@@ -198,7 +167,7 @@ io.on('connection', function(socket){
 				socket.join(users[id].quizRef);
 			}
 			//TODO: Temp code. To be removed
-			setTimeout(()=>startQuiz(quizRef), 3000);
+			//setTimeout(()=>startQuiz(quizRef), 3000);
 		}
 		catch(e){
 			logger.info(`Error in Create Room ${e}`);
@@ -226,9 +195,9 @@ io.on('connection', function(socket){
 		}
 	});
 
-	socket.on('getQ', function(){
-		io.emit("questions", questions);
-	});
+	// socket.on('getQ', function(){
+	// 	io.emit("questions", questions);
+	// });
 
 	socket.on('answer', function(userAnswer){
 		try{
