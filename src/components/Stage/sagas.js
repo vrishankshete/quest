@@ -3,17 +3,21 @@ import { hideLoadingAction, showLoadingAction } from "../Loading/actions";
 import { setQuestion } from "../Questions/actions";
 import { endQuiz, setError, resetStage, disconnectGame, actionTypes as stageActions } from '../Stage/actions';
 import { setDuoScore } from '../DuoResults/actions';
-import { roomCreated } from './actions';
+import { roomCreated, setOpponentAnswer } from './actions';
 import { fork, take, call, put, takeLatest, cancel } from 'redux-saga/effects';
 import { socketServerURL } from '../../config/config';
 import { eventChannel } from 'redux-saga';
 import io from 'socket.io-client';
 
 function connect() {
-    const socket = io(socketServerURL);
-    return new Promise(resolve => {
+    const socket = io(socketServerURL,{reconnection: false});
+    return new Promise((resolve,reject) => {
         socket.on('connect', () => {
             resolve(socket);
+        });
+        socket.on('connect_error', error=>{
+            console.log(error);
+            reject();
         });
     });
 }
@@ -22,6 +26,7 @@ function subscribe(socket) {
     return eventChannel(emit => {
         socket.on('room created', quizRef=>emit(roomCreated(quizRef)));
         socket.on('quiz started', () => emit(hideLoadingAction()));
+        socket.on('opponent answer', opponentAns=>emit(setOpponentAnswer(opponentAns)));
         socket.on('question', QObj => {
             let {questionNumber, question} = QObj;
             emit(setQuestion({...question, questionNumber}));
@@ -73,11 +78,20 @@ function* createRoom(){
         yield cancel(task);
         socket.emit('logout');
         socket.disconnect();
-    }
-    catch(e){
-        alert(e);
+    }catch(e){
+        yield put(setError(4));
+        yield put(resetStage());
+        yield put(hideLoadingAction());
+        yield put(disconnectGame());
     }
     // yield put(hideLoadingAction());
+}
+
+function* closeError(){
+    yield put(setError(4));
+    yield put(resetStage());
+    yield put(hideLoadingAction());
+    yield put(disconnectGame());
 }
 
 function* joinRoom(action){
@@ -92,7 +106,7 @@ function* joinRoom(action){
         socket.disconnect();
     }
     catch(e){
-        alert(e);
+        yield call(closeError);
     }
 }
 

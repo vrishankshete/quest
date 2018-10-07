@@ -11,7 +11,8 @@ const defaultState = Map({
                     }),
     quizEnded: false,
     socketId: null,
-    error: null
+    error: null,
+    opponentAnswer: -1
 });
 
 export default function(state = defaultState, action) {
@@ -32,6 +33,8 @@ export default function(state = defaultState, action) {
                 }));
         case actionTypes.SET_ERROR:
                 return state.merge({error: action.payload});
+        case actionTypes.SET_OPPONENT_ANSWER:
+                return state.merge({opponentAnswer: action.payload});
         case actionTypes.RESET_ROOMID:
                 return state.merge({roomId: defaultState.roomId});
         case actionTypes.RESET_STAGE:

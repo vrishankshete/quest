@@ -103,7 +103,8 @@ export const stageStyles = StyleSheet.create({
     ansButtonContainer:{
         flex:0.1,
         flexDirection:'row',
-        justifyContent:'center'
+        justifyContent:'center',
+        paddingBottom:'1%'
     },
     ansButton:{
         width:'40%',
@@ -122,46 +123,30 @@ export const stageStyles = StyleSheet.create({
 
 export const gradientColors = ['#000000', '#030184'];
 
-  export const styles = StyleSheet.create({
-    questionContainer: {
-        width:'100%',
+export const showScoreStyles = StyleSheet.create({
+    container:{
         flex:1,
-        flexDirection: 'column',
-        alignItems: 'flex-start',
-        justifyContent: 'center'
+        justifyContent: 'flex-start',
+        alignItems:'flex-start',
+        paddingTop:'5%'
     },
-    modalContainer: {
-        width:'100%',
-        height:'100%'
+    scoreText:{
+        fontSize:20,
+        color:'white'
     },
-    loadingContainer: {
-        marginTop: 270,
-        justifyContent: 'center'
-    },
-    resultsContainer: {
+    duoContainer:{
         flex:1,
-        flexDirection: 'column',
         justifyContent: 'center',
         alignItems:'center',
-        padding: 20
-    },
-    buttonContainer: {
-        flexDirection:'row',
-        alignSelf:'flex-end'
-    },
-    options: {
-        flexDirection: 'row',
-        marginLeft:2
-    },
-    questionButton: {
-        margin:20,
-        width:110,
-        height:40,
-        justifyContent:'center',
-        backgroundColor:'black',
-        borderRadius: 10
-    },
-    titleText: {
-      fontSize: 50,
-    },
-  });
+        padding: '20%'
+    }
+});
+
+export const loadingStyles = StyleSheet.create({
+    loadingText:{
+        textAlign: 'center',
+        color:'white',
+        fontWeight:'bold',
+        fontSize:16
+}
+});

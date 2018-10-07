@@ -1,146 +1,776 @@
-[2018-10-07 00:42:47.520] [INFO] quest - URL: http://192.168.43.170:3000/
-[2018-10-07 00:43:37.327] [DEBUG] quest - Client Connected. U3k1nH6JV700l-VsAAAA
-[2018-10-07 00:43:37.513] [INFO] quest - Created room number: 8235
-[2018-10-07 00:43:37.529] [DEBUG] quest - ***USERS:  { 'U3k1nH6JV700l-VsAAAA': { quizRef: '8235' } }
-[2018-10-07 00:43:37.529] [DEBUG] quest - ***ROOMS:  [ { quizRef: '8235', participants: [ 'U3k1nH6JV700l-VsAAAA' ] } ]
-[2018-10-07 00:43:40.548] [INFO] quest - Sent first question
-[2018-10-07 00:43:50.557] [INFO] quest - Sent question:  484
-[2018-10-07 00:44:00.577] [INFO] quest - Sent question:  485
-[2018-10-07 00:44:10.591] [INFO] quest - Sent question:  486
-[2018-10-07 00:44:20.599] [INFO] quest - Sent question:  487
-[2018-10-07 00:44:30.618] [DEBUG] quest - ***users  ::::  { 'U3k1nH6JV700l-VsAAAA': 
-   { userAnsMap: { '482': 1, '483': 1, '484': 2, '485': 0, '486': 1 } } }
-[2018-10-07 00:44:38.724] [DEBUG] quest - LOGOUT:::  U3k1nH6JV700l-VsAAAA
-[2018-10-07 00:44:38.933] [INFO] quest - User disconnected: U3k1nH6JV700l-VsAAAA
-[2018-10-07 00:44:38.933] [DEBUG] quest - ***USERS: {}
-[2018-10-07 00:44:38.933] [DEBUG] quest - ***ROOMS: {}
-[2018-10-07 15:18:22.814] [INFO] quest - URL: http://192.168.0.11:3000/
-[2018-10-07 17:27:30.845] [DEBUG] quest - Client Connected. vp8J923sNuqR8XM-AAAA
-[2018-10-07 17:27:31.181] [INFO] quest - Created room number: 9808
-[2018-10-07 17:27:31.184] [DEBUG] quest - ***USERS:  { 'vp8J923sNuqR8XM-AAAA': { quizRef: '9808' } }
-[2018-10-07 17:27:31.186] [DEBUG] quest - ***ROOMS:  [ { quizRef: '9808', participants: [ 'vp8J923sNuqR8XM-AAAA' ] } ]
-[2018-10-07 17:27:34.204] [INFO] quest - Sent first question
-[2018-10-07 17:27:44.205] [INFO] quest - Sent question:  296
-[2018-10-07 17:27:51.092] [DEBUG] quest - Client Connected. _HYyKl9Ln0yeRauWAAAB
-[2018-10-07 17:27:54.208] [INFO] quest - Sent question:  297
-[2018-10-07 17:27:55.264] [INFO] quest - Created room number: 2773
-[2018-10-07 17:27:55.265] [DEBUG] quest - ***USERS:  { 'vp8J923sNuqR8XM-AAAA': { quizRef: '9808' },
-  _HYyKl9Ln0yeRauWAAAB: { quizRef: '2773' } }
-[2018-10-07 17:27:55.266] [DEBUG] quest - ***ROOMS:  [ { quizRef: '2773', participants: [ '_HYyKl9Ln0yeRauWAAAB' ] },
-  { quizRef: '9808', participants: [ 'vp8J923sNuqR8XM-AAAA' ] } ]
-[2018-10-07 17:27:58.267] [INFO] quest - Sent first question
-[2018-10-07 17:28:01.202] [INFO] quest - User disconnected: vp8J923sNuqR8XM-AAAA
-[2018-10-07 17:28:01.203] [DEBUG] quest - ***USERS: { _HYyKl9Ln0yeRauWAAAB: { quizRef: '2773' } }
-[2018-10-07 17:28:01.204] [DEBUG] quest - ***ROOMS: { '2773': { users: { _HYyKl9Ln0yeRauWAAAB: [Object] }, startQNo: 440 } }
-[2018-10-07 17:28:04.209] [INFO] quest - Error in questionTimer TypeError: Cannot read property 'startQNo' of undefined
-[2018-10-07 17:28:08.268] [INFO] quest - Sent question:  442
-[2018-10-07 17:28:18.272] [INFO] quest - Sent question:  443
-[2018-10-07 17:28:28.274] [INFO] quest - Sent question:  444
-[2018-10-07 17:28:38.276] [INFO] quest - Sent question:  445
-[2018-10-07 17:28:42.575] [DEBUG] quest - Client Connected. pc1ZpdTt-c4WLtbiAAAC
-[2018-10-07 17:28:42.881] [INFO] quest - Created room number: 7359
-[2018-10-07 17:28:42.883] [DEBUG] quest - ***USERS:  { _HYyKl9Ln0yeRauWAAAB: { quizRef: '2773' },
-  'pc1ZpdTt-c4WLtbiAAAC': { quizRef: '7359' } }
-[2018-10-07 17:28:42.884] [DEBUG] quest - ***ROOMS:  [ { quizRef: '2773', participants: [ '_HYyKl9Ln0yeRauWAAAB' ] },
-  { quizRef: '7359', participants: [ 'pc1ZpdTt-c4WLtbiAAAC' ] } ]
-[2018-10-07 17:28:45.885] [INFO] quest - Sent first question
-[2018-10-07 17:28:46.368] [INFO] quest - User disconnected: _HYyKl9Ln0yeRauWAAAB
-[2018-10-07 17:28:46.370] [DEBUG] quest - ***USERS: { 'pc1ZpdTt-c4WLtbiAAAC': { quizRef: '7359' } }
-[2018-10-07 17:28:46.371] [DEBUG] quest - ***ROOMS: { '7359': { users: { 'pc1ZpdTt-c4WLtbiAAAC': [Object] }, startQNo: 52 } }
-[2018-10-07 17:28:48.278] [INFO] quest - Error in questionTimer TypeError: Cannot read property 'startQNo' of undefined
-[2018-10-07 17:28:54.350] [DEBUG] quest - LOGOUT:::  pc1ZpdTt-c4WLtbiAAAC
-[2018-10-07 17:28:54.551] [INFO] quest - User disconnected: pc1ZpdTt-c4WLtbiAAAC
-[2018-10-07 17:28:54.552] [DEBUG] quest - ***USERS: {}
-[2018-10-07 17:28:54.552] [DEBUG] quest - ***ROOMS: {}
-[2018-10-07 17:28:55.887] [INFO] quest - Error in questionTimer TypeError: Cannot read property 'startQNo' of undefined
-[2018-10-07 17:30:02.712] [DEBUG] quest - Client Connected. kVT3YytKANWJiKyVAAAD
-[2018-10-07 17:30:03.071] [INFO] quest - Created room number: 4461
-[2018-10-07 17:30:03.072] [DEBUG] quest - ***USERS:  { kVT3YytKANWJiKyVAAAD: { quizRef: '4461' } }
-[2018-10-07 17:30:03.072] [DEBUG] quest - ***ROOMS:  [ { quizRef: '4461', participants: [ 'kVT3YytKANWJiKyVAAAD' ] } ]
-[2018-10-07 17:30:06.073] [INFO] quest - Sent first question
-[2018-10-07 17:30:16.081] [INFO] quest - Sent question:  339
-[2018-10-07 17:30:26.098] [INFO] quest - Sent question:  340
-[2018-10-07 17:30:36.098] [INFO] quest - Sent question:  341
-[2018-10-07 17:30:46.100] [INFO] quest - Sent question:  342
-[2018-10-07 17:30:51.252] [DEBUG] quest - Client Connected. kV2FD_2koGKwstiPAAAE
-[2018-10-07 17:30:51.593] [INFO] quest - Created room number: 1845
-[2018-10-07 17:30:51.594] [DEBUG] quest - ***USERS:  { kVT3YytKANWJiKyVAAAD: { quizRef: '4461' },
-  kV2FD_2koGKwstiPAAAE: { quizRef: '1845' } }
-[2018-10-07 17:30:51.594] [DEBUG] quest - ***ROOMS:  [ { quizRef: '1845', participants: [ 'kV2FD_2koGKwstiPAAAE' ] },
-  { quizRef: '4461', participants: [ 'kVT3YytKANWJiKyVAAAD' ] } ]
-[2018-10-07 17:30:54.596] [INFO] quest - Sent first question
-[2018-10-07 17:30:56.102] [DEBUG] quest - ***users  ::::  { kVT3YytKANWJiKyVAAAD: { userAnsMap: {} } }
-[2018-10-07 17:30:57.902] [INFO] quest - User disconnected: kVT3YytKANWJiKyVAAAD
-[2018-10-07 17:30:57.902] [DEBUG] quest - ***USERS: { kV2FD_2koGKwstiPAAAE: { quizRef: '1845' } }
-[2018-10-07 17:30:57.903] [DEBUG] quest - ***ROOMS: { '1845': { users: { kV2FD_2koGKwstiPAAAE: [Object] }, startQNo: 58 } }
-[2018-10-07 17:31:04.597] [INFO] quest - Sent question:  60
-[2018-10-07 17:31:14.598] [INFO] quest - Sent question:  61
-[2018-10-07 17:31:24.611] [INFO] quest - Sent question:  62
-[2018-10-07 17:31:34.621] [INFO] quest - Sent question:  63
-[2018-10-07 17:31:44.624] [DEBUG] quest - ***users  ::::  { kV2FD_2koGKwstiPAAAE: { userAnsMap: { '58': 3 } } }
-[2018-10-07 17:33:01.768] [INFO] quest - User disconnected: kV2FD_2koGKwstiPAAAE
-[2018-10-07 17:33:01.769] [DEBUG] quest - ***USERS: {}
-[2018-10-07 17:33:01.770] [DEBUG] quest - ***ROOMS: {}
-[2018-10-07 18:34:50.360] [DEBUG] quest - Client Connected. VxVcUyvIOd2c6PBuAAAF
-[2018-10-07 18:34:50.725] [INFO] quest - Created room number: 7931
-[2018-10-07 18:34:50.725] [DEBUG] quest - ***USERS:  { VxVcUyvIOd2c6PBuAAAF: { quizRef: '7931' } }
-[2018-10-07 18:34:50.725] [DEBUG] quest - ***ROOMS:  [ { quizRef: '7931', participants: [ 'VxVcUyvIOd2c6PBuAAAF' ] } ]
-[2018-10-07 18:34:53.747] [INFO] quest - Sent first question
-[2018-10-07 18:35:03.767] [INFO] quest - Sent question:  642
-[2018-10-07 18:35:13.778] [INFO] quest - Sent question:  643
-[2018-10-07 18:35:23.796] [INFO] quest - Sent question:  644
-[2018-10-07 18:35:33.809] [INFO] quest - Sent question:  645
-[2018-10-07 18:35:43.300] [DEBUG] quest - LOGOUT:::  VxVcUyvIOd2c6PBuAAAF
-[2018-10-07 18:35:43.514] [INFO] quest - User disconnected: VxVcUyvIOd2c6PBuAAAF
-[2018-10-07 18:35:43.518] [DEBUG] quest - ***USERS: {}
-[2018-10-07 18:35:43.520] [DEBUG] quest - ***ROOMS: {}
-[2018-10-07 18:35:43.825] [INFO] quest - Error in questionTimer TypeError: Cannot read property 'startQNo' of undefined
-[2018-10-07 19:21:52.635] [DEBUG] quest - Client Connected. v-OhDki9n6oW2j3HAAAG
-[2018-10-07 19:21:52.864] [INFO] quest - Created room number: 5878
-[2018-10-07 19:21:52.864] [DEBUG] quest - ***USERS:  { 'v-OhDki9n6oW2j3HAAAG': { quizRef: '5878' } }
-[2018-10-07 19:21:52.879] [DEBUG] quest - ***ROOMS:  [ { quizRef: '5878', participants: [ 'v-OhDki9n6oW2j3HAAAG' ] } ]
-[2018-10-07 19:21:55.885] [INFO] quest - Sent first question
-[2018-10-07 19:22:05.899] [INFO] quest - Sent question:  43
-[2018-10-07 19:22:15.913] [INFO] quest - Sent question:  44
-[2018-10-07 19:22:25.926] [INFO] quest - Sent question:  45
-[2018-10-07 19:22:35.940] [INFO] quest - Sent question:  46
-[2018-10-07 19:22:45.955] [DEBUG] quest - ***users  ::::  { 'v-OhDki9n6oW2j3HAAAG': { userAnsMap: { '41': 3, '42': 3, '43': 1, '44': 2, '45': 2 } } }
-[2018-10-07 19:22:51.735] [DEBUG] quest - LOGOUT:::  v-OhDki9n6oW2j3HAAAG
-[2018-10-07 19:22:51.959] [INFO] quest - User disconnected: v-OhDki9n6oW2j3HAAAG
-[2018-10-07 19:22:51.960] [DEBUG] quest - ***USERS: {}
-[2018-10-07 19:22:51.961] [DEBUG] quest - ***ROOMS: {}
-[2018-10-07 19:28:04.479] [DEBUG] quest - Client Connected. yZ8t1CWKh86vtqKpAAAH
-[2018-10-07 19:28:04.750] [INFO] quest - Created room number: 8046
-[2018-10-07 19:28:04.765] [DEBUG] quest - ***USERS:  { yZ8t1CWKh86vtqKpAAAH: { quizRef: '8046' } }
-[2018-10-07 19:28:04.765] [DEBUG] quest - ***ROOMS:  [ { quizRef: '8046', participants: [ 'yZ8t1CWKh86vtqKpAAAH' ] } ]
-[2018-10-07 19:28:07.782] [INFO] quest - Sent first question
-[2018-10-07 19:28:08.672] [DEBUG] quest - LOGOUT:::  yZ8t1CWKh86vtqKpAAAH
-[2018-10-07 19:28:08.887] [INFO] quest - User disconnected: yZ8t1CWKh86vtqKpAAAH
-[2018-10-07 19:28:08.887] [DEBUG] quest - ***USERS: {}
-[2018-10-07 19:28:08.887] [DEBUG] quest - ***ROOMS: {}
-[2018-10-07 19:28:17.795] [INFO] quest - Error in questionTimer TypeError: Cannot read property 'startQNo' of undefined
-[2018-10-07 19:28:49.417] [DEBUG] quest - Client Connected. lCKmikuoVLJS8uZ2AAAI
-[2018-10-07 19:28:49.759] [INFO] quest - Created room number: 4267
-[2018-10-07 19:28:49.759] [DEBUG] quest - ***USERS:  { lCKmikuoVLJS8uZ2AAAI: { quizRef: '4267' } }
-[2018-10-07 19:28:49.775] [DEBUG] quest - ***ROOMS:  [ { quizRef: '4267', participants: [ 'lCKmikuoVLJS8uZ2AAAI' ] } ]
-[2018-10-07 19:28:52.790] [INFO] quest - Sent first question
-[2018-10-07 19:28:55.710] [DEBUG] quest - LOGOUT:::  lCKmikuoVLJS8uZ2AAAI
-[2018-10-07 19:28:55.930] [INFO] quest - User disconnected: lCKmikuoVLJS8uZ2AAAI
-[2018-10-07 19:28:55.930] [DEBUG] quest - ***USERS: {}
-[2018-10-07 19:28:55.930] [DEBUG] quest - ***ROOMS: {}
-[2018-10-07 19:29:01.006] [DEBUG] quest - Client Connected. 7RkwMCnK8Cq2a_zEAAAJ
-[2018-10-07 19:29:01.195] [INFO] quest - Created room number: 6957
-[2018-10-07 19:29:01.195] [DEBUG] quest - ***USERS:  { '7RkwMCnK8Cq2a_zEAAAJ': { quizRef: '6957' } }
-[2018-10-07 19:29:01.195] [DEBUG] quest - ***ROOMS:  [ { quizRef: '6957', participants: [ '7RkwMCnK8Cq2a_zEAAAJ' ] } ]
-[2018-10-07 19:29:02.803] [INFO] quest - Error in questionTimer TypeError: Cannot read property 'startQNo' of undefined
-[2018-10-07 19:29:04.207] [INFO] quest - Sent first question
-[2018-10-07 19:29:14.223] [INFO] quest - Sent question:  1041
-[2018-10-07 19:29:24.239] [INFO] quest - Sent question:  1042
-[2018-10-07 19:29:34.252] [INFO] quest - Sent question:  1043
-[2018-10-07 19:29:44.266] [INFO] quest - Sent question:  1044
-[2018-10-07 19:29:54.279] [DEBUG] quest - ***users  ::::  { '7RkwMCnK8Cq2a_zEAAAJ': 
-   { userAnsMap: { '1039': 0, '1040': 2, '1041': 2, '1042': 2, '1043': 0 } } }
-[2018-10-07 19:30:01.092] [DEBUG] quest - LOGOUT:::  7RkwMCnK8Cq2a_zEAAAJ
-[2018-10-07 19:30:01.304] [INFO] quest - User disconnected: 7RkwMCnK8Cq2a_zEAAAJ
-[2018-10-07 19:30:01.304] [DEBUG] quest - ***USERS: {}
-[2018-10-07 19:30:01.304] [DEBUG] quest - ***ROOMS: {}
+[2018-10-08 00:08:32.274] [INFO] quest - URL: http://192.168.43.170:3000/
+[2018-10-08 00:08:39.950] [DEBUG] quest - Client Connected. wleKrNPjPQ4Su29uAAAA
+[2018-10-08 00:08:40.340] [INFO] quest - Created room number: 1485
+[2018-10-08 00:08:40.340] [DEBUG] quest - ***USERS:  { wleKrNPjPQ4Su29uAAAA: { quizRef: '1485' } }
+[2018-10-08 00:08:40.340] [DEBUG] quest - ***ROOMS:  [ { quizRef: '1485', participants: [ 'wleKrNPjPQ4Su29uAAAA' ] } ]
+[2018-10-08 00:08:53.014] [DEBUG] quest - Client Connected. ti9-MyakJ0H2SHCWAAAB
+[2018-10-08 00:08:53.102] [INFO] quest - Sent first question
+[2018-10-08 00:09:03.122] [INFO] quest - Sent question:  891
+[2018-10-08 00:09:13.138] [INFO] quest - Sent question:  892
+[2018-10-08 00:09:23.143] [INFO] quest - Sent question:  893
+[2018-10-08 00:09:33.158] [INFO] quest - Sent question:  894
+[2018-10-08 00:09:43.175] [DEBUG] quest - ***users  ::::  { wleKrNPjPQ4Su29uAAAA: 
+   { userAnsMap: { '889': 1, '890': 2, '891': 3, '892': 3, '893': 3 } },
+  'ti9-MyakJ0H2SHCWAAAB': 
+   { userAnsMap: { '889': 0, '890': 3, '891': 1, '892': 2, '893': 2 } } }
+[2018-10-08 00:09:50.761] [DEBUG] quest - LOGOUT:::  wleKrNPjPQ4Su29uAAAA
+[2018-10-08 00:09:50.973] [INFO] quest - User disconnected: wleKrNPjPQ4Su29uAAAA
+[2018-10-08 00:09:50.973] [DEBUG] quest - ***USERS: { 'ti9-MyakJ0H2SHCWAAAB': { quizRef: '1485' } }
+[2018-10-08 00:09:50.973] [DEBUG] quest - ***ROOMS: { '1485': { users: { 'ti9-MyakJ0H2SHCWAAAB': [Object] }, startQNo: 889 } }
+[2018-10-08 00:09:51.784] [DEBUG] quest - LOGOUT:::  ti9-MyakJ0H2SHCWAAAB
+[2018-10-08 00:09:52.002] [INFO] quest - User disconnected: ti9-MyakJ0H2SHCWAAAB
+[2018-10-08 00:09:52.002] [DEBUG] quest - ***USERS: {}
+[2018-10-08 00:09:52.002] [DEBUG] quest - ***ROOMS: {}
+[2018-10-08 00:10:01.625] [DEBUG] quest - Client Connected. 2pLv45_we_p_gwfvAAAC
+[2018-10-08 00:10:01.834] [DEBUG] quest - LOGOUT:::  2pLv45_we_p_gwfvAAAC
+[2018-10-08 00:10:02.167] [INFO] quest - User disconnected: 2pLv45_we_p_gwfvAAAC
+[2018-10-08 00:10:02.167] [DEBUG] quest - Room does not exist
+[2018-10-08 00:12:45.250] [DEBUG] quest - Client Connected. A-hi0nHrhVRVsx5AAAAD
+[2018-10-08 00:12:45.672] [INFO] quest - Created room number: 1679
+[2018-10-08 00:12:45.672] [DEBUG] quest - ***USERS:  { 'A-hi0nHrhVRVsx5AAAAD': { quizRef: '1679' } }
+[2018-10-08 00:12:45.672] [DEBUG] quest - ***ROOMS:  [ { quizRef: '1679', participants: [ 'A-hi0nHrhVRVsx5AAAAD' ] } ]
+[2018-10-08 00:12:49.764] [DEBUG] quest - Client Connected. 8oMD7lroudD-31v8AAAE
+[2018-10-08 00:12:49.857] [INFO] quest - Sent first question
+[2018-10-08 00:12:59.874] [INFO] quest - Sent question:  285
+[2018-10-08 00:13:09.883] [INFO] quest - Sent question:  286
+[2018-10-08 00:13:19.888] [INFO] quest - Sent question:  287
+[2018-10-08 00:13:29.898] [INFO] quest - Sent question:  288
+[2018-10-08 00:13:39.903] [DEBUG] quest - ***users  ::::  { 'A-hi0nHrhVRVsx5AAAAD': { userAnsMap: { '283': 1, '284': 1, '286': 0 } },
+  '8oMD7lroudD-31v8AAAE': { userAnsMap: { '283': 0, '285': -1, '286': 0 } } }
+[2018-10-08 00:14:20.281] [DEBUG] quest - Client Connected. I-ZD7rEjLqSEwTHAAAAF
+[2018-10-08 00:14:20.351] [INFO] quest - Created room number: 3958
+[2018-10-08 00:14:20.358] [DEBUG] quest - ***USERS:  { 'A-hi0nHrhVRVsx5AAAAD': { quizRef: '1679' },
+  '8oMD7lroudD-31v8AAAE': { quizRef: '1679' },
+  'I-ZD7rEjLqSEwTHAAAAF': { quizRef: '3958' } }
+[2018-10-08 00:14:20.361] [DEBUG] quest - ***ROOMS:  [ { quizRef: '1679',
+    participants: [ 'A-hi0nHrhVRVsx5AAAAD', '8oMD7lroudD-31v8AAAE' ] },
+  { quizRef: '3958', participants: [ 'I-ZD7rEjLqSEwTHAAAAF' ] } ]
+[2018-10-08 00:14:25.705] [DEBUG] quest - Client Connected. ZtrKbb18yyIi1TnpAAAG
+[2018-10-08 00:14:26.017] [INFO] quest - Sent first question
+[2018-10-08 00:14:31.241] [INFO] quest - User disconnected: A-hi0nHrhVRVsx5AAAAD
+[2018-10-08 00:14:31.241] [DEBUG] quest - ***USERS: { '8oMD7lroudD-31v8AAAE': { quizRef: '1679' },
+  'I-ZD7rEjLqSEwTHAAAAF': { quizRef: '3958' },
+  ZtrKbb18yyIi1TnpAAAG: { quizRef: '3958' } }
+[2018-10-08 00:14:31.241] [DEBUG] quest - ***ROOMS: { '1679': { users: { '8oMD7lroudD-31v8AAAE': [Object] }, startQNo: 283 },
+  '3958': 
+   { users: 
+      { 'I-ZD7rEjLqSEwTHAAAAF': [Object],
+        ZtrKbb18yyIi1TnpAAAG: [Object] },
+     startQNo: 1028 } }
+[2018-10-08 00:14:35.554] [INFO] quest - User disconnected: 8oMD7lroudD-31v8AAAE
+[2018-10-08 00:14:35.554] [DEBUG] quest - ***USERS: { 'I-ZD7rEjLqSEwTHAAAAF': { quizRef: '3958' },
+  ZtrKbb18yyIi1TnpAAAG: { quizRef: '3958' } }
+[2018-10-08 00:14:35.554] [DEBUG] quest - ***ROOMS: { '3958': 
+   { users: 
+      { 'I-ZD7rEjLqSEwTHAAAAF': [Object],
+        ZtrKbb18yyIi1TnpAAAG: [Object] },
+     startQNo: 1028 } }
+[2018-10-08 00:14:36.039] [INFO] quest - Sent question:  1030
+[2018-10-08 00:14:46.056] [INFO] quest - Sent question:  1031
+[2018-10-08 00:14:56.061] [INFO] quest - Sent question:  1032
+[2018-10-08 00:15:06.068] [INFO] quest - Sent question:  1033
+[2018-10-08 00:15:16.070] [DEBUG] quest - ***users  ::::  { 'I-ZD7rEjLqSEwTHAAAAF': { userAnsMap: { '1028': 0 } },
+  ZtrKbb18yyIi1TnpAAAG: { userAnsMap: { '1028': 1 } } }
+[2018-10-08 00:16:09.438] [DEBUG] quest - Client Connected. _XBc7nPHd6GXTOLiAAAH
+[2018-10-08 00:16:09.653] [INFO] quest - Created room number: 8098
+[2018-10-08 00:16:09.655] [DEBUG] quest - ***USERS:  { 'I-ZD7rEjLqSEwTHAAAAF': { quizRef: '3958' },
+  ZtrKbb18yyIi1TnpAAAG: { quizRef: '3958' },
+  _XBc7nPHd6GXTOLiAAAH: { quizRef: '8098' } }
+[2018-10-08 00:16:09.655] [DEBUG] quest - ***ROOMS:  [ { quizRef: '3958',
+    participants: [ 'I-ZD7rEjLqSEwTHAAAAF', 'ZtrKbb18yyIi1TnpAAAG' ] },
+  { quizRef: '8098', participants: [ '_XBc7nPHd6GXTOLiAAAH' ] } ]
+[2018-10-08 00:16:11.604] [INFO] quest - User disconnected: ZtrKbb18yyIi1TnpAAAG
+[2018-10-08 00:16:11.604] [DEBUG] quest - ***USERS: { 'I-ZD7rEjLqSEwTHAAAAF': { quizRef: '3958' },
+  _XBc7nPHd6GXTOLiAAAH: { quizRef: '8098' } }
+[2018-10-08 00:16:11.604] [DEBUG] quest - ***ROOMS: { '3958': { users: { 'I-ZD7rEjLqSEwTHAAAAF': [Object] }, startQNo: 1028 },
+  '8098': { users: { _XBc7nPHd6GXTOLiAAAH: [Object] }, startQNo: 547 } }
+[2018-10-08 00:16:13.952] [DEBUG] quest - Client Connected. x3nMMjBFFLTS6vfWAAAI
+[2018-10-08 00:16:14.103] [INFO] quest - Sent first question
+[2018-10-08 00:16:24.119] [INFO] quest - Sent question:  549
+[2018-10-08 00:16:30.786] [INFO] quest - User disconnected: I-ZD7rEjLqSEwTHAAAAF
+[2018-10-08 00:16:30.786] [DEBUG] quest - ***USERS: { _XBc7nPHd6GXTOLiAAAH: { quizRef: '8098' },
+  x3nMMjBFFLTS6vfWAAAI: { quizRef: '8098' } }
+[2018-10-08 00:16:30.786] [DEBUG] quest - ***ROOMS: { '8098': 
+   { users: 
+      { _XBc7nPHd6GXTOLiAAAH: [Object],
+        x3nMMjBFFLTS6vfWAAAI: [Object] },
+     startQNo: 547 } }
+[2018-10-08 00:16:34.135] [INFO] quest - Sent question:  550
+[2018-10-08 00:16:43.705] [DEBUG] quest - LOGOUT:::  _XBc7nPHd6GXTOLiAAAH
+[2018-10-08 00:16:43.936] [INFO] quest - User disconnected: _XBc7nPHd6GXTOLiAAAH
+[2018-10-08 00:16:43.936] [DEBUG] quest - ***USERS: { x3nMMjBFFLTS6vfWAAAI: { quizRef: '8098' } }
+[2018-10-08 00:16:43.936] [DEBUG] quest - ***ROOMS: { '8098': { users: { x3nMMjBFFLTS6vfWAAAI: [Object] }, startQNo: 547 } }
+[2018-10-08 00:16:44.152] [INFO] quest - Sent question:  551
+[2018-10-08 00:16:45.075] [DEBUG] quest - LOGOUT:::  x3nMMjBFFLTS6vfWAAAI
+[2018-10-08 00:16:45.270] [INFO] quest - User disconnected: x3nMMjBFFLTS6vfWAAAI
+[2018-10-08 00:16:45.270] [DEBUG] quest - ***USERS: {}
+[2018-10-08 00:16:45.286] [DEBUG] quest - ***ROOMS: {}
+[2018-10-08 00:16:48.902] [INFO] quest - URL: http://192.168.43.170:3000/
+[2018-10-08 00:16:53.918] [DEBUG] quest - Client Connected. iyliYes41lxebSVeAAAA
+[2018-10-08 00:16:54.101] [INFO] quest - Created room number: 3412
+[2018-10-08 00:16:54.109] [DEBUG] quest - ***USERS:  { iyliYes41lxebSVeAAAA: { quizRef: '3412' } }
+[2018-10-08 00:16:54.111] [DEBUG] quest - ***ROOMS:  [ { quizRef: '3412', participants: [ 'iyliYes41lxebSVeAAAA' ] } ]
+[2018-10-08 00:17:01.674] [DEBUG] quest - Client Connected. 2Kk9aMMttQVQ35YgAAAB
+[2018-10-08 00:17:01.741] [INFO] quest - Sent first question
+[2018-10-08 00:17:11.755] [INFO] quest - Sent question:  128
+[2018-10-08 00:17:21.773] [INFO] quest - Sent question:  129
+[2018-10-08 00:17:31.786] [INFO] quest - Sent question:  130
+[2018-10-08 00:17:41.792] [INFO] quest - Sent question:  131
+[2018-10-08 00:17:51.806] [DEBUG] quest - ***users  ::::  { iyliYes41lxebSVeAAAA: { userAnsMap: { '126': 2, '127': 3, '128': 2 } },
+  '2Kk9aMMttQVQ35YgAAAB': { userAnsMap: { '126': 1, '127': 0, '128': 3 } } }
+[2018-10-08 00:18:32.511] [DEBUG] quest - Client Connected. ko6pwxlse32qDunfAAAC
+[2018-10-08 00:18:32.591] [INFO] quest - Created room number: 3873
+[2018-10-08 00:18:32.601] [DEBUG] quest - ***USERS:  { iyliYes41lxebSVeAAAA: { quizRef: '3412' },
+  '2Kk9aMMttQVQ35YgAAAB': { quizRef: '3412' },
+  ko6pwxlse32qDunfAAAC: { quizRef: '3873' } }
+[2018-10-08 00:18:32.606] [DEBUG] quest - ***ROOMS:  [ { quizRef: '3412',
+    participants: [ 'iyliYes41lxebSVeAAAA', '2Kk9aMMttQVQ35YgAAAB' ] },
+  { quizRef: '3873', participants: [ 'ko6pwxlse32qDunfAAAC' ] } ]
+[2018-10-08 00:18:38.734] [DEBUG] quest - Client Connected. x8BhqPn7lJawkeY9AAAD
+[2018-10-08 00:18:39.044] [INFO] quest - Sent first question
+[2018-10-08 00:18:39.248] [INFO] quest - User disconnected: iyliYes41lxebSVeAAAA
+[2018-10-08 00:18:39.248] [DEBUG] quest - ***USERS: { '2Kk9aMMttQVQ35YgAAAB': { quizRef: '3412' },
+  ko6pwxlse32qDunfAAAC: { quizRef: '3873' },
+  x8BhqPn7lJawkeY9AAAD: { quizRef: '3873' } }
+[2018-10-08 00:18:39.248] [DEBUG] quest - ***ROOMS: { '3412': { users: { '2Kk9aMMttQVQ35YgAAAB': [Object] }, startQNo: 126 },
+  '3873': 
+   { users: 
+      { ko6pwxlse32qDunfAAAC: [Object],
+        x8BhqPn7lJawkeY9AAAD: [Object] },
+     startQNo: 3 } }
+[2018-10-08 00:18:47.244] [INFO] quest - User disconnected: 2Kk9aMMttQVQ35YgAAAB
+[2018-10-08 00:18:47.244] [DEBUG] quest - ***USERS: { ko6pwxlse32qDunfAAAC: { quizRef: '3873' },
+  x8BhqPn7lJawkeY9AAAD: { quizRef: '3873' } }
+[2018-10-08 00:18:47.244] [DEBUG] quest - ***ROOMS: { '3873': 
+   { users: 
+      { ko6pwxlse32qDunfAAAC: [Object],
+        x8BhqPn7lJawkeY9AAAD: [Object] },
+     startQNo: 3 } }
+[2018-10-08 00:18:49.064] [INFO] quest - Sent question:  5
+[2018-10-08 00:18:59.072] [INFO] quest - Sent question:  6
+[2018-10-08 00:19:09.077] [INFO] quest - Sent question:  7
+[2018-10-08 00:19:19.084] [INFO] quest - Sent question:  8
+[2018-10-08 00:19:29.090] [DEBUG] quest - ***users  ::::  { ko6pwxlse32qDunfAAAC: { userAnsMap: { '3': 3, '4': 1, '5': 0, '6': 0, '7': 1 } },
+  x8BhqPn7lJawkeY9AAAD: { userAnsMap: { '3': 0, '4': 1, '5': 2, '6': 2, '7': 3 } } }
+[2018-10-08 00:19:59.101] [INFO] quest - User disconnected: x8BhqPn7lJawkeY9AAAD
+[2018-10-08 00:19:59.103] [DEBUG] quest - ***USERS: { ko6pwxlse32qDunfAAAC: { quizRef: '3873' } }
+[2018-10-08 00:19:59.103] [DEBUG] quest - ***ROOMS: { '3873': { users: { ko6pwxlse32qDunfAAAC: [Object] }, startQNo: 3 } }
+[2018-10-08 00:20:11.026] [DEBUG] quest - Client Connected. bv_eAyxgDkDIY45GAAAE
+[2018-10-08 00:20:11.233] [INFO] quest - Created room number: 2942
+[2018-10-08 00:20:11.233] [DEBUG] quest - ***USERS:  { ko6pwxlse32qDunfAAAC: { quizRef: '3873' },
+  bv_eAyxgDkDIY45GAAAE: { quizRef: '2942' } }
+[2018-10-08 00:20:11.249] [DEBUG] quest - ***ROOMS:  [ { quizRef: '2942', participants: [ 'bv_eAyxgDkDIY45GAAAE' ] },
+  { quizRef: '3873', participants: [ 'ko6pwxlse32qDunfAAAC' ] } ]
+[2018-10-08 00:20:17.818] [INFO] quest - User disconnected: ko6pwxlse32qDunfAAAC
+[2018-10-08 00:20:17.818] [DEBUG] quest - ***USERS: { bv_eAyxgDkDIY45GAAAE: { quizRef: '2942' } }
+[2018-10-08 00:20:17.818] [DEBUG] quest - ***ROOMS: { '2942': { users: { bv_eAyxgDkDIY45GAAAE: [Object] }, startQNo: 686 } }
+[2018-10-08 00:20:29.176] [DEBUG] quest - Client Connected. Xc1pZ5Z-jLyFIa-jAAAF
+[2018-10-08 00:20:29.549] [INFO] quest - Created room number: 5753
+[2018-10-08 00:20:29.549] [DEBUG] quest - ***USERS:  { bv_eAyxgDkDIY45GAAAE: { quizRef: '2942' },
+  'Xc1pZ5Z-jLyFIa-jAAAF': { quizRef: '5753' } }
+[2018-10-08 00:20:29.549] [DEBUG] quest - ***ROOMS:  [ { quizRef: '2942', participants: [ 'bv_eAyxgDkDIY45GAAAE' ] },
+  { quizRef: '5753', participants: [ 'Xc1pZ5Z-jLyFIa-jAAAF' ] } ]
+[2018-10-08 00:20:33.634] [DEBUG] quest - Client Connected. SsRX3FAfmylXSdwOAAAG
+[2018-10-08 00:20:33.802] [INFO] quest - Sent first question
+[2018-10-08 00:20:41.253] [INFO] quest - User disconnected: bv_eAyxgDkDIY45GAAAE
+[2018-10-08 00:20:41.253] [DEBUG] quest - ***USERS: { 'Xc1pZ5Z-jLyFIa-jAAAF': { quizRef: '5753' },
+  SsRX3FAfmylXSdwOAAAG: { quizRef: '5753' } }
+[2018-10-08 00:20:41.253] [DEBUG] quest - ***ROOMS: { '5753': 
+   { users: 
+      { 'Xc1pZ5Z-jLyFIa-jAAAF': [Object],
+        SsRX3FAfmylXSdwOAAAG: [Object] },
+     startQNo: 1064 } }
+[2018-10-08 00:20:43.809] [INFO] quest - Sent question:  1066
+[2018-10-08 00:20:53.812] [INFO] quest - Sent question:  1067
+[2018-10-08 00:21:03.829] [INFO] quest - Sent question:  1068
+[2018-10-08 00:21:13.844] [INFO] quest - Sent question:  1069
+[2018-10-08 00:21:23.858] [DEBUG] quest - ***users  ::::  { 'Xc1pZ5Z-jLyFIa-jAAAF': 
+   { userAnsMap: { '1064': 2, '1065': 0, '1066': 2, '1067': 3, '1068': 3 } },
+  SsRX3FAfmylXSdwOAAAG: 
+   { userAnsMap: { '1064': 3, '1065': 2, '1066': 1, '1067': 2, '1068': 2 } } }
+[2018-10-08 00:22:09.055] [DEBUG] quest - LOGOUT:::  Xc1pZ5Z-jLyFIa-jAAAF
+[2018-10-08 00:22:09.278] [INFO] quest - User disconnected: Xc1pZ5Z-jLyFIa-jAAAF
+[2018-10-08 00:22:09.278] [DEBUG] quest - ***USERS: { SsRX3FAfmylXSdwOAAAG: { quizRef: '5753' } }
+[2018-10-08 00:22:09.278] [DEBUG] quest - ***ROOMS: { '5753': { users: { SsRX3FAfmylXSdwOAAAG: [Object] }, startQNo: 1064 } }
+[2018-10-08 00:22:11.522] [DEBUG] quest - LOGOUT:::  SsRX3FAfmylXSdwOAAAG
+[2018-10-08 00:22:11.842] [INFO] quest - User disconnected: SsRX3FAfmylXSdwOAAAG
+[2018-10-08 00:22:11.842] [DEBUG] quest - ***USERS: {}
+[2018-10-08 00:22:11.842] [DEBUG] quest - ***ROOMS: {}
+[2018-10-08 00:22:42.808] [DEBUG] quest - Client Connected. acC7rpaODFEjVlv6AAAH
+[2018-10-08 00:22:43.262] [INFO] quest - Created room number: 9775
+[2018-10-08 00:22:43.277] [DEBUG] quest - ***USERS:  { acC7rpaODFEjVlv6AAAH: { quizRef: '9775' } }
+[2018-10-08 00:22:43.277] [DEBUG] quest - ***ROOMS:  [ { quizRef: '9775', participants: [ 'acC7rpaODFEjVlv6AAAH' ] } ]
+[2018-10-08 00:22:47.058] [DEBUG] quest - Client Connected. h6IMXEo0Hbned3_-AAAI
+[2018-10-08 00:22:47.260] [INFO] quest - Sent first question
+[2018-10-08 00:22:57.274] [INFO] quest - Sent question:  289
+[2018-10-08 00:23:07.286] [INFO] quest - Sent question:  290
+[2018-10-08 00:23:17.301] [INFO] quest - Sent question:  291
+[2018-10-08 00:23:27.315] [INFO] quest - Sent question:  292
+[2018-10-08 00:23:37.331] [DEBUG] quest - ***users  ::::  { acC7rpaODFEjVlv6AAAH: { userAnsMap: { '287': 3, '288': 1, '289': 3, '290': 3 } },
+  'h6IMXEo0Hbned3_-AAAI': 
+   { userAnsMap: { '287': 0, '288': 0, '289': 1, '290': 0, '291': 0 } } }
+[2018-10-08 00:25:18.338] [INFO] quest - User disconnected: acC7rpaODFEjVlv6AAAH
+[2018-10-08 00:25:18.338] [DEBUG] quest - ***USERS: { 'h6IMXEo0Hbned3_-AAAI': { quizRef: '9775' } }
+[2018-10-08 00:25:18.338] [DEBUG] quest - ***ROOMS: { '9775': { users: { 'h6IMXEo0Hbned3_-AAAI': [Object] }, startQNo: 287 } }
+[2018-10-08 00:25:40.758] [DEBUG] quest - Client Connected. cmL9KM0n8rqy_kISAAAJ
+[2018-10-08 00:25:40.875] [INFO] quest - Created room number: 7897
+[2018-10-08 00:25:40.880] [DEBUG] quest - ***USERS:  { 'h6IMXEo0Hbned3_-AAAI': { quizRef: '9775' },
+  cmL9KM0n8rqy_kISAAAJ: { quizRef: '7897' } }
+[2018-10-08 00:25:40.880] [DEBUG] quest - ***ROOMS:  [ { quizRef: '7897', participants: [ 'cmL9KM0n8rqy_kISAAAJ' ] },
+  { quizRef: '9775', participants: [ 'h6IMXEo0Hbned3_-AAAI' ] } ]
+[2018-10-08 00:25:47.785] [DEBUG] quest - Client Connected. EzOhXXGhvZT5W5BCAAAK
+[2018-10-08 00:25:47.846] [INFO] quest - User disconnected: h6IMXEo0Hbned3_-AAAI
+[2018-10-08 00:25:47.848] [DEBUG] quest - ***USERS: { cmL9KM0n8rqy_kISAAAJ: { quizRef: '7897' },
+  EzOhXXGhvZT5W5BCAAAK: {} }
+[2018-10-08 00:25:47.851] [DEBUG] quest - ***ROOMS: { '7897': { users: { cmL9KM0n8rqy_kISAAAJ: [Object] }, startQNo: 411 } }
+[2018-10-08 00:25:48.031] [INFO] quest - Sent first question
+[2018-10-08 00:25:58.055] [INFO] quest - Sent question:  413
+[2018-10-08 00:26:08.073] [INFO] quest - Sent question:  414
+[2018-10-08 00:26:18.078] [INFO] quest - Sent question:  415
+[2018-10-08 00:26:28.084] [INFO] quest - Sent question:  416
+[2018-10-08 00:26:38.088] [DEBUG] quest - ***users  ::::  { cmL9KM0n8rqy_kISAAAJ: 
+   { userAnsMap: { '411': 2, '412': 3, '413': 3, '414': 2, '415': 1 } },
+  EzOhXXGhvZT5W5BCAAAK: 
+   { userAnsMap: { '411': 3, '412': 2, '413': 2, '414': 1, '415': 1 } } }
+[2018-10-08 00:26:46.354] [DEBUG] quest - LOGOUT:::  EzOhXXGhvZT5W5BCAAAK
+[2018-10-08 00:26:46.569] [INFO] quest - User disconnected: EzOhXXGhvZT5W5BCAAAK
+[2018-10-08 00:26:46.569] [DEBUG] quest - ***USERS: { cmL9KM0n8rqy_kISAAAJ: { quizRef: '7897' } }
+[2018-10-08 00:26:46.569] [DEBUG] quest - ***ROOMS: { '7897': { users: { cmL9KM0n8rqy_kISAAAJ: [Object] }, startQNo: 411 } }
+[2018-10-08 00:26:49.111] [DEBUG] quest - LOGOUT:::  cmL9KM0n8rqy_kISAAAJ
+[2018-10-08 00:26:49.337] [INFO] quest - User disconnected: cmL9KM0n8rqy_kISAAAJ
+[2018-10-08 00:26:49.337] [DEBUG] quest - ***USERS: {}
+[2018-10-08 00:26:49.337] [DEBUG] quest - ***ROOMS: {}
+[2018-10-08 00:29:20.883] [DEBUG] quest - Client Connected. S48oJW-SQhw3yUdqAAAL
+[2018-10-08 00:29:21.046] [INFO] quest - Created room number: 6979
+[2018-10-08 00:29:21.061] [DEBUG] quest - ***USERS:  { 'S48oJW-SQhw3yUdqAAAL': { quizRef: '6979' } }
+[2018-10-08 00:29:21.061] [DEBUG] quest - ***ROOMS:  [ { quizRef: '6979', participants: [ 'S48oJW-SQhw3yUdqAAAL' ] } ]
+[2018-10-08 00:29:26.444] [DEBUG] quest - Client Connected. RPdcrncEtMwbaSB-AAAM
+[2018-10-08 00:29:26.787] [INFO] quest - Sent first question
+[2018-10-08 00:29:36.822] [INFO] quest - Sent question:  258
+[2018-10-08 00:29:46.837] [INFO] quest - Sent question:  259
+[2018-10-08 00:29:56.846] [INFO] quest - Sent question:  260
+[2018-10-08 00:30:06.854] [INFO] quest - Sent question:  261
+[2018-10-08 00:30:16.872] [DEBUG] quest - ***users  ::::  { 'S48oJW-SQhw3yUdqAAAL': { userAnsMap: { '256': 3, '257': 1, '258': 2 } },
+  'RPdcrncEtMwbaSB-AAAM': { userAnsMap: { '256': 2, '257': 1, '258': 0 } } }
+[2018-10-08 00:30:26.105] [DEBUG] quest - Client Connected. PDTIbMBNGEHzoBW_AAAN
+[2018-10-08 00:30:26.254] [INFO] quest - Created room number: 7773
+[2018-10-08 00:30:26.254] [DEBUG] quest - ***USERS:  { 'S48oJW-SQhw3yUdqAAAL': { quizRef: '6979' },
+  'RPdcrncEtMwbaSB-AAAM': { quizRef: '6979' },
+  PDTIbMBNGEHzoBW_AAAN: { quizRef: '7773' } }
+[2018-10-08 00:30:26.269] [DEBUG] quest - ***ROOMS:  [ { quizRef: '6979',
+    participants: [ 'S48oJW-SQhw3yUdqAAAL', 'RPdcrncEtMwbaSB-AAAM' ] },
+  { quizRef: '7773', participants: [ 'PDTIbMBNGEHzoBW_AAAN' ] } ]
+[2018-10-08 00:30:30.197] [DEBUG] quest - Client Connected. 4_L-LHIwa7JCK9tCAAAO
+[2018-10-08 00:30:30.246] [INFO] quest - Sent first question
+[2018-10-08 00:30:40.267] [INFO] quest - Sent question:  33
+[2018-10-08 00:30:41.365] [INFO] quest - User disconnected: S48oJW-SQhw3yUdqAAAL
+[2018-10-08 00:30:41.367] [DEBUG] quest - ***USERS: { 'RPdcrncEtMwbaSB-AAAM': { quizRef: '6979' },
+  PDTIbMBNGEHzoBW_AAAN: { quizRef: '7773' },
+  '4_L-LHIwa7JCK9tCAAAO': { quizRef: '7773' } }
+[2018-10-08 00:30:41.370] [DEBUG] quest - ***ROOMS: { '6979': { users: { 'RPdcrncEtMwbaSB-AAAM': [Object] }, startQNo: 256 },
+  '7773': 
+   { users: 
+      { PDTIbMBNGEHzoBW_AAAN: [Object],
+        '4_L-LHIwa7JCK9tCAAAO': [Object] },
+     startQNo: 31 } }
+[2018-10-08 00:30:46.759] [INFO] quest - User disconnected: RPdcrncEtMwbaSB-AAAM
+[2018-10-08 00:30:46.759] [DEBUG] quest - ***USERS: { PDTIbMBNGEHzoBW_AAAN: { quizRef: '7773' },
+  '4_L-LHIwa7JCK9tCAAAO': { quizRef: '7773' } }
+[2018-10-08 00:30:46.759] [DEBUG] quest - ***ROOMS: { '7773': 
+   { users: 
+      { PDTIbMBNGEHzoBW_AAAN: [Object],
+        '4_L-LHIwa7JCK9tCAAAO': [Object] },
+     startQNo: 31 } }
+[2018-10-08 00:30:50.277] [INFO] quest - Sent question:  34
+[2018-10-08 00:31:00.296] [INFO] quest - Sent question:  35
+[2018-10-08 00:31:10.315] [INFO] quest - Sent question:  36
+[2018-10-08 00:31:20.318] [DEBUG] quest - ***users  ::::  { PDTIbMBNGEHzoBW_AAAN: 
+   { userAnsMap: { '31': 0, '32': 2, '33': -1, '34': -1, '35': -1 } },
+  '4_L-LHIwa7JCK9tCAAAO': 
+   { userAnsMap: { '31': 3, '32': 3, '33': 0, '34': 3, '35': -1 } } }
+[2018-10-08 00:31:24.264] [DEBUG] quest - LOGOUT:::  PDTIbMBNGEHzoBW_AAAN
+[2018-10-08 00:31:24.477] [INFO] quest - User disconnected: PDTIbMBNGEHzoBW_AAAN
+[2018-10-08 00:31:24.477] [DEBUG] quest - ***USERS: { '4_L-LHIwa7JCK9tCAAAO': { quizRef: '7773' } }
+[2018-10-08 00:31:24.477] [DEBUG] quest - ***ROOMS: { '7773': { users: { '4_L-LHIwa7JCK9tCAAAO': [Object] }, startQNo: 31 } }
+[2018-10-08 00:31:25.485] [DEBUG] quest - LOGOUT:::  4_L-LHIwa7JCK9tCAAAO
+[2018-10-08 00:31:25.714] [INFO] quest - User disconnected: 4_L-LHIwa7JCK9tCAAAO
+[2018-10-08 00:31:25.716] [DEBUG] quest - ***USERS: {}
+[2018-10-08 00:31:25.716] [DEBUG] quest - ***ROOMS: {}
+[2018-10-08 00:58:03.727] [INFO] quest - URL: http://192.168.43.170:3000/
+[2018-10-08 00:58:05.918] [DEBUG] quest - Client Connected. IaJ_8cfxH7evkgfQAAAA
+[2018-10-08 00:58:26.967] [DEBUG] quest - Client Connected. LW86azf6yRSI3xr5AAAB
+[2018-10-08 00:58:30.076] [INFO] quest - Created room number: 9249
+[2018-10-08 00:58:30.079] [DEBUG] quest - ***USERS:  { IaJ_8cfxH7evkgfQAAAA: {},
+  LW86azf6yRSI3xr5AAAB: { quizRef: '9249' } }
+[2018-10-08 00:58:30.081] [DEBUG] quest - ***ROOMS:  [ { quizRef: '9249', participants: [ 'LW86azf6yRSI3xr5AAAB' ] } ]
+[2018-10-08 00:58:35.914] [INFO] quest - User disconnected: IaJ_8cfxH7evkgfQAAAA
+[2018-10-08 00:58:35.914] [DEBUG] quest - Room does not exist
+[2018-10-08 00:58:42.886] [DEBUG] quest - LOGOUT:::  LW86azf6yRSI3xr5AAAB
+[2018-10-08 00:58:43.092] [INFO] quest - User disconnected: LW86azf6yRSI3xr5AAAB
+[2018-10-08 00:58:43.092] [DEBUG] quest - ***USERS: {}
+[2018-10-08 00:58:43.092] [DEBUG] quest - ***ROOMS: {}
+[2018-10-08 01:00:56.393] [DEBUG] quest - Client Connected. ole9yWTrJdSGZ4ECAAAC
+[2018-10-08 01:00:59.673] [DEBUG] quest - Client Connected. OeKdWtLgANBCa_gNAAAD
+[2018-10-08 01:01:01.791] [INFO] quest - Created room number: 3672
+[2018-10-08 01:01:01.791] [DEBUG] quest - ***USERS:  { ole9yWTrJdSGZ4ECAAAC: {},
+  OeKdWtLgANBCa_gNAAAD: { quizRef: '3672' } }
+[2018-10-08 01:01:01.793] [DEBUG] quest - ***ROOMS:  [ { quizRef: '3672', participants: [ 'OeKdWtLgANBCa_gNAAAD' ] } ]
+[2018-10-08 01:16:41.361] [INFO] quest - URL: http://192.168.43.170:3000/
+[2018-10-08 01:16:43.655] [DEBUG] quest - Client Connected. lPYTG5sJrnPGG7n2AAAA
+[2018-10-08 01:16:44.001] [INFO] quest - Created room number: 3416
+[2018-10-08 01:16:44.001] [DEBUG] quest - ***USERS:  { lPYTG5sJrnPGG7n2AAAA: { quizRef: '3416' } }
+[2018-10-08 01:16:44.016] [DEBUG] quest - ***ROOMS:  [ { quizRef: '3416', participants: [ 'lPYTG5sJrnPGG7n2AAAA' ] } ]
+[2018-10-08 01:16:51.149] [DEBUG] quest - Client Connected. 0Ku_-iUXMOUD8N8WAAAB
+[2018-10-08 01:16:51.224] [INFO] quest - Sent first question
+[2018-10-08 01:17:01.234] [INFO] quest - Sent question:  705
+[2018-10-08 01:17:11.250] [INFO] quest - Sent question:  706
+[2018-10-08 01:17:21.255] [INFO] quest - Sent question:  707
+[2018-10-08 01:17:31.266] [INFO] quest - Sent question:  708
+[2018-10-08 01:17:41.283] [DEBUG] quest - ***users  ::::  { lPYTG5sJrnPGG7n2AAAA: 
+   { userAnsMap: { '703': 0, '704': 2, '705': 0, '706': 2, '707': 3 } },
+  '0Ku_-iUXMOUD8N8WAAAB': 
+   { userAnsMap: { '703': 3, '704': 3, '705': 1, '706': 3, '707': 3 } } }
+[2018-10-08 01:17:48.485] [DEBUG] quest - LOGOUT:::  0Ku_-iUXMOUD8N8WAAAB
+[2018-10-08 01:17:48.741] [INFO] quest - User disconnected: 0Ku_-iUXMOUD8N8WAAAB
+[2018-10-08 01:17:48.741] [DEBUG] quest - ***USERS: { lPYTG5sJrnPGG7n2AAAA: { quizRef: '3416' } }
+[2018-10-08 01:17:48.741] [DEBUG] quest - ***ROOMS: { '3416': { users: { lPYTG5sJrnPGG7n2AAAA: [Object] }, startQNo: 703 } }
+[2018-10-08 01:17:49.501] [DEBUG] quest - LOGOUT:::  lPYTG5sJrnPGG7n2AAAA
+[2018-10-08 01:17:49.727] [INFO] quest - User disconnected: lPYTG5sJrnPGG7n2AAAA
+[2018-10-08 01:17:49.727] [DEBUG] quest - ***USERS: {}
+[2018-10-08 01:17:49.727] [DEBUG] quest - ***ROOMS: {}
+[2018-10-08 01:19:35.648] [DEBUG] quest - Client Connected. QSJKB60OGNLYnPDSAAAC
+[2018-10-08 01:19:36.855] [DEBUG] quest - LOGOUT:::  QSJKB60OGNLYnPDSAAAC
+[2018-10-08 01:19:37.086] [INFO] quest - User disconnected: QSJKB60OGNLYnPDSAAAC
+[2018-10-08 01:19:37.086] [DEBUG] quest - Room does not exist
+[2018-10-08 01:25:11.889] [INFO] quest - URL: http://192.168.43.170:3000/
+[2018-10-08 01:25:16.214] [DEBUG] quest - Client Connected. ZEKwDLjqkV00nl2bAAAA
+[2018-10-08 01:25:16.302] [INFO] quest - Created room number: 4701
+[2018-10-08 01:25:16.302] [DEBUG] quest - ***USERS:  { ZEKwDLjqkV00nl2bAAAA: { quizRef: '4701' } }
+[2018-10-08 01:25:16.302] [DEBUG] quest - ***ROOMS:  [ { quizRef: '4701', participants: [ 'ZEKwDLjqkV00nl2bAAAA' ] } ]
+[2018-10-08 01:25:37.737] [DEBUG] quest - Client Connected. Spn01Ga1gS37cBgkAAAB
+[2018-10-08 01:25:38.099] [INFO] quest - Sent first question
+[2018-10-08 01:25:48.119] [INFO] quest - Sent question:  688
+[2018-10-08 01:25:58.130] [INFO] quest - Sent question:  689
+[2018-10-08 01:26:08.134] [INFO] quest - Sent question:  690
+[2018-10-08 01:26:18.146] [INFO] quest - Sent question:  691
+[2018-10-08 01:26:28.146] [DEBUG] quest - ***users  ::::  { ZEKwDLjqkV00nl2bAAAA: { userAnsMap: { '686': 0, '687': 0 } },
+  Spn01Ga1gS37cBgkAAAB: { userAnsMap: { '686': -1, '687': 1 } } }
+[2018-10-08 01:26:42.795] [DEBUG] quest - LOGOUT:::  Spn01Ga1gS37cBgkAAAB
+[2018-10-08 01:26:42.998] [INFO] quest - User disconnected: Spn01Ga1gS37cBgkAAAB
+[2018-10-08 01:26:42.998] [DEBUG] quest - ***USERS: { ZEKwDLjqkV00nl2bAAAA: { quizRef: '4701' } }
+[2018-10-08 01:26:42.998] [DEBUG] quest - ***ROOMS: { '4701': { users: { ZEKwDLjqkV00nl2bAAAA: [Object] }, startQNo: 686 } }
+[2018-10-08 01:26:43.691] [DEBUG] quest - LOGOUT:::  ZEKwDLjqkV00nl2bAAAA
+[2018-10-08 01:26:43.904] [INFO] quest - User disconnected: ZEKwDLjqkV00nl2bAAAA
+[2018-10-08 01:26:43.904] [DEBUG] quest - ***USERS: {}
+[2018-10-08 01:26:43.904] [DEBUG] quest - ***ROOMS: {}
+[2018-10-08 01:30:17.675] [INFO] quest - URL: http://192.168.43.170:3000/
+[2018-10-08 01:30:28.962] [DEBUG] quest - Client Connected. HjHABTp7kfy6S8AhAAAA
+[2018-10-08 01:30:29.117] [INFO] quest - Created room number: 2281
+[2018-10-08 01:30:29.117] [DEBUG] quest - ***USERS:  { HjHABTp7kfy6S8AhAAAA: { quizRef: '2281' } }
+[2018-10-08 01:30:29.117] [DEBUG] quest - ***ROOMS:  [ { quizRef: '2281', participants: [ 'HjHABTp7kfy6S8AhAAAA' ] } ]
+[2018-10-08 01:30:33.405] [DEBUG] quest - Client Connected. XPprI6toczx9-zMgAAAB
+[2018-10-08 01:30:33.821] [INFO] quest - Sent first question
+[2018-10-08 01:30:43.838] [DEBUG] quest - ***users  ::::  { HjHABTp7kfy6S8AhAAAA: { userAnsMap: { '244': 0 } },
+  'XPprI6toczx9-zMgAAAB': { userAnsMap: { '244': 0 } } }
+[2018-10-08 01:31:49.492] [INFO] quest - User disconnected: HjHABTp7kfy6S8AhAAAA
+[2018-10-08 01:31:49.497] [DEBUG] quest - ***USERS: { 'XPprI6toczx9-zMgAAAB': { quizRef: '2281' } }
+[2018-10-08 01:31:49.497] [DEBUG] quest - ***ROOMS: { '2281': { users: { 'XPprI6toczx9-zMgAAAB': [Object] }, startQNo: 244 } }
+[2018-10-08 01:38:12.050] [INFO] quest - User disconnected: XPprI6toczx9-zMgAAAB
+[2018-10-08 01:38:12.060] [DEBUG] quest - ***USERS: {}
+[2018-10-08 01:38:12.068] [DEBUG] quest - ***ROOMS: {}
+[2018-10-08 02:01:38.293] [DEBUG] quest - Client Connected. okiZbhfAuBeLWwdBAAAC
+[2018-10-08 02:01:38.704] [INFO] quest - Created room number: 7287
+[2018-10-08 02:01:38.704] [DEBUG] quest - ***USERS:  { okiZbhfAuBeLWwdBAAAC: { quizRef: '7287' } }
+[2018-10-08 02:01:38.704] [DEBUG] quest - ***ROOMS:  [ { quizRef: '7287', participants: [ 'okiZbhfAuBeLWwdBAAAC' ] } ]
+[2018-10-08 02:01:43.959] [DEBUG] quest - Client Connected. 2iAalwBukYj2H7NvAAAD
+[2018-10-08 02:01:44.232] [INFO] quest - Sent first question
+[2018-10-08 02:01:54.253] [DEBUG] quest - ***users  ::::  { okiZbhfAuBeLWwdBAAAC: { userAnsMap: { '15': 2 } },
+  '2iAalwBukYj2H7NvAAAD': { userAnsMap: { '15': 0 } } }
+[2018-10-08 02:02:55.902] [DEBUG] quest - Client Connected. 77pRqL7wcQ1o7FpUAAAE
+[2018-10-08 02:02:56.017] [INFO] quest - Created room number: 6444
+[2018-10-08 02:02:56.020] [DEBUG] quest - ***USERS:  { okiZbhfAuBeLWwdBAAAC: { quizRef: '7287' },
+  '2iAalwBukYj2H7NvAAAD': { quizRef: '7287' },
+  '77pRqL7wcQ1o7FpUAAAE': { quizRef: '6444' } }
+[2018-10-08 02:02:56.022] [DEBUG] quest - ***ROOMS:  [ { quizRef: '6444', participants: [ '77pRqL7wcQ1o7FpUAAAE' ] },
+  { quizRef: '7287',
+    participants: [ 'okiZbhfAuBeLWwdBAAAC', '2iAalwBukYj2H7NvAAAD' ] } ]
+[2018-10-08 02:02:58.711] [INFO] quest - User disconnected: okiZbhfAuBeLWwdBAAAC
+[2018-10-08 02:02:58.711] [DEBUG] quest - ***USERS: { '2iAalwBukYj2H7NvAAAD': { quizRef: '7287' },
+  '77pRqL7wcQ1o7FpUAAAE': { quizRef: '6444' } }
+[2018-10-08 02:02:58.711] [DEBUG] quest - ***ROOMS: { '6444': { users: { '77pRqL7wcQ1o7FpUAAAE': [Object] }, startQNo: 934 },
+  '7287': { users: { '2iAalwBukYj2H7NvAAAD': [Object] }, startQNo: 15 } }
+[2018-10-08 02:03:00.011] [DEBUG] quest - Client Connected. AxCGFPdkgHJX8E_WAAAF
+[2018-10-08 02:03:00.265] [INFO] quest - Sent first question
+[2018-10-08 02:03:04.416] [INFO] quest - User disconnected: 2iAalwBukYj2H7NvAAAD
+[2018-10-08 02:03:04.416] [DEBUG] quest - ***USERS: { '77pRqL7wcQ1o7FpUAAAE': { quizRef: '6444' },
+  AxCGFPdkgHJX8E_WAAAF: { quizRef: '6444' } }
+[2018-10-08 02:03:04.416] [DEBUG] quest - ***ROOMS: { '6444': 
+   { users: 
+      { '77pRqL7wcQ1o7FpUAAAE': [Object],
+        AxCGFPdkgHJX8E_WAAAF: [Object] },
+     startQNo: 934 } }
+[2018-10-08 02:03:10.272] [DEBUG] quest - ***users  ::::  { '77pRqL7wcQ1o7FpUAAAE': { userAnsMap: { '934': 0 } },
+  AxCGFPdkgHJX8E_WAAAF: { userAnsMap: { '934': 1 } } }
+[2018-10-08 02:04:16.290] [INFO] quest - User disconnected: 77pRqL7wcQ1o7FpUAAAE
+[2018-10-08 02:04:16.292] [DEBUG] quest - ***USERS: { AxCGFPdkgHJX8E_WAAAF: { quizRef: '6444' } }
+[2018-10-08 02:04:16.295] [DEBUG] quest - ***ROOMS: { '6444': { users: { AxCGFPdkgHJX8E_WAAAF: [Object] }, startQNo: 934 } }
+[2018-10-08 02:04:21.005] [INFO] quest - User disconnected: AxCGFPdkgHJX8E_WAAAF
+[2018-10-08 02:04:21.008] [DEBUG] quest - ***USERS: {}
+[2018-10-08 02:04:21.010] [DEBUG] quest - ***ROOMS: {}
+[2018-10-08 02:04:44.634] [DEBUG] quest - Client Connected. zlyBXcZVC1dmckqpAAAG
+[2018-10-08 02:04:45.078] [INFO] quest - Created room number: 8543
+[2018-10-08 02:04:45.078] [DEBUG] quest - ***USERS:  { zlyBXcZVC1dmckqpAAAG: { quizRef: '8543' } }
+[2018-10-08 02:04:45.078] [DEBUG] quest - ***ROOMS:  [ { quizRef: '8543', participants: [ 'zlyBXcZVC1dmckqpAAAG' ] } ]
+[2018-10-08 02:04:48.959] [DEBUG] quest - Client Connected. cCUfAWf0kMLPJ8IyAAAH
+[2018-10-08 02:04:49.107] [INFO] quest - Sent first question
+[2018-10-08 02:04:59.114] [DEBUG] quest - ***users  ::::  { zlyBXcZVC1dmckqpAAAG: { userAnsMap: { '858': 3 } },
+  cCUfAWf0kMLPJ8IyAAAH: { userAnsMap: { '858': 2 } } }
+[2018-10-08 02:07:02.947] [DEBUG] quest - Client Connected. QvoLO5GNP1LMJIPIAAAI
+[2018-10-08 02:07:03.307] [INFO] quest - Created room number: 7513
+[2018-10-08 02:07:03.310] [DEBUG] quest - ***USERS:  { zlyBXcZVC1dmckqpAAAG: { quizRef: '8543' },
+  cCUfAWf0kMLPJ8IyAAAH: { quizRef: '8543' },
+  QvoLO5GNP1LMJIPIAAAI: { quizRef: '7513' } }
+[2018-10-08 02:07:03.310] [DEBUG] quest - ***ROOMS:  [ { quizRef: '7513', participants: [ 'QvoLO5GNP1LMJIPIAAAI' ] },
+  { quizRef: '8543',
+    participants: [ 'zlyBXcZVC1dmckqpAAAG', 'cCUfAWf0kMLPJ8IyAAAH' ] } ]
+[2018-10-08 02:07:10.273] [DEBUG] quest - Client Connected. eWm9SSJZl-dWnw31AAAJ
+[2018-10-08 02:07:10.475] [INFO] quest - Sent first question
+[2018-10-08 02:07:20.484] [DEBUG] quest - ***users  ::::  { QvoLO5GNP1LMJIPIAAAI: { userAnsMap: { '174': 1 } },
+  'eWm9SSJZl-dWnw31AAAJ': { userAnsMap: { '174': 2 } } }
+[2018-10-08 02:07:20.606] [INFO] quest - User disconnected: zlyBXcZVC1dmckqpAAAG
+[2018-10-08 02:07:20.609] [DEBUG] quest - ***USERS: { cCUfAWf0kMLPJ8IyAAAH: { quizRef: '8543' },
+  QvoLO5GNP1LMJIPIAAAI: { quizRef: '7513' },
+  'eWm9SSJZl-dWnw31AAAJ': { quizRef: '7513' } }
+[2018-10-08 02:07:20.611] [DEBUG] quest - ***ROOMS: { '7513': 
+   { users: 
+      { QvoLO5GNP1LMJIPIAAAI: [Object],
+        'eWm9SSJZl-dWnw31AAAJ': [Object] },
+     startQNo: 174 },
+  '8543': { users: { cCUfAWf0kMLPJ8IyAAAH: [Object] }, startQNo: 858 } }
+[2018-10-08 02:07:24.901] [INFO] quest - User disconnected: cCUfAWf0kMLPJ8IyAAAH
+[2018-10-08 02:07:24.901] [DEBUG] quest - ***USERS: { QvoLO5GNP1LMJIPIAAAI: { quizRef: '7513' },
+  'eWm9SSJZl-dWnw31AAAJ': { quizRef: '7513' } }
+[2018-10-08 02:07:24.903] [DEBUG] quest - ***ROOMS: { '7513': 
+   { users: 
+      { QvoLO5GNP1LMJIPIAAAI: [Object],
+        'eWm9SSJZl-dWnw31AAAJ': [Object] },
+     startQNo: 174 } }
+[2018-10-08 02:08:55.628] [INFO] quest - User disconnected: eWm9SSJZl-dWnw31AAAJ
+[2018-10-08 02:08:55.631] [DEBUG] quest - ***USERS: { QvoLO5GNP1LMJIPIAAAI: { quizRef: '7513' } }
+[2018-10-08 02:08:55.633] [DEBUG] quest - ***ROOMS: { '7513': { users: { QvoLO5GNP1LMJIPIAAAI: [Object] }, startQNo: 174 } }
+[2018-10-08 02:09:13.593] [INFO] quest - User disconnected: QvoLO5GNP1LMJIPIAAAI
+[2018-10-08 02:09:13.593] [DEBUG] quest - ***USERS: {}
+[2018-10-08 02:09:13.593] [DEBUG] quest - ***ROOMS: {}
+[2018-10-08 02:09:31.379] [DEBUG] quest - Client Connected. 12u2lrGeaEULI5VpAAAK
+[2018-10-08 02:09:31.582] [INFO] quest - Created room number: 5354
+[2018-10-08 02:09:31.582] [DEBUG] quest - ***USERS:  { '12u2lrGeaEULI5VpAAAK': { quizRef: '5354' } }
+[2018-10-08 02:09:31.582] [DEBUG] quest - ***ROOMS:  [ { quizRef: '5354', participants: [ '12u2lrGeaEULI5VpAAAK' ] } ]
+[2018-10-08 02:09:35.921] [DEBUG] quest - Client Connected. 79SDXMi3NShQoaj0AAAL
+[2018-10-08 02:09:36.298] [INFO] quest - Sent first question
+[2018-10-08 02:09:46.303] [DEBUG] quest - ***users  ::::  { '12u2lrGeaEULI5VpAAAK': { userAnsMap: { '995': 1 } },
+  '79SDXMi3NShQoaj0AAAL': { userAnsMap: { '995': 3 } } }
+[2018-10-08 02:10:49.404] [DEBUG] quest - Client Connected. OJ_jHZ9iN6mBmmozAAAM
+[2018-10-08 02:10:49.647] [INFO] quest - Created room number: 6352
+[2018-10-08 02:10:49.652] [DEBUG] quest - ***USERS:  { '12u2lrGeaEULI5VpAAAK': { quizRef: '5354' },
+  '79SDXMi3NShQoaj0AAAL': { quizRef: '5354' },
+  OJ_jHZ9iN6mBmmozAAAM: { quizRef: '6352' } }
+[2018-10-08 02:10:49.652] [DEBUG] quest - ***ROOMS:  [ { quizRef: '5354',
+    participants: [ '12u2lrGeaEULI5VpAAAK', '79SDXMi3NShQoaj0AAAL' ] },
+  { quizRef: '6352', participants: [ 'OJ_jHZ9iN6mBmmozAAAM' ] } ]
+[2018-10-08 02:10:51.965] [INFO] quest - User disconnected: 12u2lrGeaEULI5VpAAAK
+[2018-10-08 02:10:51.965] [DEBUG] quest - ***USERS: { '79SDXMi3NShQoaj0AAAL': { quizRef: '5354' },
+  OJ_jHZ9iN6mBmmozAAAM: { quizRef: '6352' } }
+[2018-10-08 02:10:51.965] [DEBUG] quest - ***ROOMS: { '5354': { users: { '79SDXMi3NShQoaj0AAAL': [Object] }, startQNo: 995 },
+  '6352': { users: { OJ_jHZ9iN6mBmmozAAAM: [Object] }, startQNo: 231 } }
+[2018-10-08 02:10:53.499] [DEBUG] quest - Client Connected. xb-dub7eAdkVcKyVAAAN
+[2018-10-08 02:10:53.556] [INFO] quest - Sent first question
+[2018-10-08 02:10:56.299] [INFO] quest - User disconnected: 79SDXMi3NShQoaj0AAAL
+[2018-10-08 02:10:56.302] [DEBUG] quest - ***USERS: { OJ_jHZ9iN6mBmmozAAAM: { quizRef: '6352' },
+  'xb-dub7eAdkVcKyVAAAN': { quizRef: '6352' } }
+[2018-10-08 02:10:56.304] [DEBUG] quest - ***ROOMS: { '6352': 
+   { users: 
+      { OJ_jHZ9iN6mBmmozAAAM: [Object],
+        'xb-dub7eAdkVcKyVAAAN': [Object] },
+     startQNo: 231 } }
+[2018-10-08 02:11:03.560] [DEBUG] quest - ***users  ::::  { OJ_jHZ9iN6mBmmozAAAM: { userAnsMap: { '231': 0 } },
+  'xb-dub7eAdkVcKyVAAAN': { userAnsMap: { '231': 1 } } }
+[2018-10-08 02:11:28.314] [DEBUG] quest - Client Connected. FNj9n9c6sKmkw-3-AAAO
+[2018-10-08 02:11:28.420] [INFO] quest - Created room number: 8374
+[2018-10-08 02:11:28.420] [DEBUG] quest - ***USERS:  { OJ_jHZ9iN6mBmmozAAAM: { quizRef: '6352' },
+  'xb-dub7eAdkVcKyVAAAN': { quizRef: '6352' },
+  'FNj9n9c6sKmkw-3-AAAO': { quizRef: '8374' } }
+[2018-10-08 02:11:28.420] [DEBUG] quest - ***ROOMS:  [ { quizRef: '6352',
+    participants: [ 'OJ_jHZ9iN6mBmmozAAAM', 'xb-dub7eAdkVcKyVAAAN' ] },
+  { quizRef: '8374', participants: [ 'FNj9n9c6sKmkw-3-AAAO' ] } ]
+[2018-10-08 02:11:44.800] [INFO] quest - User disconnected: OJ_jHZ9iN6mBmmozAAAM
+[2018-10-08 02:11:44.800] [DEBUG] quest - ***USERS: { 'xb-dub7eAdkVcKyVAAAN': { quizRef: '6352' },
+  'FNj9n9c6sKmkw-3-AAAO': { quizRef: '8374' } }
+[2018-10-08 02:11:44.800] [DEBUG] quest - ***ROOMS: { '6352': { users: { 'xb-dub7eAdkVcKyVAAAN': [Object] }, startQNo: 231 },
+  '8374': { users: { 'FNj9n9c6sKmkw-3-AAAO': [Object] }, startQNo: 504 } }
+[2018-10-08 02:11:47.352] [DEBUG] quest - Client Connected. FcDXwNVksn1aBbJmAAAP
+[2018-10-08 02:11:47.422] [INFO] quest - Sent first question
+[2018-10-08 02:11:48.693] [INFO] quest - User disconnected: xb-dub7eAdkVcKyVAAAN
+[2018-10-08 02:11:48.693] [DEBUG] quest - ***USERS: { 'FNj9n9c6sKmkw-3-AAAO': { quizRef: '8374' },
+  FcDXwNVksn1aBbJmAAAP: { quizRef: '8374' } }
+[2018-10-08 02:11:48.693] [DEBUG] quest - ***ROOMS: { '8374': 
+   { users: 
+      { 'FNj9n9c6sKmkw-3-AAAO': [Object],
+        FcDXwNVksn1aBbJmAAAP: [Object] },
+     startQNo: 504 } }
+[2018-10-08 02:11:57.429] [DEBUG] quest - ***users  ::::  { 'FNj9n9c6sKmkw-3-AAAO': { userAnsMap: { '504': 1 } },
+  FcDXwNVksn1aBbJmAAAP: { userAnsMap: { '504': 0 } } }
+[2018-10-08 02:12:18.273] [DEBUG] quest - LOGOUT:::  FcDXwNVksn1aBbJmAAAP
+[2018-10-08 02:12:18.347] [INFO] quest - User disconnected: FcDXwNVksn1aBbJmAAAP
+[2018-10-08 02:12:18.349] [DEBUG] quest - ***USERS: { 'FNj9n9c6sKmkw-3-AAAO': { quizRef: '8374' } }
+[2018-10-08 02:12:18.349] [DEBUG] quest - ***ROOMS: { '8374': { users: { 'FNj9n9c6sKmkw-3-AAAO': [Object] }, startQNo: 504 } }
+[2018-10-08 02:13:38.918] [INFO] quest - User disconnected: FNj9n9c6sKmkw-3-AAAO
+[2018-10-08 02:13:38.918] [DEBUG] quest - ***USERS: {}
+[2018-10-08 02:13:38.918] [DEBUG] quest - ***ROOMS: {}
+[2018-10-08 02:15:14.811] [DEBUG] quest - Client Connected. IJi60ePczfL0ARnYAAAQ
+[2018-10-08 02:15:14.883] [INFO] quest - Created room number: 2890
+[2018-10-08 02:15:14.899] [DEBUG] quest - ***USERS:  { IJi60ePczfL0ARnYAAAQ: { quizRef: '2890' } }
+[2018-10-08 02:15:14.899] [DEBUG] quest - ***ROOMS:  [ { quizRef: '2890', participants: [ 'IJi60ePczfL0ARnYAAAQ' ] } ]
+[2018-10-08 02:15:20.343] [DEBUG] quest - Client Connected. SkbG3m_IuJd94gElAAAR
+[2018-10-08 02:15:20.748] [INFO] quest - Sent first question
+[2018-10-08 02:15:30.778] [DEBUG] quest - ***users  ::::  { IJi60ePczfL0ARnYAAAQ: { userAnsMap: { '84': 0 } },
+  SkbG3m_IuJd94gElAAAR: { userAnsMap: { '84': 2 } } }
+[2018-10-08 02:15:41.640] [DEBUG] quest - LOGOUT:::  SkbG3m_IuJd94gElAAAR
+[2018-10-08 02:15:41.859] [INFO] quest - User disconnected: SkbG3m_IuJd94gElAAAR
+[2018-10-08 02:15:41.859] [DEBUG] quest - ***USERS: { IJi60ePczfL0ARnYAAAQ: { quizRef: '2890' } }
+[2018-10-08 02:15:41.859] [DEBUG] quest - ***ROOMS: { '2890': { users: { IJi60ePczfL0ARnYAAAQ: [Object] }, startQNo: 84 } }
+[2018-10-08 02:15:47.191] [DEBUG] quest - LOGOUT:::  IJi60ePczfL0ARnYAAAQ
+[2018-10-08 02:15:47.388] [INFO] quest - User disconnected: IJi60ePczfL0ARnYAAAQ
+[2018-10-08 02:15:47.388] [DEBUG] quest - ***USERS: {}
+[2018-10-08 02:15:47.388] [DEBUG] quest - ***ROOMS: {}
+[2018-10-08 02:22:36.007] [DEBUG] quest - Client Connected. 6VOkeYfm4ZjZThE5AAAS
+[2018-10-08 02:22:36.345] [INFO] quest - Created room number: 4466
+[2018-10-08 02:22:36.347] [DEBUG] quest - ***USERS:  { '6VOkeYfm4ZjZThE5AAAS': { quizRef: '4466' } }
+[2018-10-08 02:22:36.350] [DEBUG] quest - ***ROOMS:  [ { quizRef: '4466', participants: [ '6VOkeYfm4ZjZThE5AAAS' ] } ]
+[2018-10-08 02:22:40.460] [DEBUG] quest - Client Connected. _-RFi8t3O2nZRtmJAAAT
+[2018-10-08 02:22:41.376] [INFO] quest - Sent first question
+[2018-10-08 02:22:51.392] [DEBUG] quest - ***users  ::::  { '6VOkeYfm4ZjZThE5AAAS': { userAnsMap: { '497': 1 } },
+  '_-RFi8t3O2nZRtmJAAAT': { userAnsMap: { '497': 1 } } }
+[2018-10-08 02:23:07.892] [DEBUG] quest - Client Connected. NxCHX57wBkR9ofmJAAAU
+[2018-10-08 02:23:07.955] [INFO] quest - Created room number: 4445
+[2018-10-08 02:23:07.955] [DEBUG] quest - ***USERS:  { '6VOkeYfm4ZjZThE5AAAS': { quizRef: '4466' },
+  '_-RFi8t3O2nZRtmJAAAT': { quizRef: '4466' },
+  NxCHX57wBkR9ofmJAAAU: { quizRef: '4445' } }
+[2018-10-08 02:23:07.955] [DEBUG] quest - ***ROOMS:  [ { quizRef: '4445', participants: [ 'NxCHX57wBkR9ofmJAAAU' ] },
+  { quizRef: '4466',
+    participants: [ '6VOkeYfm4ZjZThE5AAAS', '_-RFi8t3O2nZRtmJAAAT' ] } ]
+[2018-10-08 02:23:13.735] [DEBUG] quest - Client Connected. ZkrJfnsgtb8v5ThAAAAV
+[2018-10-08 02:23:14.360] [INFO] quest - User disconnected: _-RFi8t3O2nZRtmJAAAT
+[2018-10-08 02:23:14.360] [DEBUG] quest - ***USERS: { '6VOkeYfm4ZjZThE5AAAS': { quizRef: '4466' },
+  NxCHX57wBkR9ofmJAAAU: { quizRef: '4445' },
+  ZkrJfnsgtb8v5ThAAAAV: {} }
+[2018-10-08 02:23:14.360] [DEBUG] quest - ***ROOMS: { '4445': { users: { NxCHX57wBkR9ofmJAAAU: [Object] }, startQNo: 134 },
+  '4466': { users: { '6VOkeYfm4ZjZThE5AAAS': [Object] }, startQNo: 497 } }
+[2018-10-08 02:23:14.647] [INFO] quest - Sent first question
+[2018-10-08 02:23:24.671] [DEBUG] quest - ***users  ::::  { NxCHX57wBkR9ofmJAAAU: { userAnsMap: { '134': 3 } },
+  ZkrJfnsgtb8v5ThAAAAV: { userAnsMap: { '134': 1 } } }
+[2018-10-08 02:23:31.176] [INFO] quest - User disconnected: 6VOkeYfm4ZjZThE5AAAS
+[2018-10-08 02:23:31.176] [DEBUG] quest - ***USERS: { NxCHX57wBkR9ofmJAAAU: { quizRef: '4445' },
+  ZkrJfnsgtb8v5ThAAAAV: { quizRef: '4445' } }
+[2018-10-08 02:23:31.176] [DEBUG] quest - ***ROOMS: { '4445': 
+   { users: 
+      { NxCHX57wBkR9ofmJAAAU: [Object],
+        ZkrJfnsgtb8v5ThAAAAV: [Object] },
+     startQNo: 134 } }
+[2018-10-08 02:23:54.264] [DEBUG] quest - Client Connected. 5vYUTxsOLznqa1KwAAAW
+[2018-10-08 02:23:55.409] [INFO] quest - Created room number: 4831
+[2018-10-08 02:23:55.424] [DEBUG] quest - ***USERS:  { NxCHX57wBkR9ofmJAAAU: { quizRef: '4445' },
+  ZkrJfnsgtb8v5ThAAAAV: { quizRef: '4445' },
+  '5vYUTxsOLznqa1KwAAAW': { quizRef: '4831' } }
+[2018-10-08 02:23:55.424] [DEBUG] quest - ***ROOMS:  [ { quizRef: '4445',
+    participants: [ 'NxCHX57wBkR9ofmJAAAU', 'ZkrJfnsgtb8v5ThAAAAV' ] },
+  { quizRef: '4831', participants: [ '5vYUTxsOLznqa1KwAAAW' ] } ]
+[2018-10-08 02:24:00.266] [DEBUG] quest - Client Connected. NFORus9_r5sVZNWEAAAX
+[2018-10-08 02:24:00.977] [INFO] quest - Created room number: 4535
+[2018-10-08 02:24:00.977] [DEBUG] quest - ***USERS:  { NxCHX57wBkR9ofmJAAAU: { quizRef: '4445' },
+  ZkrJfnsgtb8v5ThAAAAV: { quizRef: '4445' },
+  '5vYUTxsOLznqa1KwAAAW': { quizRef: '4831' },
+  NFORus9_r5sVZNWEAAAX: { quizRef: '4535' } }
+[2018-10-08 02:24:00.977] [DEBUG] quest - ***ROOMS:  [ { quizRef: '4445',
+    participants: [ 'NxCHX57wBkR9ofmJAAAU', 'ZkrJfnsgtb8v5ThAAAAV' ] },
+  { quizRef: '4535', participants: [ 'NFORus9_r5sVZNWEAAAX' ] },
+  { quizRef: '4831', participants: [ '5vYUTxsOLznqa1KwAAAW' ] } ]
+[2018-10-08 02:24:03.000] [INFO] quest - User disconnected: NxCHX57wBkR9ofmJAAAU
+[2018-10-08 02:24:03.000] [DEBUG] quest - ***USERS: { ZkrJfnsgtb8v5ThAAAAV: { quizRef: '4445' },
+  '5vYUTxsOLznqa1KwAAAW': { quizRef: '4831' },
+  NFORus9_r5sVZNWEAAAX: { quizRef: '4535' } }
+[2018-10-08 02:24:03.000] [DEBUG] quest - ***ROOMS: { '4445': { users: { ZkrJfnsgtb8v5ThAAAAV: [Object] }, startQNo: 134 },
+  '4535': { users: { NFORus9_r5sVZNWEAAAX: [Object] }, startQNo: 965 },
+  '4831': { users: { '5vYUTxsOLznqa1KwAAAW': [Object] }, startQNo: 699 } }
+[2018-10-08 02:24:03.249] [DEBUG] quest - LOGOUT:::  NFORus9_r5sVZNWEAAAX
+[2018-10-08 02:24:03.471] [INFO] quest - User disconnected: NFORus9_r5sVZNWEAAAX
+[2018-10-08 02:24:03.471] [DEBUG] quest - ***USERS: { ZkrJfnsgtb8v5ThAAAAV: { quizRef: '4445' },
+  '5vYUTxsOLznqa1KwAAAW': { quizRef: '4831' } }
+[2018-10-08 02:24:03.471] [DEBUG] quest - ***ROOMS: { '4445': { users: { ZkrJfnsgtb8v5ThAAAAV: [Object] }, startQNo: 134 },
+  '4831': { users: { '5vYUTxsOLznqa1KwAAAW': [Object] }, startQNo: 699 } }
+[2018-10-08 02:24:07.078] [DEBUG] quest - Client Connected. xCs2ymMM5DPt-BPuAAAY
+[2018-10-08 02:24:07.409] [INFO] quest - Sent first question
+[2018-10-08 02:24:09.654] [INFO] quest - User disconnected: ZkrJfnsgtb8v5ThAAAAV
+[2018-10-08 02:24:09.654] [DEBUG] quest - ***USERS: { '5vYUTxsOLznqa1KwAAAW': { quizRef: '4831' },
+  'xCs2ymMM5DPt-BPuAAAY': { quizRef: '4831' } }
+[2018-10-08 02:24:09.654] [DEBUG] quest - ***ROOMS: { '4831': 
+   { users: 
+      { '5vYUTxsOLznqa1KwAAAW': [Object],
+        'xCs2ymMM5DPt-BPuAAAY': [Object] },
+     startQNo: 699 } }
+[2018-10-08 02:24:17.440] [DEBUG] quest - ***users  ::::  { '5vYUTxsOLznqa1KwAAAW': { userAnsMap: { '699': 2 } },
+  'xCs2ymMM5DPt-BPuAAAY': { userAnsMap: { '699': 1 } } }
+[2018-10-08 02:24:42.922] [DEBUG] quest - Client Connected. yjM8tY7cmmBl2NBXAAAZ
+[2018-10-08 02:24:43.005] [INFO] quest - Created room number: 9276
+[2018-10-08 02:24:43.020] [DEBUG] quest - ***USERS:  { '5vYUTxsOLznqa1KwAAAW': { quizRef: '4831' },
+  'xCs2ymMM5DPt-BPuAAAY': { quizRef: '4831' },
+  yjM8tY7cmmBl2NBXAAAZ: { quizRef: '9276' } }
+[2018-10-08 02:24:43.020] [DEBUG] quest - ***ROOMS:  [ { quizRef: '4831',
+    participants: [ '5vYUTxsOLznqa1KwAAAW', 'xCs2ymMM5DPt-BPuAAAY' ] },
+  { quizRef: '9276', participants: [ 'yjM8tY7cmmBl2NBXAAAZ' ] } ]
+[2018-10-08 02:24:47.548] [DEBUG] quest - Client Connected. 1TL-xl8vxuPlNPr6AAAa
+[2018-10-08 02:24:48.590] [INFO] quest - Sent first question
+[2018-10-08 02:24:49.579] [INFO] quest - User disconnected: 5vYUTxsOLznqa1KwAAAW
+[2018-10-08 02:24:49.582] [DEBUG] quest - ***USERS: { 'xCs2ymMM5DPt-BPuAAAY': { quizRef: '4831' },
+  yjM8tY7cmmBl2NBXAAAZ: { quizRef: '9276' },
+  '1TL-xl8vxuPlNPr6AAAa': { quizRef: '9276' } }
+[2018-10-08 02:24:49.584] [DEBUG] quest - ***ROOMS: { '4831': { users: { 'xCs2ymMM5DPt-BPuAAAY': [Object] }, startQNo: 699 },
+  '9276': 
+   { users: 
+      { yjM8tY7cmmBl2NBXAAAZ: [Object],
+        '1TL-xl8vxuPlNPr6AAAa': [Object] },
+     startQNo: 354 } }
+[2018-10-08 02:24:58.595] [DEBUG] quest - ***users  ::::  { yjM8tY7cmmBl2NBXAAAZ: { userAnsMap: { '354': 3 } },
+  '1TL-xl8vxuPlNPr6AAAa': { userAnsMap: { '354': 2 } } }
+[2018-10-08 02:25:02.387] [INFO] quest - User disconnected: xCs2ymMM5DPt-BPuAAAY
+[2018-10-08 02:25:02.390] [DEBUG] quest - ***USERS: { yjM8tY7cmmBl2NBXAAAZ: { quizRef: '9276' },
+  '1TL-xl8vxuPlNPr6AAAa': { quizRef: '9276' } }
+[2018-10-08 02:25:02.392] [DEBUG] quest - ***ROOMS: { '9276': 
+   { users: 
+      { yjM8tY7cmmBl2NBXAAAZ: [Object],
+        '1TL-xl8vxuPlNPr6AAAa': [Object] },
+     startQNo: 354 } }
+[2018-10-08 02:25:30.647] [DEBUG] quest - Client Connected. 3FPKUKgHBHiO-4cjAAAb
+[2018-10-08 02:25:30.699] [INFO] quest - Created room number: 1044
+[2018-10-08 02:25:30.699] [DEBUG] quest - ***USERS:  { yjM8tY7cmmBl2NBXAAAZ: { quizRef: '9276' },
+  '1TL-xl8vxuPlNPr6AAAa': { quizRef: '9276' },
+  '3FPKUKgHBHiO-4cjAAAb': { quizRef: '1044' } }
+[2018-10-08 02:25:30.701] [DEBUG] quest - ***ROOMS:  [ { quizRef: '1044', participants: [ '3FPKUKgHBHiO-4cjAAAb' ] },
+  { quizRef: '9276',
+    participants: [ 'yjM8tY7cmmBl2NBXAAAZ', '1TL-xl8vxuPlNPr6AAAa' ] } ]
+[2018-10-08 02:25:35.350] [DEBUG] quest - Client Connected. GCAR470r28x0MUU-AAAc
+[2018-10-08 02:25:36.100] [INFO] quest - Sent first question
+[2018-10-08 02:25:38.163] [INFO] quest - User disconnected: yjM8tY7cmmBl2NBXAAAZ
+[2018-10-08 02:25:38.163] [DEBUG] quest - ***USERS: { '1TL-xl8vxuPlNPr6AAAa': { quizRef: '9276' },
+  '3FPKUKgHBHiO-4cjAAAb': { quizRef: '1044' },
+  'GCAR470r28x0MUU-AAAc': { quizRef: '1044' } }
+[2018-10-08 02:25:38.163] [DEBUG] quest - ***ROOMS: { '1044': 
+   { users: 
+      { '3FPKUKgHBHiO-4cjAAAb': [Object],
+        'GCAR470r28x0MUU-AAAc': [Object] },
+     startQNo: 267 },
+  '9276': { users: { '1TL-xl8vxuPlNPr6AAAa': [Object] }, startQNo: 354 } }
+[2018-10-08 02:25:43.446] [INFO] quest - User disconnected: 1TL-xl8vxuPlNPr6AAAa
+[2018-10-08 02:25:43.446] [DEBUG] quest - ***USERS: { '3FPKUKgHBHiO-4cjAAAb': { quizRef: '1044' },
+  'GCAR470r28x0MUU-AAAc': { quizRef: '1044' } }
+[2018-10-08 02:25:43.446] [DEBUG] quest - ***ROOMS: { '1044': 
+   { users: 
+      { '3FPKUKgHBHiO-4cjAAAb': [Object],
+        'GCAR470r28x0MUU-AAAc': [Object] },
+     startQNo: 267 } }
+[2018-10-08 02:25:46.106] [DEBUG] quest - ***users  ::::  { '3FPKUKgHBHiO-4cjAAAb': { userAnsMap: { '267': 3 } },
+  'GCAR470r28x0MUU-AAAc': { userAnsMap: { '267': 2 } } }
+[2018-10-08 02:25:58.900] [DEBUG] quest - LOGOUT:::  GCAR470r28x0MUU-AAAc
+[2018-10-08 02:25:59.104] [INFO] quest - User disconnected: GCAR470r28x0MUU-AAAc
+[2018-10-08 02:25:59.109] [DEBUG] quest - ***USERS: { '3FPKUKgHBHiO-4cjAAAb': { quizRef: '1044' } }
+[2018-10-08 02:25:59.109] [DEBUG] quest - ***ROOMS: { '1044': { users: { '3FPKUKgHBHiO-4cjAAAb': [Object] }, startQNo: 267 } }
+[2018-10-08 02:26:00.127] [DEBUG] quest - LOGOUT:::  3FPKUKgHBHiO-4cjAAAb
+[2018-10-08 02:26:00.339] [INFO] quest - User disconnected: 3FPKUKgHBHiO-4cjAAAb
+[2018-10-08 02:26:00.341] [DEBUG] quest - ***USERS: {}
+[2018-10-08 02:26:00.341] [DEBUG] quest - ***ROOMS: {}
+[2018-10-08 02:26:00.961] [DEBUG] quest - Client Connected. vBcowocwykfLQCjpAAAd
+[2018-10-08 02:26:01.189] [INFO] quest - Created room number: 9825
+[2018-10-08 02:26:01.192] [DEBUG] quest - ***USERS:  { vBcowocwykfLQCjpAAAd: { quizRef: '9825' } }
+[2018-10-08 02:26:01.194] [DEBUG] quest - ***ROOMS:  [ { quizRef: '9825', participants: [ 'vBcowocwykfLQCjpAAAd' ] } ]
+[2018-10-08 02:26:06.477] [DEBUG] quest - Client Connected. rji5oqPYj8tlVCd9AAAe
+[2018-10-08 02:26:06.509] [INFO] quest - Sent first question
+[2018-10-08 02:26:16.524] [DEBUG] quest - ***users  ::::  { vBcowocwykfLQCjpAAAd: { userAnsMap: { '548': 1 } },
+  rji5oqPYj8tlVCd9AAAe: { userAnsMap: { '548': 1 } } }
+[2018-10-08 02:27:21.540] [INFO] quest - User disconnected: vBcowocwykfLQCjpAAAd
+[2018-10-08 02:27:21.540] [DEBUG] quest - ***USERS: { rji5oqPYj8tlVCd9AAAe: { quizRef: '9825' } }
+[2018-10-08 02:27:21.540] [DEBUG] quest - ***ROOMS: { '9825': { users: { rji5oqPYj8tlVCd9AAAe: [Object] }, startQNo: 548 } }
+[2018-10-08 02:27:26.657] [INFO] quest - User disconnected: rji5oqPYj8tlVCd9AAAe
+[2018-10-08 02:27:26.657] [DEBUG] quest - ***USERS: {}
+[2018-10-08 02:27:26.657] [DEBUG] quest - ***ROOMS: {}
+[2018-10-08 02:27:40.897] [DEBUG] quest - Client Connected. YhW0gAwZBNwv3Gz0AAAf
+[2018-10-08 02:27:40.946] [INFO] quest - Created room number: 6474
+[2018-10-08 02:27:40.949] [DEBUG] quest - ***USERS:  { YhW0gAwZBNwv3Gz0AAAf: { quizRef: '6474' } }
+[2018-10-08 02:27:40.951] [DEBUG] quest - ***ROOMS:  [ { quizRef: '6474', participants: [ 'YhW0gAwZBNwv3Gz0AAAf' ] } ]
+[2018-10-08 02:27:45.124] [DEBUG] quest - Client Connected. 5xyJ62ELbGKhMykdAAAg
+[2018-10-08 02:27:46.060] [INFO] quest - Sent first question
+[2018-10-08 02:27:56.073] [DEBUG] quest - ***users  ::::  { YhW0gAwZBNwv3Gz0AAAf: { userAnsMap: { '977': 1 } },
+  '5xyJ62ELbGKhMykdAAAg': { userAnsMap: { '977': 2 } } }
+[2018-10-08 02:29:31.175] [INFO] quest - User disconnected: 5xyJ62ELbGKhMykdAAAg
+[2018-10-08 02:29:31.175] [DEBUG] quest - ***USERS: { YhW0gAwZBNwv3Gz0AAAf: { quizRef: '6474' } }
+[2018-10-08 02:29:31.175] [DEBUG] quest - ***ROOMS: { '6474': { users: { YhW0gAwZBNwv3Gz0AAAf: [Object] }, startQNo: 977 } }
+[2018-10-08 02:29:51.391] [INFO] quest - User disconnected: YhW0gAwZBNwv3Gz0AAAf
+[2018-10-08 02:29:51.391] [DEBUG] quest - ***USERS: {}
+[2018-10-08 02:29:51.391] [DEBUG] quest - ***ROOMS: {}
+[2018-10-08 02:30:35.382] [DEBUG] quest - Client Connected. SX5R34ql_61etvNsAAAh
+[2018-10-08 02:30:35.449] [INFO] quest - Created room number: 7258
+[2018-10-08 02:30:35.452] [DEBUG] quest - ***USERS:  { SX5R34ql_61etvNsAAAh: { quizRef: '7258' } }
+[2018-10-08 02:30:35.452] [DEBUG] quest - ***ROOMS:  [ { quizRef: '7258', participants: [ 'SX5R34ql_61etvNsAAAh' ] } ]
+[2018-10-08 02:30:40.152] [DEBUG] quest - Client Connected. FVjnD4W2hsquSM8UAAAi
+[2018-10-08 02:30:41.060] [INFO] quest - Sent first question
+[2018-10-08 02:30:51.074] [DEBUG] quest - ***users  ::::  { SX5R34ql_61etvNsAAAh: { userAnsMap: { '909': 2 } },
+  FVjnD4W2hsquSM8UAAAi: { userAnsMap: { '909': 1 } } }
+[2018-10-08 02:30:58.411] [DEBUG] quest - LOGOUT:::  FVjnD4W2hsquSM8UAAAi
+[2018-10-08 02:30:58.623] [INFO] quest - User disconnected: FVjnD4W2hsquSM8UAAAi
+[2018-10-08 02:30:58.623] [DEBUG] quest - ***USERS: { SX5R34ql_61etvNsAAAh: { quizRef: '7258' } }
+[2018-10-08 02:30:58.623] [DEBUG] quest - ***ROOMS: { '7258': { users: { SX5R34ql_61etvNsAAAh: [Object] }, startQNo: 909 } }
+[2018-10-08 02:31:00.558] [DEBUG] quest - LOGOUT:::  SX5R34ql_61etvNsAAAh
+[2018-10-08 02:31:00.773] [INFO] quest - User disconnected: SX5R34ql_61etvNsAAAh
+[2018-10-08 02:31:00.773] [DEBUG] quest - ***USERS: {}
+[2018-10-08 02:31:00.773] [DEBUG] quest - ***ROOMS: {}
+[2018-10-08 02:39:19.458] [DEBUG] quest - Client Connected. -YRsMozxetxnLhSbAAAj
+[2018-10-08 02:39:20.411] [INFO] quest - Created room number: 1501
+[2018-10-08 02:39:20.411] [DEBUG] quest - ***USERS:  { '-YRsMozxetxnLhSbAAAj': { quizRef: '1501' } }
+[2018-10-08 02:39:20.411] [DEBUG] quest - ***ROOMS:  [ { quizRef: '1501', participants: [ '-YRsMozxetxnLhSbAAAj' ] } ]
+[2018-10-08 02:39:26.828] [DEBUG] quest - Client Connected. bgMR_V9EXCcfyg95AAAk
+[2018-10-08 02:39:26.901] [INFO] quest - Sent first question
+[2018-10-08 02:39:36.905] [DEBUG] quest - ***users  ::::  { '-YRsMozxetxnLhSbAAAj': { userAnsMap: { '220': 3 } },
+  bgMR_V9EXCcfyg95AAAk: { userAnsMap: { '220': 2 } } }
+[2018-10-08 02:40:40.165] [INFO] quest - User disconnected: -YRsMozxetxnLhSbAAAj
+[2018-10-08 02:40:40.165] [DEBUG] quest - ***USERS: { bgMR_V9EXCcfyg95AAAk: { quizRef: '1501' } }
+[2018-10-08 02:40:40.165] [DEBUG] quest - ***ROOMS: { '1501': { users: { bgMR_V9EXCcfyg95AAAk: [Object] }, startQNo: 220 } }
+[2018-10-08 02:40:47.213] [INFO] quest - User disconnected: bgMR_V9EXCcfyg95AAAk
+[2018-10-08 02:40:47.216] [DEBUG] quest - ***USERS: {}
+[2018-10-08 02:40:47.216] [DEBUG] quest - ***ROOMS: {}
+[2018-10-08 02:44:03.914] [DEBUG] quest - Client Connected. sXEHOHu9hJiJ5DIkAAAl
+[2018-10-08 02:44:03.986] [INFO] quest - Created room number: 4485
+[2018-10-08 02:44:03.989] [DEBUG] quest - ***USERS:  { sXEHOHu9hJiJ5DIkAAAl: { quizRef: '4485' } }
+[2018-10-08 02:44:03.991] [DEBUG] quest - ***ROOMS:  [ { quizRef: '4485', participants: [ 'sXEHOHu9hJiJ5DIkAAAl' ] } ]
+[2018-10-08 02:44:08.831] [DEBUG] quest - Client Connected. DPT83bgiaCJbN3mGAAAm
+[2018-10-08 02:44:09.253] [INFO] quest - Sent first question
+[2018-10-08 02:44:19.279] [DEBUG] quest - ***users  ::::  { sXEHOHu9hJiJ5DIkAAAl: { userAnsMap: { '643': 1 } },
+  DPT83bgiaCJbN3mGAAAm: { userAnsMap: { '643': 0 } } }
+[2018-10-08 02:46:18.268] [DEBUG] quest - LOGOUT:::  DPT83bgiaCJbN3mGAAAm
+[2018-10-08 02:46:18.476] [INFO] quest - User disconnected: DPT83bgiaCJbN3mGAAAm
+[2018-10-08 02:46:18.476] [DEBUG] quest - ***USERS: { sXEHOHu9hJiJ5DIkAAAl: { quizRef: '4485' } }
+[2018-10-08 02:46:18.476] [DEBUG] quest - ***ROOMS: { '4485': { users: { sXEHOHu9hJiJ5DIkAAAl: [Object] }, startQNo: 643 } }
+[2018-10-08 02:46:20.026] [DEBUG] quest - LOGOUT:::  sXEHOHu9hJiJ5DIkAAAl
+[2018-10-08 02:46:20.250] [INFO] quest - User disconnected: sXEHOHu9hJiJ5DIkAAAl
+[2018-10-08 02:46:20.252] [DEBUG] quest - ***USERS: {}
+[2018-10-08 02:46:20.255] [DEBUG] quest - ***ROOMS: {}
+[2018-10-08 02:51:37.456] [INFO] quest - URL: http://192.168.43.170:3000/
+[2018-10-08 02:52:06.251] [INFO] quest - Client Connected. F6wWFmzCie-AhyGmAAAA
+[2018-10-08 02:52:06.443] [INFO] quest - Created room number: 1329
+[2018-10-08 02:52:15.240] [INFO] quest - Client Connected. uKwYeF2depj0W2lJAAAB
+[2018-10-08 02:52:15.311] [INFO] quest - quiz started in  1329
+[2018-10-08 02:55:11.073] [INFO] quest - URL: http://192.168.43.170:3000/
+[2018-10-08 02:55:17.773] [INFO] quest - Client Connected. Dk9zI1koUFHd9e_DAAAA
+[2018-10-08 02:55:18.101] [INFO] quest - Created room number: 8173
+[2018-10-08 02:55:23.733] [INFO] quest - Client Connected. P2m9BucqmUGIWByhAAAB
+[2018-10-08 02:55:24.065] [INFO] quest - quiz started in  8173
+[2018-10-08 02:56:14.108] [INFO] quest - Quiz ended in 8173
+[2018-10-08 02:57:03.484] [INFO] quest - User disconnected: Dk9zI1koUFHd9e_DAAAA
+[2018-10-08 02:57:09.433] [INFO] quest - User disconnected: P2m9BucqmUGIWByhAAAB

@@ -7,7 +7,6 @@ var io = require('socket.io')(http);
 var util = require('util');
 var fs = require('fs');
 var dir = './logs';
-var request = require('request');
 var ip = require("ip");
 var questions = require('./data/ugly/Random.json');
 
@@ -34,7 +33,7 @@ const errorCodes = {
 };
 
 let logger = log4js.getLogger('quest');
-logger.setLevel('debug');
+logger.setLevel('info');
 
 const PORT = 3000;
 
@@ -72,7 +71,7 @@ function generateQuizRef(){
 }
 
 io.on('connection', function(socket){
-	logger.debug("Client Connected. " + socket.id);
+	logger.info("Client Connected. " + socket.id);
 	let id = socket.id;
 	users[id] = {};
 	let quizRef;
@@ -112,20 +111,21 @@ io.on('connection', function(socket){
 				return;
 			}
 			io.to(users[id].quizRef).emit('quiz started');
+			logger.info('quiz started in ',users[id].quizRef);
 			let questionNumber=rooms[quizRef].startQNo;
 			io.to(users[id].quizRef).emit('question',{questionNumber, question:questions[questionNumber++]});
-			logger.info('Sent first question');
+			logger.debug('Sent first question');
 			let questionTimer = setInterval(()=>{
 				try{
-					console.log(questionNumber, rooms[quizRef].startQNo);
 					if(questionNumber-rooms[quizRef].startQNo>=config.questionsPerSession){
 						clearInterval(questionTimer);
 						let scoreObj = calculateScore();
 						io.to(users[id].quizRef).emit('end quiz', scoreObj);
+						logger.info(`Quiz ended in ${quizRef}`);
 					}
 					else{
 						io.to(users[id].quizRef).emit('question',{questionNumber, question:questions[questionNumber++]});
-						logger.info('Sent question: ', questionNumber);
+						logger.debug('Sent question: ', questionNumber);
 					}
 				}
 				catch(e){
@@ -167,7 +167,7 @@ io.on('connection', function(socket){
 				socket.join(users[id].quizRef);
 			}
 			//TODO: Temp code. To be removed
-			setTimeout(()=>startQuiz(quizRef), 3000);
+			//setTimeout(()=>startQuiz(quizRef), 3000);
 		}
 		catch(e){
 			logger.info(`Error in Create Room ${e}`);
@@ -195,13 +195,10 @@ io.on('connection', function(socket){
 		}
 	});
 
-	// socket.on('getQ', function(){
-	// 	io.emit("questions", questions);
-	// });
-
 	socket.on('answer', function(userAnswer){
 		try{
 			rooms[quizRef].users[id].userAnsMap[userAnswer.questionNumber] = userAnswer.answer;
+			socket.broadcast.to(users[id].quizRef).emit('opponent answer', userAnswer.answer);
 		}
 		catch(e){
 			logger.info(`Error in answer ${e}`);
@@ -226,7 +223,7 @@ io.on('connection', function(socket){
 				delete users[id];
 			}
 			if(rooms[roomId] === undefined){
-				logger.debug("Room does not exist");
+				logger.info("Room does not exist:",roomId);
 				return;
 			}
 			delete rooms[roomId].users[id];

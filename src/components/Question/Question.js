@@ -1,6 +1,6 @@
 import React from 'react';
 import { Text, View, TouchableOpacity, ProgressBarAndroid } from 'react-native';
-import { styles, stageStyles } from '../../styles/styles';
+import { stageStyles } from '../../styles/styles';
 import {CheckBox} from 'react-native-elements';
 
 export default class Question extends React.Component {
@@ -47,6 +47,7 @@ export default class Question extends React.Component {
 
   render() {
     let {question, options, answer} = this.props.question;
+    let {showAnswer, opponentAnswer} = this.props;
     return (
       <View style={stageStyles.innerContainer}>
         <View style={stageStyles.progressContainer}>
@@ -65,13 +66,26 @@ export default class Question extends React.Component {
         </View>
         
         <View style={stageStyles.questionContainer}>
-          <Text style={stageStyles.questionText} selectable={true}>{`Q.${this.state.questionCounter} ${question}`}</Text>
+          <Text style={stageStyles.questionText}>{`Q.${this.state.questionCounter} ${question}`}</Text>
           {options.map((option, index)=>{
-            let ansBackground=answer==index&&this.props.showAnswer?{backgroundColor: 'lightgreen', opacity:0.5}:{backgroundColor: 'transparent'};
+            let ansBackground = {backgroundColor: 'transparent'};
+            if(showAnswer){
+              if(answer==opponentAnswer && answer==index){
+                ansBackground = {backgroundColor: '#124213', opacity:0.5}
+              }
+              else if(answer==index){
+                ansBackground = {backgroundColor: 'green', opacity:0.5}
+              }
+              else if(opponentAnswer==index){
+                ansBackground = {backgroundColor: 'grey', opacity:0.5}
+              }
+            }
+            
             return(
             <View key={index}
-                  pointerEvents={!this.props.isMultiplayer && this.props.showAnswer?'none':'auto'}>
-              <CheckBox 
+                  pointerEvents={this.props.showAnswer?'none':'auto'}>
+              <CheckBox
+                checkedColor='white'
                 textStyle={stageStyles.optionText}
                 containerStyle={[{borderColor:'transparent'}, {...ansBackground}]}
                 title={`${index+1}. ${option}`}
@@ -85,8 +99,9 @@ export default class Question extends React.Component {
         <View style={stageStyles.optionsContainer}>
           {options.map((option, index)=>{return(
             <View key={index}
-                  pointerEvents={!this.props.isMultiplayer && this.props.showAnswer?'none':'auto'}>
+                  pointerEvents={this.props.showAnswer?'none':'auto'}>
               <CheckBox 
+                checkedColor='white'
                 textStyle={stageStyles.optionText}
                 containerStyle={stageStyles.optionContainer}
                 title={`${index+1}`}
@@ -97,7 +112,7 @@ export default class Question extends React.Component {
           })}
         </View>
         <View style={stageStyles.ansButtonContainer}>
-          <TouchableOpacity style={stageStyles.ansButton} disabled={!this.props.isMultiplayer && this.props.showAnswer} onPress={()=>this.submitAnswer()}>
+          <TouchableOpacity style={stageStyles.ansButton} disabled={this.props.showAnswer} onPress={()=>this.submitAnswer()}>
             <Text style={stageStyles.nextButtonText}>Submit Answer</Text>
           </TouchableOpacity>
         </View>

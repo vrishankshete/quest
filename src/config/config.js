@@ -1,4 +1,3 @@
-
 // URL for server running socket io
 //export const socketServerURL = 'http://10.38.72.123:3000';
 export const socketServerURL = 'http://192.168.0.11:3000';
@@ -15,5 +14,6 @@ export const questionTimeout = 10; //in seconds
 export const errorCodes = {
 	1: "No Questions",
 	2: "Invalid Room Id",
-	3: "Server is experiencing load. Please try again after some time."
+	3: "Server is experiencing load. Please try again after some time.",
+	4: "Server Down"
 };

@@ -5,7 +5,8 @@ export const actionTypes = {
     DISCONNECT_GAME: "DISCONNECT_GAME",
     SET_ERROR: "SET_ERROR",
     RESET_ROOMID: "RESET_ROOMID",
-    RESET_STAGE: "RESET_STAGE"
+    RESET_STAGE: "RESET_STAGE",
+    SET_OPPONENT_ANSWER: "SET_OPPONENT_ANSWER"
 }
 export const roomCreated = (roomIdText)=>{
     return {
@@ -44,5 +45,11 @@ export const resetRoomId = ()=>{
 export const resetStage = ()=>{
     return {
         type:actionTypes.RESET_STAGE
+    }
+}
+export const setOpponentAnswer = (opponentAns)=>{
+    return {
+        type:actionTypes.SET_OPPONENT_ANSWER,
+        payload: opponentAns
     }
 }

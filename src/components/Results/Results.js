@@ -2,7 +2,8 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { View, Text, BackHandler } from 'react-native';
 import { LinearGradient } from 'expo';
-import { styles } from '../../styles/styles';
+import { showScoreStyles, gradientColors } from '../../styles/styles';
+import ShowScore from '../Helper/ShowScore'
 
 class Results extends React.Component {
 
@@ -20,17 +21,12 @@ class Results extends React.Component {
     }
 
     render() {
+        let {totalAttempted, correctAnswers} = this.props;
         return (
-            <LinearGradient style={styles.resultsContainer} colors={['#000000', '#030184']}>
-                <Text selectable={true} style={{fontSize:18, color:'white'}}>
-                    {'Total Attempted: '}{this.props.totalAttempted}
-                </Text>
-                <Text selectable={true} style={{fontSize:18, color:'white'}}>
-                    {'Correct Answers: '}{this.props.correctAnswers}
-                </Text>
-                <Text selectable={true} style={{fontSize:18, color:'white'}}>
-                    {'Incorrect Answers: '}{this.props.totalAttempted - this.props.correctAnswers}
-                </Text>
+            <LinearGradient style={showScoreStyles.duoContainer} colors={gradientColors}>
+                <ShowScore totalAttempted={totalAttempted} 
+                    correctAnswers={correctAnswers}
+                    incorrectAnswers={totalAttempted-correctAnswers}/>
             </LinearGradient>
         );
     }
