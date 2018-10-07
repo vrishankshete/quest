@@ -4,17 +4,11 @@ import Loading from '../Loading/Loading';
 import Question from '../Question/Question';
 import  { submitAnswer, disconnectGame, resetStage} from './actions'
 import { connect } from 'react-redux';
-import { styles } from '../../styles/styles';
+import { LinearGradient } from 'expo';
+import { styles, stageStyles, gradientColors } from '../../styles/styles';
 import { errorCodes, multiPlayerQNos } from '../../config/config';
 
 class Stage extends React.Component {
-
-    constructor(props){
-        super(props);
-        this.state = {
-            backgroundColor: 'white'
-        }
-    }
 
     componentWillReceiveProps(nextProps){
         if(this.props.quizEnded == false && nextProps.quizEnded == true){
@@ -40,14 +34,10 @@ class Stage extends React.Component {
             return true;
         });
     }
-
-    componentWillUnmount() {
-        //this.backHandler.remove();
-    }
     
     static navigationOptions = {
         title: 'Multiplayer Game !!!',
-        headerLeft: null,
+        header: null,
     };
 
     submitAnswer(selectedOption){
@@ -57,17 +47,16 @@ class Stage extends React.Component {
 
     render() {
         return (
-        <View style={styles.questionContainer}>
+        <LinearGradient colors={gradientColors} style={stageStyles.container}>
             <Question
                 question={this.props.currentQuestion.toJS()}
-                backgroundColor={this.state.backgroundColor}
                 submitAnswer={(selectedOption)=>this.submitAnswer(selectedOption)}
                 showAnswer={false}
                 isMultiplayer={true}
                 totalQuestions={multiPlayerQNos}
             />
             <Loading/>
-        </View>
+        </LinearGradient>
         )
     }
 }

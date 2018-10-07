@@ -1,12 +1,13 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { View, BackHandler, TouchableOpacity, Text } from 'react-native';
+import { LinearGradient } from 'expo';
 import Loading from '../Loading/Loading';
 import Question from '../Question/Question';
 import { getQuestions, resetQuestions } from './actions';
 import { correctAnswerAction, incorrectAnswerAction } from '../Results/actions';
 import { resetScoreAction } from '../Results/actions';
-import { styles } from '../../styles/styles';
+import { stageStyles, gradientColors } from '../../styles/styles';
 import { singlePlayerQNos } from '../../config/config';
 
 class Questions extends React.Component {
@@ -14,7 +15,7 @@ class Questions extends React.Component {
     super(props);
     this.state = {
       currentQuestion: {questionNumber: -1,
-        question: '',
+        question: 'Q',
         options: [],
         answer: -1
       },
@@ -30,17 +31,18 @@ class Questions extends React.Component {
   }
 
   componentDidMount() {
-    BackHandler.addEventListener('hardwareBackPress', ()=>{this.props.navigation.navigate('Home');return true;});
+    this.props.getQuestions();
+    this.props.resetScore();
+    this.backHandler = BackHandler.addEventListener('hardwareBackPress', ()=>{this.props.navigation.navigate('Home');this.backHandler.remove();return true;});
   }
 
   componentWillUnmount() {
     this.props.resetQuestions();
-    BackHandler.removeEventListener('hardwareBackPress');
   }
 
   static navigationOptions = {
     title: 'Single Player Game !!!',
-    headerLeft: null,
+    header: null,
   };
 
   submitAnswer(selectedOption){
@@ -63,40 +65,32 @@ class Questions extends React.Component {
     }
   }
 
-  componentDidMount(){
-    this.props.getQuestions();
-    this.props.resetScore();
-  }
-
   render() {
-    let {hand} = this.props;
     return (
-      <View style={styles.questionContainer}>
+      <LinearGradient colors={gradientColors} style={stageStyles.container}>
         <Question
           question={this.state.currentQuestion}
-          backgroundColor={this.state.backgroundColor}
           submitAnswer={(selectedOption)=>this.submitAnswer(selectedOption)}
           showAnswer={this.state.showAnswer}
           isMultiplayer={false}
           totalQuestions={singlePlayerQNos}
-          hand={hand}
         />
-        <View style={{alignSelf:hand===0?'flex-start':'flex-end'}}>
-          <TouchableOpacity style={styles.questionButton} onPress={()=>this.nextQuestion()}>
-            <Text style={{textAlign:'center', color:'white'}}>
-            {this.state.currentQuestion.questionNumber == singlePlayerQNos-1?'Shw Results':'Next Question'}</Text>
+        <View style={stageStyles.nextButtonContainer}>
+          <TouchableOpacity style={stageStyles.nextButton} onPress={()=>this.nextQuestion()}>
+            <Text style={stageStyles.nextButtonText}>
+              {this.state.currentQuestion.questionNumber == singlePlayerQNos-1?'Show Results':'Next Question'}
+            </Text>
           </TouchableOpacity>
         </View>
         <Loading/>
-      </View>
+      </LinearGradient>
     )
   }
 }
 
 const mapStateToProps = (rootState) => {
   return {
-    questions: rootState.questions.get('questions'),
-    hand: rootState.home.get('hand')
+    questions: rootState.questions.get('questions')
   }
 }
 

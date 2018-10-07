@@ -1,7 +1,6 @@
 export const actionTypes = {
     CREATE_ROOM:"CREATE_ROOM",
-    JOIN_ROOM:"JOIN_ROOM",
-    SET_HAND:"SET_HAND"
+    JOIN_ROOM:"JOIN_ROOM"
 }
 
 export const createRoom = ()=>{
@@ -14,12 +13,5 @@ export const joinRoom = (roomIdText)=>{
     return {
         type:actionTypes.JOIN_ROOM,
         payload: roomIdText
-    }
-}
-
-export const setHand = (hand)=>{
-    return {
-        type:actionTypes.SET_HAND,
-        payload: hand
     }
 }

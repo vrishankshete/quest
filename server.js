@@ -167,7 +167,7 @@ io.on('connection', function(socket){
 				socket.join(users[id].quizRef);
 			}
 			//TODO: Temp code. To be removed
-			//setTimeout(()=>startQuiz(quizRef), 3000);
+			setTimeout(()=>startQuiz(quizRef), 3000);
 		}
 		catch(e){
 			logger.info(`Error in Create Room ${e}`);

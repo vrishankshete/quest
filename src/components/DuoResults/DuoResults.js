@@ -9,7 +9,7 @@ class DuoResults extends React.Component {
 
     static navigationOptions = {
         title: 'Results !!!',
-        headerLeft: null,
+        header: null,
     };
 
     componentDidMount() {

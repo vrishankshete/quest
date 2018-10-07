@@ -1,24 +1,146 @@
-[2018-10-06 20:15:27.114] [INFO] quest - URL: http://192.168.0.11:3000/
-[2018-10-06 20:22:19.272] [INFO] quest - URL: http://192.168.0.11:3000/
-[2018-10-06 20:22:46.925] [DEBUG] quest - Client Connected. KCcWycra5_5I4f2UAAAA
-[2018-10-06 20:22:47.328] [INFO] quest - Created room number: 6204
-[2018-10-06 20:22:47.332] [DEBUG] quest - ***USERS:  { KCcWycra5_5I4f2UAAAA: { quizRef: '6204' } }
-[2018-10-06 20:22:47.333] [DEBUG] quest - ***ROOMS:  [ { quizRef: '6204', participants: [ 'KCcWycra5_5I4f2UAAAA' ] } ]
-[2018-10-06 20:22:57.986] [DEBUG] quest - Client Connected. UpVti6ae9rG6Kg-1AAAB
-[2018-10-06 20:22:58.158] [INFO] quest - Sent first question
-[2018-10-06 20:23:08.162] [INFO] quest - Sent question:  247
-[2018-10-06 20:23:18.187] [INFO] quest - Sent question:  248
-[2018-10-06 20:23:28.193] [INFO] quest - Sent question:  249
-[2018-10-06 20:23:38.197] [INFO] quest - Sent question:  250
-[2018-10-06 20:23:48.199] [DEBUG] quest - ***users  ::::  { KCcWycra5_5I4f2UAAAA: 
-   { userAnsMap: { '245': 3, '246': 2, '247': 1, '248': 3, '249': 3 } },
-  'UpVti6ae9rG6Kg-1AAAB': 
-   { userAnsMap: { '245': 0, '246': 1, '247': 0, '248': 0, '249': 2 } } }
-[2018-10-06 20:24:16.717] [DEBUG] quest - LOGOUT:::  KCcWycra5_5I4f2UAAAA
-[2018-10-06 20:24:16.919] [INFO] quest - User disconnected: KCcWycra5_5I4f2UAAAA
-[2018-10-06 20:24:16.920] [DEBUG] quest - ***USERS: { 'UpVti6ae9rG6Kg-1AAAB': { quizRef: '6204' } }
-[2018-10-06 20:24:16.920] [DEBUG] quest - ***ROOMS: { '6204': { users: { 'UpVti6ae9rG6Kg-1AAAB': [Object] }, startQNo: 245 } }
-[2018-10-06 20:27:10.674] [DEBUG] quest - LOGOUT:::  UpVti6ae9rG6Kg-1AAAB
-[2018-10-06 20:27:10.724] [INFO] quest - User disconnected: UpVti6ae9rG6Kg-1AAAB
-[2018-10-06 20:27:10.727] [DEBUG] quest - ***USERS: {}
-[2018-10-06 20:27:10.728] [DEBUG] quest - ***ROOMS: {}
+[2018-10-07 00:42:47.520] [INFO] quest - URL: http://192.168.43.170:3000/
+[2018-10-07 00:43:37.327] [DEBUG] quest - Client Connected. U3k1nH6JV700l-VsAAAA
+[2018-10-07 00:43:37.513] [INFO] quest - Created room number: 8235
+[2018-10-07 00:43:37.529] [DEBUG] quest - ***USERS:  { 'U3k1nH6JV700l-VsAAAA': { quizRef: '8235' } }
+[2018-10-07 00:43:37.529] [DEBUG] quest - ***ROOMS:  [ { quizRef: '8235', participants: [ 'U3k1nH6JV700l-VsAAAA' ] } ]
+[2018-10-07 00:43:40.548] [INFO] quest - Sent first question
+[2018-10-07 00:43:50.557] [INFO] quest - Sent question:  484
+[2018-10-07 00:44:00.577] [INFO] quest - Sent question:  485
+[2018-10-07 00:44:10.591] [INFO] quest - Sent question:  486
+[2018-10-07 00:44:20.599] [INFO] quest - Sent question:  487
+[2018-10-07 00:44:30.618] [DEBUG] quest - ***users  ::::  { 'U3k1nH6JV700l-VsAAAA': 
+   { userAnsMap: { '482': 1, '483': 1, '484': 2, '485': 0, '486': 1 } } }
+[2018-10-07 00:44:38.724] [DEBUG] quest - LOGOUT:::  U3k1nH6JV700l-VsAAAA
+[2018-10-07 00:44:38.933] [INFO] quest - User disconnected: U3k1nH6JV700l-VsAAAA
+[2018-10-07 00:44:38.933] [DEBUG] quest - ***USERS: {}
+[2018-10-07 00:44:38.933] [DEBUG] quest - ***ROOMS: {}
+[2018-10-07 15:18:22.814] [INFO] quest - URL: http://192.168.0.11:3000/
+[2018-10-07 17:27:30.845] [DEBUG] quest - Client Connected. vp8J923sNuqR8XM-AAAA
+[2018-10-07 17:27:31.181] [INFO] quest - Created room number: 9808
+[2018-10-07 17:27:31.184] [DEBUG] quest - ***USERS:  { 'vp8J923sNuqR8XM-AAAA': { quizRef: '9808' } }
+[2018-10-07 17:27:31.186] [DEBUG] quest - ***ROOMS:  [ { quizRef: '9808', participants: [ 'vp8J923sNuqR8XM-AAAA' ] } ]
+[2018-10-07 17:27:34.204] [INFO] quest - Sent first question
+[2018-10-07 17:27:44.205] [INFO] quest - Sent question:  296
+[2018-10-07 17:27:51.092] [DEBUG] quest - Client Connected. _HYyKl9Ln0yeRauWAAAB
+[2018-10-07 17:27:54.208] [INFO] quest - Sent question:  297
+[2018-10-07 17:27:55.264] [INFO] quest - Created room number: 2773
+[2018-10-07 17:27:55.265] [DEBUG] quest - ***USERS:  { 'vp8J923sNuqR8XM-AAAA': { quizRef: '9808' },
+  _HYyKl9Ln0yeRauWAAAB: { quizRef: '2773' } }
+[2018-10-07 17:27:55.266] [DEBUG] quest - ***ROOMS:  [ { quizRef: '2773', participants: [ '_HYyKl9Ln0yeRauWAAAB' ] },
+  { quizRef: '9808', participants: [ 'vp8J923sNuqR8XM-AAAA' ] } ]
+[2018-10-07 17:27:58.267] [INFO] quest - Sent first question
+[2018-10-07 17:28:01.202] [INFO] quest - User disconnected: vp8J923sNuqR8XM-AAAA
+[2018-10-07 17:28:01.203] [DEBUG] quest - ***USERS: { _HYyKl9Ln0yeRauWAAAB: { quizRef: '2773' } }
+[2018-10-07 17:28:01.204] [DEBUG] quest - ***ROOMS: { '2773': { users: { _HYyKl9Ln0yeRauWAAAB: [Object] }, startQNo: 440 } }
+[2018-10-07 17:28:04.209] [INFO] quest - Error in questionTimer TypeError: Cannot read property 'startQNo' of undefined
+[2018-10-07 17:28:08.268] [INFO] quest - Sent question:  442
+[2018-10-07 17:28:18.272] [INFO] quest - Sent question:  443
+[2018-10-07 17:28:28.274] [INFO] quest - Sent question:  444
+[2018-10-07 17:28:38.276] [INFO] quest - Sent question:  445
+[2018-10-07 17:28:42.575] [DEBUG] quest - Client Connected. pc1ZpdTt-c4WLtbiAAAC
+[2018-10-07 17:28:42.881] [INFO] quest - Created room number: 7359
+[2018-10-07 17:28:42.883] [DEBUG] quest - ***USERS:  { _HYyKl9Ln0yeRauWAAAB: { quizRef: '2773' },
+  'pc1ZpdTt-c4WLtbiAAAC': { quizRef: '7359' } }
+[2018-10-07 17:28:42.884] [DEBUG] quest - ***ROOMS:  [ { quizRef: '2773', participants: [ '_HYyKl9Ln0yeRauWAAAB' ] },
+  { quizRef: '7359', participants: [ 'pc1ZpdTt-c4WLtbiAAAC' ] } ]
+[2018-10-07 17:28:45.885] [INFO] quest - Sent first question
+[2018-10-07 17:28:46.368] [INFO] quest - User disconnected: _HYyKl9Ln0yeRauWAAAB
+[2018-10-07 17:28:46.370] [DEBUG] quest - ***USERS: { 'pc1ZpdTt-c4WLtbiAAAC': { quizRef: '7359' } }
+[2018-10-07 17:28:46.371] [DEBUG] quest - ***ROOMS: { '7359': { users: { 'pc1ZpdTt-c4WLtbiAAAC': [Object] }, startQNo: 52 } }
+[2018-10-07 17:28:48.278] [INFO] quest - Error in questionTimer TypeError: Cannot read property 'startQNo' of undefined
+[2018-10-07 17:28:54.350] [DEBUG] quest - LOGOUT:::  pc1ZpdTt-c4WLtbiAAAC
+[2018-10-07 17:28:54.551] [INFO] quest - User disconnected: pc1ZpdTt-c4WLtbiAAAC
+[2018-10-07 17:28:54.552] [DEBUG] quest - ***USERS: {}
+[2018-10-07 17:28:54.552] [DEBUG] quest - ***ROOMS: {}
+[2018-10-07 17:28:55.887] [INFO] quest - Error in questionTimer TypeError: Cannot read property 'startQNo' of undefined
+[2018-10-07 17:30:02.712] [DEBUG] quest - Client Connected. kVT3YytKANWJiKyVAAAD
+[2018-10-07 17:30:03.071] [INFO] quest - Created room number: 4461
+[2018-10-07 17:30:03.072] [DEBUG] quest - ***USERS:  { kVT3YytKANWJiKyVAAAD: { quizRef: '4461' } }
+[2018-10-07 17:30:03.072] [DEBUG] quest - ***ROOMS:  [ { quizRef: '4461', participants: [ 'kVT3YytKANWJiKyVAAAD' ] } ]
+[2018-10-07 17:30:06.073] [INFO] quest - Sent first question
+[2018-10-07 17:30:16.081] [INFO] quest - Sent question:  339
+[2018-10-07 17:30:26.098] [INFO] quest - Sent question:  340
+[2018-10-07 17:30:36.098] [INFO] quest - Sent question:  341
+[2018-10-07 17:30:46.100] [INFO] quest - Sent question:  342
+[2018-10-07 17:30:51.252] [DEBUG] quest - Client Connected. kV2FD_2koGKwstiPAAAE
+[2018-10-07 17:30:51.593] [INFO] quest - Created room number: 1845
+[2018-10-07 17:30:51.594] [DEBUG] quest - ***USERS:  { kVT3YytKANWJiKyVAAAD: { quizRef: '4461' },
+  kV2FD_2koGKwstiPAAAE: { quizRef: '1845' } }
+[2018-10-07 17:30:51.594] [DEBUG] quest - ***ROOMS:  [ { quizRef: '1845', participants: [ 'kV2FD_2koGKwstiPAAAE' ] },
+  { quizRef: '4461', participants: [ 'kVT3YytKANWJiKyVAAAD' ] } ]
+[2018-10-07 17:30:54.596] [INFO] quest - Sent first question
+[2018-10-07 17:30:56.102] [DEBUG] quest - ***users  ::::  { kVT3YytKANWJiKyVAAAD: { userAnsMap: {} } }
+[2018-10-07 17:30:57.902] [INFO] quest - User disconnected: kVT3YytKANWJiKyVAAAD
+[2018-10-07 17:30:57.902] [DEBUG] quest - ***USERS: { kV2FD_2koGKwstiPAAAE: { quizRef: '1845' } }
+[2018-10-07 17:30:57.903] [DEBUG] quest - ***ROOMS: { '1845': { users: { kV2FD_2koGKwstiPAAAE: [Object] }, startQNo: 58 } }
+[2018-10-07 17:31:04.597] [INFO] quest - Sent question:  60
+[2018-10-07 17:31:14.598] [INFO] quest - Sent question:  61
+[2018-10-07 17:31:24.611] [INFO] quest - Sent question:  62
+[2018-10-07 17:31:34.621] [INFO] quest - Sent question:  63
+[2018-10-07 17:31:44.624] [DEBUG] quest - ***users  ::::  { kV2FD_2koGKwstiPAAAE: { userAnsMap: { '58': 3 } } }
+[2018-10-07 17:33:01.768] [INFO] quest - User disconnected: kV2FD_2koGKwstiPAAAE
+[2018-10-07 17:33:01.769] [DEBUG] quest - ***USERS: {}
+[2018-10-07 17:33:01.770] [DEBUG] quest - ***ROOMS: {}
+[2018-10-07 18:34:50.360] [DEBUG] quest - Client Connected. VxVcUyvIOd2c6PBuAAAF
+[2018-10-07 18:34:50.725] [INFO] quest - Created room number: 7931
+[2018-10-07 18:34:50.725] [DEBUG] quest - ***USERS:  { VxVcUyvIOd2c6PBuAAAF: { quizRef: '7931' } }
+[2018-10-07 18:34:50.725] [DEBUG] quest - ***ROOMS:  [ { quizRef: '7931', participants: [ 'VxVcUyvIOd2c6PBuAAAF' ] } ]
+[2018-10-07 18:34:53.747] [INFO] quest - Sent first question
+[2018-10-07 18:35:03.767] [INFO] quest - Sent question:  642
+[2018-10-07 18:35:13.778] [INFO] quest - Sent question:  643
+[2018-10-07 18:35:23.796] [INFO] quest - Sent question:  644
+[2018-10-07 18:35:33.809] [INFO] quest - Sent question:  645
+[2018-10-07 18:35:43.300] [DEBUG] quest - LOGOUT:::  VxVcUyvIOd2c6PBuAAAF
+[2018-10-07 18:35:43.514] [INFO] quest - User disconnected: VxVcUyvIOd2c6PBuAAAF
+[2018-10-07 18:35:43.518] [DEBUG] quest - ***USERS: {}
+[2018-10-07 18:35:43.520] [DEBUG] quest - ***ROOMS: {}
+[2018-10-07 18:35:43.825] [INFO] quest - Error in questionTimer TypeError: Cannot read property 'startQNo' of undefined
+[2018-10-07 19:21:52.635] [DEBUG] quest - Client Connected. v-OhDki9n6oW2j3HAAAG
+[2018-10-07 19:21:52.864] [INFO] quest - Created room number: 5878
+[2018-10-07 19:21:52.864] [DEBUG] quest - ***USERS:  { 'v-OhDki9n6oW2j3HAAAG': { quizRef: '5878' } }
+[2018-10-07 19:21:52.879] [DEBUG] quest - ***ROOMS:  [ { quizRef: '5878', participants: [ 'v-OhDki9n6oW2j3HAAAG' ] } ]
+[2018-10-07 19:21:55.885] [INFO] quest - Sent first question
+[2018-10-07 19:22:05.899] [INFO] quest - Sent question:  43
+[2018-10-07 19:22:15.913] [INFO] quest - Sent question:  44
+[2018-10-07 19:22:25.926] [INFO] quest - Sent question:  45
+[2018-10-07 19:22:35.940] [INFO] quest - Sent question:  46
+[2018-10-07 19:22:45.955] [DEBUG] quest - ***users  ::::  { 'v-OhDki9n6oW2j3HAAAG': { userAnsMap: { '41': 3, '42': 3, '43': 1, '44': 2, '45': 2 } } }
+[2018-10-07 19:22:51.735] [DEBUG] quest - LOGOUT:::  v-OhDki9n6oW2j3HAAAG
+[2018-10-07 19:22:51.959] [INFO] quest - User disconnected: v-OhDki9n6oW2j3HAAAG
+[2018-10-07 19:22:51.960] [DEBUG] quest - ***USERS: {}
+[2018-10-07 19:22:51.961] [DEBUG] quest - ***ROOMS: {}
+[2018-10-07 19:28:04.479] [DEBUG] quest - Client Connected. yZ8t1CWKh86vtqKpAAAH
+[2018-10-07 19:28:04.750] [INFO] quest - Created room number: 8046
+[2018-10-07 19:28:04.765] [DEBUG] quest - ***USERS:  { yZ8t1CWKh86vtqKpAAAH: { quizRef: '8046' } }
+[2018-10-07 19:28:04.765] [DEBUG] quest - ***ROOMS:  [ { quizRef: '8046', participants: [ 'yZ8t1CWKh86vtqKpAAAH' ] } ]
+[2018-10-07 19:28:07.782] [INFO] quest - Sent first question
+[2018-10-07 19:28:08.672] [DEBUG] quest - LOGOUT:::  yZ8t1CWKh86vtqKpAAAH
+[2018-10-07 19:28:08.887] [INFO] quest - User disconnected: yZ8t1CWKh86vtqKpAAAH
+[2018-10-07 19:28:08.887] [DEBUG] quest - ***USERS: {}
+[2018-10-07 19:28:08.887] [DEBUG] quest - ***ROOMS: {}
+[2018-10-07 19:28:17.795] [INFO] quest - Error in questionTimer TypeError: Cannot read property 'startQNo' of undefined
+[2018-10-07 19:28:49.417] [DEBUG] quest - Client Connected. lCKmikuoVLJS8uZ2AAAI
+[2018-10-07 19:28:49.759] [INFO] quest - Created room number: 4267
+[2018-10-07 19:28:49.759] [DEBUG] quest - ***USERS:  { lCKmikuoVLJS8uZ2AAAI: { quizRef: '4267' } }
+[2018-10-07 19:28:49.775] [DEBUG] quest - ***ROOMS:  [ { quizRef: '4267', participants: [ 'lCKmikuoVLJS8uZ2AAAI' ] } ]
+[2018-10-07 19:28:52.790] [INFO] quest - Sent first question
+[2018-10-07 19:28:55.710] [DEBUG] quest - LOGOUT:::  lCKmikuoVLJS8uZ2AAAI
+[2018-10-07 19:28:55.930] [INFO] quest - User disconnected: lCKmikuoVLJS8uZ2AAAI
+[2018-10-07 19:28:55.930] [DEBUG] quest - ***USERS: {}
+[2018-10-07 19:28:55.930] [DEBUG] quest - ***ROOMS: {}
+[2018-10-07 19:29:01.006] [DEBUG] quest - Client Connected. 7RkwMCnK8Cq2a_zEAAAJ
+[2018-10-07 19:29:01.195] [INFO] quest - Created room number: 6957
+[2018-10-07 19:29:01.195] [DEBUG] quest - ***USERS:  { '7RkwMCnK8Cq2a_zEAAAJ': { quizRef: '6957' } }
+[2018-10-07 19:29:01.195] [DEBUG] quest - ***ROOMS:  [ { quizRef: '6957', participants: [ '7RkwMCnK8Cq2a_zEAAAJ' ] } ]
+[2018-10-07 19:29:02.803] [INFO] quest - Error in questionTimer TypeError: Cannot read property 'startQNo' of undefined
+[2018-10-07 19:29:04.207] [INFO] quest - Sent first question
+[2018-10-07 19:29:14.223] [INFO] quest - Sent question:  1041
+[2018-10-07 19:29:24.239] [INFO] quest - Sent question:  1042
+[2018-10-07 19:29:34.252] [INFO] quest - Sent question:  1043
+[2018-10-07 19:29:44.266] [INFO] quest - Sent question:  1044
+[2018-10-07 19:29:54.279] [DEBUG] quest - ***users  ::::  { '7RkwMCnK8Cq2a_zEAAAJ': 
+   { userAnsMap: { '1039': 0, '1040': 2, '1041': 2, '1042': 2, '1043': 0 } } }
+[2018-10-07 19:30:01.092] [DEBUG] quest - LOGOUT:::  7RkwMCnK8Cq2a_zEAAAJ
+[2018-10-07 19:30:01.304] [INFO] quest - User disconnected: 7RkwMCnK8Cq2a_zEAAAJ
+[2018-10-07 19:30:01.304] [DEBUG] quest - ***USERS: {}
+[2018-10-07 19:30:01.304] [DEBUG] quest - ***ROOMS: {}
