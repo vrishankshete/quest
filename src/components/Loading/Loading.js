@@ -1,8 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import {Modal, View, ActivityIndicator, Text} from 'react-native';
-import { LinearGradient } from 'expo';
-import { loadingStyles, gradientColors } from '../../styles/styles';
+import { loadingStyles } from '../../styles/styles';
 import * as actionCreator from './actions'
 
 class Loading extends React.Component {
@@ -15,14 +14,14 @@ class Loading extends React.Component {
                         this.props.stopLoading();
                         
                     }}>
-                <LinearGradient style={{flex:1}} colors={gradientColors}>
+                <View style={{flex:1, backgroundColor: '#040133'}}>
                     <View style={{flex:1, justifyContent:'center'}}>
                         <ActivityIndicator size="large" color="#0000ff" />
                         <Text style={loadingStyles.loadingText}>Please Wait...</Text>
                         <Text style={loadingStyles.loadingText}>{this.props.loadingMessage}</Text>
                         {this.props.roomId && <Text style={loadingStyles.loadingText}>{this.props.roomId}</Text>}
                     </View>
-                </LinearGradient>
+                </View>
             </Modal>
         );
     }

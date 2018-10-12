@@ -1,8 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { View, Text, BackHandler } from 'react-native';
-import { LinearGradient } from 'expo';
-import { showScoreStyles, gradientColors } from '../../styles/styles';
+import { View, BackHandler } from 'react-native';
+import { showScoreStyles } from '../../styles/styles';
 import ShowScore from '../Helper/ShowScore'
 
 class Results extends React.Component {
@@ -23,11 +22,11 @@ class Results extends React.Component {
     render() {
         let {totalAttempted, correctAnswers} = this.props;
         return (
-            <LinearGradient style={showScoreStyles.duoContainer} colors={gradientColors}>
+            <View style={showScoreStyles.duoContainer}>
                 <ShowScore totalAttempted={totalAttempted} 
                     correctAnswers={correctAnswers}
                     incorrectAnswers={totalAttempted-correctAnswers}/>
-            </LinearGradient>
+            </View>
         );
     }
 }

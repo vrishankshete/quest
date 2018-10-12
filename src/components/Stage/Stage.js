@@ -4,8 +4,7 @@ import Loading from '../Loading/Loading';
 import Question from '../Question/Question';
 import  { submitAnswer, disconnectGame, resetStage, setOpponentAnswer} from './actions'
 import { connect } from 'react-redux';
-import { LinearGradient } from 'expo';
-import { stageStyles, gradientColors } from '../../styles/styles';
+import { stageStyles } from '../../styles/styles';
 import { errorCodes, multiPlayerQNos } from '../../config/config';
 
 class Stage extends React.Component {
@@ -59,7 +58,7 @@ class Stage extends React.Component {
 
     render() {
         return (
-        <LinearGradient colors={gradientColors} style={stageStyles.container}>
+        <View style={stageStyles.container}>
             <Question
                 question={this.props.currentQuestion.toJS()}
                 submitAnswer={(selectedOption)=>this.submitAnswer(selectedOption)}
@@ -69,7 +68,7 @@ class Stage extends React.Component {
                 opponentAnswer={this.props.opponentAnswer}
             />
             <Loading/>
-        </LinearGradient>
+        </View>
         )
     }
 }

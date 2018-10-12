@@ -16,7 +16,6 @@ function connect() {
             resolve(socket);
         });
         socket.on('connect_error', error=>{
-            console.log(error);
             reject();
         });
     });

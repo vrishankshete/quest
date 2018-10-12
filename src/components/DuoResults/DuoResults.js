@@ -1,8 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { View, Text, BackHandler } from 'react-native';
-import { LinearGradient } from 'expo';
-import { showScoreStyles, gradientColors } from '../../styles/styles';
+import { showScoreStyles } from '../../styles/styles';
 import { disconnectGame, resetStage } from '../Stage/actions';
 import ShowScore from '../Helper/ShowScore';
 
@@ -35,7 +34,8 @@ class DuoResults extends React.Component {
             }
         });
         return (
-            <LinearGradient style={showScoreStyles.duoContainer} colors={gradientColors}>
+            <View style={showScoreStyles.duoContainer}>
+                {score[socketId]?
                 <View style={{flex:1}}>
                     <Text style={showScoreStyles.scoreText}>
                         {'Your Score'}
@@ -43,8 +43,9 @@ class DuoResults extends React.Component {
                     <ShowScore totalAttempted={score[socketId].attempted}
                         correctAnswers={score[socketId].correct}
                         incorrectAnswers={score[socketId].incorrect}/>
-                </View>
+                </View>:<View></View>}
 
+                {score[opponentId]?
                 <View style={{flex:1}}>
                     <Text style={showScoreStyles.scoreText}>
                         {'Opponent\'s Score'}
@@ -52,8 +53,8 @@ class DuoResults extends React.Component {
                     <ShowScore totalAttempted={score[opponentId].attempted}
                         correctAnswers={score[opponentId].correct}
                         incorrectAnswers={score[opponentId].incorrect}/>
-                </View>
-            </LinearGradient>
+                </View>:<View></View>}
+            </View>
         );
     }
 }

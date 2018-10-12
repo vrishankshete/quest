@@ -1,11 +1,10 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import { View, TextInput, Button, ToastAndroid, TouchableOpacity, Text, KeyboardAvoidingView } from 'react-native';
+import { View, TextInput, Dimensions, ToastAndroid, TouchableOpacity, Text, KeyboardAvoidingView } from 'react-native';
 import {createRoom, joinRoom, setHand} from './actions';
 import { resetRoomId } from '../Stage/actions';
 import { showLoadingAction } from '../Loading/actions';
-import { homeStyles, gradientColors } from '../../styles/styles';
-import { LinearGradient, Constants } from 'expo';
+import { homeStyles } from '../../styles/styles';
 
 export class Home extends React.Component {
   static navigationOptions = {
@@ -39,8 +38,8 @@ export class Home extends React.Component {
 
   render() {
     return (
-      <KeyboardAvoidingView keyboardVerticalOffset={70} style={homeStyles.container} behavior="padding">
-      <LinearGradient style={homeStyles.container} colors={gradientColors}>
+      <KeyboardAvoidingView keyboardVerticalOffset={-1*Dimensions.get('window').height/6} style={homeStyles.container} behavior="padding">
+      <View style={homeStyles.container}>
         <View style={homeStyles.titleContainer}>
           <Text style={homeStyles.textBig}>{'Choose Your Game Type:'}</Text>
         </View>
@@ -69,7 +68,7 @@ export class Home extends React.Component {
             </TouchableOpacity>
           </View>
         </View>
-      </LinearGradient>
+      </View>
       </KeyboardAvoidingView>
     )
   }

@@ -3,7 +3,8 @@ import { StyleSheet} from 'react-native';
 export const homeStyles = StyleSheet.create({
     container: {
         flex:1,
-        alignItems: 'center'
+        alignItems: 'center',
+        backgroundColor: '#040133'
     },
     titleContainer:{
         flex:1,
@@ -56,7 +57,8 @@ export const homeStyles = StyleSheet.create({
 export const stageStyles = StyleSheet.create({
     container:{
         paddingTop:'10%',
-        flex:1
+        flex:1,
+        backgroundColor: '#040133'
     },
     nextButtonContainer:{
         flex:0.07,
@@ -121,8 +123,6 @@ export const stageStyles = StyleSheet.create({
 
 });
 
-export const gradientColors = ['#000000', '#030184'];
-
 export const showScoreStyles = StyleSheet.create({
     container:{
         flex:1,
@@ -138,7 +138,8 @@ export const showScoreStyles = StyleSheet.create({
         flex:1,
         justifyContent: 'center',
         alignItems:'center',
-        padding: '20%'
+        padding: '20%',
+        backgroundColor: '#040133'
     }
 });
 

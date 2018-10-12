@@ -1,13 +1,12 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { View, BackHandler, TouchableOpacity, Text } from 'react-native';
-import { LinearGradient } from 'expo';
 import Loading from '../Loading/Loading';
 import Question from '../Question/Question';
 import { getQuestions, resetQuestions } from './actions';
 import { correctAnswerAction, incorrectAnswerAction } from '../Results/actions';
 import { resetScoreAction } from '../Results/actions';
-import { stageStyles, gradientColors } from '../../styles/styles';
+import { stageStyles } from '../../styles/styles';
 import { singlePlayerQNos } from '../../config/config';
 
 class Questions extends React.Component {
@@ -67,7 +66,7 @@ class Questions extends React.Component {
 
   render() {
     return (
-      <LinearGradient colors={gradientColors} style={stageStyles.container}>
+      <View style={stageStyles.container}>
         <Question
           question={this.state.currentQuestion}
           submitAnswer={(selectedOption)=>this.submitAnswer(selectedOption)}
@@ -83,7 +82,7 @@ class Questions extends React.Component {
           </TouchableOpacity>
         </View>
         <Loading/>
-      </LinearGradient>
+      </View>
     )
   }
 }
